@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+work/
+*.sqlite*
+*.db
+*.sav
+*.exe
+*.dll
+*.love
+.env*
+outputs/balatro-lab/results/
+outputs/balatro-lab/data/

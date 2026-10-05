@@ -1,0 +1,24 @@
+name: Public harness checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Protocol and formal evaluation
+        run: |
+          python -m unittest discover -s outputs/balatro-lab/experiments -p test_protocol.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/experiments -p test_formal_eval.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Public observations and transport
+        run: |
+          python -m unittest discover -s outputs/balatro-lab/headless -p test_transport.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/headless -p test_environment.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

@@ -1,0 +1,2 @@
+# Frozen evaluation hashes refer to exact bytes, including line endings.
+* -text

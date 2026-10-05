@@ -1,0 +1,49 @@
+# Balatro Risk Lab
+
+Research into Blue Deck / Gold Stake strategy, risk-sensitive decisions, and card balance. The long-term goal is to explain reliable strategies with mathematical models and reproducible experiments, rather than treating an agent's occasional win as evidence of strength.
+
+## Current status
+
+This is an experimental **scripted policy baseline**, not a demonstrated LLM winstreak. The policy uses public observations and approximate scoring; coverage of every Joker does not imply that every interaction is correct. Blueprint / Brainstorm copying and consumable decisions are modeled, with remaining discrepancies recorded rather than hidden.
+
+The full-game backend still uses a locally installed, isolated reference game engine. A JSON-RPC / JSONL interface avoids per-action command startup; independent workers own independent processes, ports, and saves. This is **not yet a fully renderer-free Balatro implementation**. The small Lua mechanics service extracts functions from the user's own local source at runtime.
+
+## Evaluation protocol
+
+- Blue Deck, Gold Stake; victory requires completing the Ante 8 boss.
+- Freeze policy and configuration before evaluation. No mid-run restart or human action selection.
+- Keep training, validation, and final test seeds separate. Raw reserved seeds and private registry databases are excluded from this repository.
+- Publish commitments before running. Policy receives public observations, not the seed or future draw order.
+- Report every assigned run, including technical failures and truncations. Compute streaks in preregistered seed order, never completion order.
+- Treat the first small validation cohort as diagnostic evidence, not a precise win-rate estimate or a final held-out test.
+
+Formal preregistration and reports live under `results/` when available. A validation cohort is not automatically a fresh-seed LLM streak benchmark.
+
+## Layout and local requirements
+
+`outputs/balatro-lab/` preserves the original research workspace layout: `cli/` contains observation/telemetry tools, `experiments/` contains policies and the seed registry, and `headless/` contains transport and isolation adapters.
+
+Python 3.12+ is recommended. Most harness modules use the standard library. Full-game execution additionally requires a lawful local copy of Balatro and the private CLI adapter expected by `headless/isolation.py`; this public export does **not** include a complete turnkey game backend. Do not download game source or assets from this repository: none are supplied. Pure transport/protocol tests can run without the game.
+
+```sh
+python -m unittest discover -s outputs/balatro-lab/headless -p test_transport.py
+python -m unittest discover -s outputs/balatro-lab/experiments -p test_protocol.py
+```
+
+These 16 tests passed for the initial export; they verify transport and registry behavior, not complete game-rule accuracy. Other tests may require the private engine or local trajectories.
+
+Legacy frozen Python files can contain non-secret local Windows runtime defaults. Override `BALATRO_LAB_PYTHON`, `BALATRO_LAB_REPO`, and `BALATRO_LAB_JUST` for your installation. Never point experiments at your normal player profile. Independent save identities and mute settings must be verified before starting workers.
+
+## Publication and reproducibility
+
+`tools/export_public.py` refreshes the allowlisted harness export from a private research workspace. It never exports player saves, game binaries/assets/source, raw experiment registries, raw seeds, credentials, or arbitrary result directories. Review the diff and run relevant tests before every iteration is committed and pushed.
+
+Formal `formal_public_route_v2_*` policy snapshots are retained byte-for-byte: unused localized name/description fields were removed before freezing. Their source and exported hashes must match the preregistration. The working `route_v2` metadata export is reduced to factual mechanics, with original and exported hashes recorded separately in `export-manifest.json`; it is not the frozen candidate. Never substitute working-copy hashes for evaluation commitments.
+
+## Research scope
+
+Planned analyses include round-by-round economy, shop rarity exposure, voucher/pack decisions, paired-seed policy comparisons, and tail failure risk. Card purchase win rates are confounded by availability, price, timing, and the state in which a card was selected; they cannot by themselves establish that a card is poorly designed. Balance and fun remain research questions, not conclusions of this initial release.
+
+## Attribution
+
+Balatro is the game created by LocalThunk and published by Playstack. This is an independent research harness, not an official project. The original game and any third-party tools retain their own rights and licenses; this repository grants no rights to them. Reference projects include [azazo1/balatro](https://github.com/azazo1/balatro), [Attol8/balatro-ai](https://github.com/Attol8/balatro-ai), and [BalatroBench](https://github.com/Michael-Andrzejewski/balatro-bench). Their reported results should be checked against their published protocols rather than treated as comparable win rates.
