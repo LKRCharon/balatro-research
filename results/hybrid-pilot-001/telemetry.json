@@ -1,0 +1,1509 @@
+{
+  "schema": 1,
+  "purpose": "posthoc_observed_trace_accounting",
+  "jobs": [
+    {
+      "job_id": "train-20",
+      "status": "loss",
+      "economy": [
+        {
+          "transition_id": 1,
+          "method": "menu",
+          "ante": 1,
+          "round": 0,
+          "money_before": -5,
+          "money_after": 0,
+          "net_money_delta": 5,
+          "controller_origin": "unknown"
+        },
+        {
+          "transition_id": 2,
+          "method": "start",
+          "ante": 1,
+          "round": 0,
+          "money_before": 0,
+          "money_after": 4,
+          "net_money_delta": 4,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 3,
+          "method": "select",
+          "ante": 1,
+          "round": 1,
+          "money_before": 4,
+          "money_after": 4,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 4,
+          "method": "discard",
+          "ante": 1,
+          "round": 1,
+          "money_before": 4,
+          "money_after": 4,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 5,
+          "method": "play",
+          "ante": 1,
+          "round": 1,
+          "money_before": 4,
+          "money_after": 4,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 6,
+          "method": "play",
+          "ante": 1,
+          "round": 1,
+          "money_before": 4,
+          "money_after": 4,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 7,
+          "method": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money_before": 4,
+          "money_after": 7,
+          "net_money_delta": 3,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 8,
+          "method": "buy",
+          "ante": 1,
+          "round": 1,
+          "money_before": 7,
+          "money_after": 3,
+          "net_money_delta": -4,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 9,
+          "method": "pack",
+          "ante": 1,
+          "round": 1,
+          "money_before": 3,
+          "money_after": 3,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 10,
+          "method": "next_round",
+          "ante": 1,
+          "round": 1,
+          "money_before": 3,
+          "money_after": 3,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 11,
+          "method": "select",
+          "ante": 1,
+          "round": 2,
+          "money_before": 3,
+          "money_after": 3,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 12,
+          "method": "discard",
+          "ante": 1,
+          "round": 2,
+          "money_before": 3,
+          "money_after": 3,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 13,
+          "method": "discard",
+          "ante": 1,
+          "round": 2,
+          "money_before": 3,
+          "money_after": 3,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 14,
+          "method": "play",
+          "ante": 1,
+          "round": 2,
+          "money_before": 3,
+          "money_after": 3,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 15,
+          "method": "play",
+          "ante": 1,
+          "round": 2,
+          "money_before": 3,
+          "money_after": 3,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 16,
+          "method": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money_before": 3,
+          "money_after": 10,
+          "net_money_delta": 7,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 17,
+          "method": "buy",
+          "ante": 1,
+          "round": 2,
+          "money_before": 10,
+          "money_after": 6,
+          "net_money_delta": -4,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 18,
+          "method": "next_round",
+          "ante": 1,
+          "round": 2,
+          "money_before": 6,
+          "money_after": 6,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 19,
+          "method": "select",
+          "ante": 1,
+          "round": 3,
+          "money_before": 6,
+          "money_after": 6,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 20,
+          "method": "play",
+          "ante": 2,
+          "round": 3,
+          "money_before": 6,
+          "money_after": 6,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 21,
+          "method": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money_before": 6,
+          "money_after": 16,
+          "net_money_delta": 10,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 22,
+          "method": "buy",
+          "ante": 2,
+          "round": 3,
+          "money_before": 16,
+          "money_after": 9,
+          "net_money_delta": -7,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 23,
+          "method": "next_round",
+          "ante": 2,
+          "round": 3,
+          "money_before": 9,
+          "money_after": 9,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 24,
+          "method": "select",
+          "ante": 2,
+          "round": 4,
+          "money_before": 9,
+          "money_after": 9,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 25,
+          "method": "play",
+          "ante": 2,
+          "round": 4,
+          "money_before": 9,
+          "money_after": 9,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 26,
+          "method": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money_before": 9,
+          "money_after": 15,
+          "net_money_delta": 6,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 27,
+          "method": "next_round",
+          "ante": 2,
+          "round": 4,
+          "money_before": 15,
+          "money_after": 15,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 28,
+          "method": "select",
+          "ante": 2,
+          "round": 5,
+          "money_before": 15,
+          "money_after": 15,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 29,
+          "method": "discard",
+          "ante": 2,
+          "round": 5,
+          "money_before": 15,
+          "money_after": 15,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 30,
+          "method": "play",
+          "ante": 2,
+          "round": 5,
+          "money_before": 15,
+          "money_after": 15,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 31,
+          "method": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money_before": 15,
+          "money_after": 29,
+          "net_money_delta": 14,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 32,
+          "method": "buy",
+          "ante": 2,
+          "round": 5,
+          "money_before": 29,
+          "money_after": 25,
+          "net_money_delta": -4,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 33,
+          "method": "pack",
+          "ante": 2,
+          "round": 5,
+          "money_before": 25,
+          "money_after": 25,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 34,
+          "method": "next_round",
+          "ante": 2,
+          "round": 5,
+          "money_before": 25,
+          "money_after": 25,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 35,
+          "method": "select",
+          "ante": 2,
+          "round": 6,
+          "money_before": 25,
+          "money_after": 25,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 36,
+          "method": "rearrange",
+          "ante": 2,
+          "round": 6,
+          "money_before": 25,
+          "money_after": 25,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 37,
+          "method": "use",
+          "ante": 2,
+          "round": 6,
+          "money_before": 25,
+          "money_after": 25,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 38,
+          "method": "use",
+          "ante": 2,
+          "round": 6,
+          "money_before": 25,
+          "money_after": 25,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 39,
+          "method": "play",
+          "ante": 3,
+          "round": 6,
+          "money_before": 25,
+          "money_after": 25,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 40,
+          "method": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money_before": 25,
+          "money_after": 44,
+          "net_money_delta": 19,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 41,
+          "method": "buy",
+          "ante": 3,
+          "round": 6,
+          "money_before": 44,
+          "money_after": 34,
+          "net_money_delta": -10,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 42,
+          "method": "buy",
+          "ante": 3,
+          "round": 6,
+          "money_before": 34,
+          "money_after": 33,
+          "net_money_delta": -1,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 43,
+          "method": "buy",
+          "ante": 3,
+          "round": 6,
+          "money_before": 33,
+          "money_after": 27,
+          "net_money_delta": -6,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 44,
+          "method": "next_round",
+          "ante": 3,
+          "round": 6,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 45,
+          "method": "select",
+          "ante": 3,
+          "round": 7,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 46,
+          "method": "discard",
+          "ante": 3,
+          "round": 7,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 47,
+          "method": "discard",
+          "ante": 3,
+          "round": 7,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 48,
+          "method": "play",
+          "ante": 3,
+          "round": 7,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 49,
+          "method": "play",
+          "ante": 3,
+          "round": 7,
+          "money_before": 27,
+          "money_after": 24,
+          "net_money_delta": -3,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 50,
+          "method": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money_before": 24,
+          "money_after": 35,
+          "net_money_delta": 11,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 51,
+          "method": "sell",
+          "ante": 3,
+          "round": 7,
+          "money_before": 35,
+          "money_after": 36,
+          "net_money_delta": 1,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 52,
+          "method": "buy",
+          "ante": 3,
+          "round": 7,
+          "money_before": 36,
+          "money_after": 32,
+          "net_money_delta": -4,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 53,
+          "method": "reroll",
+          "ante": 3,
+          "round": 7,
+          "money_before": 32,
+          "money_after": 27,
+          "net_money_delta": -5,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 54,
+          "method": "next_round",
+          "ante": 3,
+          "round": 7,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 55,
+          "method": "select",
+          "ante": 3,
+          "round": 8,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 56,
+          "method": "play",
+          "ante": 3,
+          "round": 8,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 57,
+          "method": "play",
+          "ante": 3,
+          "round": 8,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 58,
+          "method": "play",
+          "ante": 3,
+          "round": 8,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 59,
+          "method": "play",
+          "ante": 3,
+          "round": 8,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 60,
+          "method": "play",
+          "ante": 3,
+          "round": 8,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 61,
+          "method": "play",
+          "ante": 3,
+          "round": 8,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 62,
+          "method": "play",
+          "ante": 3,
+          "round": 8,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        },
+        {
+          "transition_id": 63,
+          "method": "play",
+          "ante": 3,
+          "round": 8,
+          "money_before": 27,
+          "money_after": 27,
+          "net_money_delta": 0,
+          "controller_origin": "script"
+        }
+      ],
+      "offers": [
+        {
+          "area": "shop",
+          "key": "c_mercury",
+          "visit": 1,
+          "inventory_generation": 0,
+          "ante": 1,
+          "round": 1,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 3,
+          "latest_price": 3,
+          "price_history": [
+            3
+          ],
+          "cash_when_first_observed": 7,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "c_high_priestess",
+          "visit": 1,
+          "inventory_generation": 0,
+          "ante": 1,
+          "round": 1,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 3,
+          "latest_price": 3,
+          "price_history": [
+            3
+          ],
+          "cash_when_first_observed": 7,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "vouchers",
+          "key": "v_overstock_norm",
+          "visit": 1,
+          "inventory_generation": 0,
+          "ante": 1,
+          "round": 1,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 10,
+          "latest_price": 10,
+          "price_history": [
+            10
+          ],
+          "cash_when_first_observed": 7,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_buffoon_normal_1",
+          "visit": 1,
+          "inventory_generation": 0,
+          "ante": 1,
+          "round": 1,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 7,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_arcana_normal_2",
+          "visit": 1,
+          "inventory_generation": 0,
+          "ante": 1,
+          "round": 1,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 7,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "pack",
+          "key": "j_zany",
+          "visit": 1,
+          "inventory_generation": 1,
+          "ante": 1,
+          "round": 1,
+          "observed_rarity": "1",
+          "rarity_source": "factual_catalog",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 3,
+          "identity_quality": "engine_id",
+          "parent_pack": "p_buffoon_normal_1"
+        },
+        {
+          "area": "pack",
+          "key": "j_crazy",
+          "visit": 1,
+          "inventory_generation": 1,
+          "ante": 1,
+          "round": 1,
+          "observed_rarity": "1",
+          "rarity_source": "factual_catalog",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 3,
+          "identity_quality": "engine_id",
+          "parent_pack": "p_buffoon_normal_1"
+        },
+        {
+          "area": "shop",
+          "key": "j_card_sharp",
+          "visit": 2,
+          "inventory_generation": 0,
+          "ante": 1,
+          "round": 2,
+          "observed_rarity": "2",
+          "rarity_source": "factual_catalog",
+          "first_price": 1,
+          "latest_price": 1,
+          "price_history": [
+            1
+          ],
+          "cash_when_first_observed": 10,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "j_abstract",
+          "visit": 2,
+          "inventory_generation": 0,
+          "ante": 1,
+          "round": 2,
+          "observed_rarity": "1",
+          "rarity_source": "factual_catalog",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 10,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "vouchers",
+          "key": "v_overstock_norm",
+          "visit": 2,
+          "inventory_generation": 0,
+          "ante": 1,
+          "round": 2,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 10,
+          "latest_price": 10,
+          "price_history": [
+            10
+          ],
+          "cash_when_first_observed": 10,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_arcana_jumbo_1",
+          "visit": 2,
+          "inventory_generation": 0,
+          "ante": 1,
+          "round": 2,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 6,
+          "latest_price": 6,
+          "price_history": [
+            6
+          ],
+          "cash_when_first_observed": 10,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_celestial_jumbo_1",
+          "visit": 2,
+          "inventory_generation": 0,
+          "ante": 1,
+          "round": 2,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 6,
+          "latest_price": 6,
+          "price_history": [
+            6
+          ],
+          "cash_when_first_observed": 10,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "c_uranus",
+          "visit": 3,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 3,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 3,
+          "latest_price": 3,
+          "price_history": [
+            3
+          ],
+          "cash_when_first_observed": 16,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "j_to_the_moon",
+          "visit": 3,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 3,
+          "observed_rarity": "2",
+          "rarity_source": "factual_catalog",
+          "first_price": 7,
+          "latest_price": 7,
+          "price_history": [
+            7
+          ],
+          "cash_when_first_observed": 16,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "vouchers",
+          "key": "v_telescope",
+          "visit": 3,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 3,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 10,
+          "latest_price": 10,
+          "price_history": [
+            10
+          ],
+          "cash_when_first_observed": 16,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_standard_normal_3",
+          "visit": 3,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 3,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 16,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_arcana_normal_4",
+          "visit": 3,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 3,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 16,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "j_obelisk",
+          "visit": 4,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 4,
+          "observed_rarity": "3",
+          "rarity_source": "factual_catalog",
+          "first_price": 8,
+          "latest_price": 8,
+          "price_history": [
+            8
+          ],
+          "cash_when_first_observed": 15,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "c_neptune",
+          "visit": 4,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 4,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 3,
+          "latest_price": 3,
+          "price_history": [
+            3
+          ],
+          "cash_when_first_observed": 15,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "vouchers",
+          "key": "v_telescope",
+          "visit": 4,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 4,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 10,
+          "latest_price": 10,
+          "price_history": [
+            10
+          ],
+          "cash_when_first_observed": 15,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_celestial_jumbo_2",
+          "visit": 4,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 4,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 6,
+          "latest_price": 6,
+          "price_history": [
+            6
+          ],
+          "cash_when_first_observed": 15,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_standard_normal_1",
+          "visit": 4,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 4,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 15,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "j_throwback",
+          "visit": 5,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 5,
+          "observed_rarity": "2",
+          "rarity_source": "factual_catalog",
+          "first_price": 6,
+          "latest_price": 6,
+          "price_history": [
+            6
+          ],
+          "cash_when_first_observed": 29,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "j_runner",
+          "visit": 5,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 5,
+          "observed_rarity": "1",
+          "rarity_source": "factual_catalog",
+          "first_price": 1,
+          "latest_price": 1,
+          "price_history": [
+            1
+          ],
+          "cash_when_first_observed": 29,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "vouchers",
+          "key": "v_telescope",
+          "visit": 5,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 5,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 10,
+          "latest_price": 10,
+          "price_history": [
+            10
+          ],
+          "cash_when_first_observed": 29,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_arcana_normal_2",
+          "visit": 5,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 5,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 29,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_standard_normal_3",
+          "visit": 5,
+          "inventory_generation": 0,
+          "ante": 2,
+          "round": 5,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 29,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "pack",
+          "key": "c_hanged_man",
+          "visit": 5,
+          "inventory_generation": 2,
+          "ante": 2,
+          "round": 5,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 3,
+          "latest_price": 3,
+          "price_history": [
+            3
+          ],
+          "cash_when_first_observed": 25,
+          "identity_quality": "engine_id",
+          "parent_pack": "p_arcana_normal_2"
+        },
+        {
+          "area": "pack",
+          "key": "c_lovers",
+          "visit": 5,
+          "inventory_generation": 2,
+          "ante": 2,
+          "round": 5,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 3,
+          "latest_price": 3,
+          "price_history": [
+            3
+          ],
+          "cash_when_first_observed": 25,
+          "identity_quality": "engine_id",
+          "parent_pack": "p_arcana_normal_2"
+        },
+        {
+          "area": "pack",
+          "key": "c_emperor",
+          "visit": 5,
+          "inventory_generation": 2,
+          "ante": 2,
+          "round": 5,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 3,
+          "latest_price": 3,
+          "price_history": [
+            3
+          ],
+          "cash_when_first_observed": 25,
+          "identity_quality": "engine_id",
+          "parent_pack": "p_arcana_normal_2"
+        },
+        {
+          "area": "shop",
+          "key": "j_wily",
+          "visit": 6,
+          "inventory_generation": 0,
+          "ante": 3,
+          "round": 6,
+          "observed_rarity": "1",
+          "rarity_source": "factual_catalog",
+          "first_price": 1,
+          "latest_price": 1,
+          "price_history": [
+            1
+          ],
+          "cash_when_first_observed": 44,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "j_ancient",
+          "visit": 6,
+          "inventory_generation": 0,
+          "ante": 3,
+          "round": 6,
+          "observed_rarity": "3",
+          "rarity_source": "factual_catalog",
+          "first_price": 8,
+          "latest_price": 6,
+          "price_history": [
+            8,
+            6
+          ],
+          "cash_when_first_observed": 44,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "vouchers",
+          "key": "v_clearance_sale",
+          "visit": 6,
+          "inventory_generation": 0,
+          "ante": 3,
+          "round": 6,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 10,
+          "latest_price": 10,
+          "price_history": [
+            10
+          ],
+          "cash_when_first_observed": 44,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_arcana_normal_1",
+          "visit": 6,
+          "inventory_generation": 0,
+          "ante": 3,
+          "round": 6,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 4,
+          "latest_price": 3,
+          "price_history": [
+            4,
+            3
+          ],
+          "cash_when_first_observed": 44,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_celestial_jumbo_2",
+          "visit": 6,
+          "inventory_generation": 0,
+          "ante": 3,
+          "round": 6,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 6,
+          "latest_price": 4,
+          "price_history": [
+            6,
+            4
+          ],
+          "cash_when_first_observed": 44,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "c_devil",
+          "visit": 7,
+          "inventory_generation": 0,
+          "ante": 3,
+          "round": 7,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 2,
+          "latest_price": 2,
+          "price_history": [
+            2
+          ],
+          "cash_when_first_observed": 35,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "j_burglar",
+          "visit": 7,
+          "inventory_generation": 0,
+          "ante": 3,
+          "round": 7,
+          "observed_rarity": "2",
+          "rarity_source": "factual_catalog",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 35,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_celestial_normal_3",
+          "visit": 7,
+          "inventory_generation": 0,
+          "ante": 3,
+          "round": 7,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 3,
+          "latest_price": 3,
+          "price_history": [
+            3
+          ],
+          "cash_when_first_observed": 35,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "packs",
+          "key": "p_celestial_normal_4",
+          "visit": 7,
+          "inventory_generation": 0,
+          "ante": 3,
+          "round": 7,
+          "observed_rarity": "unknown",
+          "rarity_source": "unknown",
+          "first_price": 3,
+          "latest_price": 3,
+          "price_history": [
+            3
+          ],
+          "cash_when_first_observed": 35,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "j_greedy_joker",
+          "visit": 7,
+          "inventory_generation": 1,
+          "ante": 3,
+          "round": 7,
+          "observed_rarity": "1",
+          "rarity_source": "factual_catalog",
+          "first_price": 4,
+          "latest_price": 4,
+          "price_history": [
+            4
+          ],
+          "cash_when_first_observed": 27,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        },
+        {
+          "area": "shop",
+          "key": "j_erosion",
+          "visit": 7,
+          "inventory_generation": 1,
+          "ante": 3,
+          "round": 7,
+          "observed_rarity": "2",
+          "rarity_source": "factual_catalog",
+          "first_price": 1,
+          "latest_price": 1,
+          "price_history": [
+            1
+          ],
+          "cash_when_first_observed": 27,
+          "identity_quality": "engine_id",
+          "parent_pack": null
+        }
+      ],
+      "resolved_selections": [
+        {
+          "transition_id": 8,
+          "area": "packs",
+          "key": "p_buffoon_normal_1",
+          "quoted_buy_price": 4,
+          "method": "buy",
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 9,
+          "area": "pack",
+          "key": "j_zany",
+          "quoted_buy_price": 4,
+          "method": "pack",
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 17,
+          "area": "shop",
+          "key": "j_abstract",
+          "quoted_buy_price": 4,
+          "method": "buy",
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 22,
+          "area": "shop",
+          "key": "j_to_the_moon",
+          "quoted_buy_price": 7,
+          "method": "buy",
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 32,
+          "area": "packs",
+          "key": "p_arcana_normal_2",
+          "quoted_buy_price": 4,
+          "method": "buy",
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 33,
+          "area": "pack",
+          "key": "c_emperor",
+          "quoted_buy_price": 3,
+          "method": "pack",
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 41,
+          "area": "vouchers",
+          "key": "v_clearance_sale",
+          "quoted_buy_price": 10,
+          "method": "buy",
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 42,
+          "area": "shop",
+          "key": "j_wily",
+          "quoted_buy_price": 1,
+          "method": "buy",
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 43,
+          "area": "shop",
+          "key": "j_ancient",
+          "quoted_buy_price": 6,
+          "method": "buy",
+          "controller_origin": "controller"
+        },
+        {
+          "transition_id": 52,
+          "area": "shop",
+          "key": "j_burglar",
+          "quoted_buy_price": 4,
+          "method": "buy",
+          "controller_origin": "controller"
+        }
+      ],
+      "selection_counts": {
+        "packs:p_buffoon_normal_1": 1,
+        "pack:j_zany": 1,
+        "shop:j_abstract": 1,
+        "shop:j_to_the_moon": 1,
+        "packs:p_arcana_normal_2": 1,
+        "pack:c_emperor": 1,
+        "vouchers:v_clearance_sale": 1,
+        "shop:j_wily": 1,
+        "shop:j_ancient": 1,
+        "shop:j_burglar": 1
+      },
+      "offer_counts_by_area": {
+        "shop": 16,
+        "vouchers": 6,
+        "packs": 14,
+        "pack": 5
+      },
+      "observed_shop_joker_rarity_counts": {
+        "2": 5,
+        "1": 4,
+        "3": 2
+      },
+      "observed_shop_joker_offer_denominator": 11,
+      "fingerprint_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "actions_without_explicit_origin": 1
+    }
+  ],
+  "jobs_count": 1,
+  "rarity_catalog": {
+    "sha256": "d77940d453175af925f0375b7993beff3aa0fbfcdfd36067bf0dc3663eff5936",
+    "mapping": "card key -> frozen factual Joker metadata rarity; observed rarity takes precedence"
+  },
+  "caveats": [
+    "Only visited shops and opened pack contents are observed; exposure is policy/survival selected.",
+    "Rarity comes from observed card.rarity or optional hashed factual catalog; per-offer rarity_source states provenance; absent both stays unknown.",
+    "Stable ids deduplicate within shop visit/reroll generation; fallback fingerprints can merge indistinguishable replacements.",
+    "Voucher/pack offers persist across rerolls but count anew in a new shop visit.",
+    "Net money differences are not component income attribution; buy/use effects may combine costs and payouts.",
+    "Selections mean resolved engine actions with observed targets, not independently verified inventory acquisitions.",
+    "Controller origin is preserved only with explicit intent origin or decision.transition_id/sequence; no positional inference.",
+    "No raw seeds, future card order, full states, hand trajectories, descriptions or decision prose exported."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "audit": "passed",
+  "purpose": "hybrid_train_only",
+  "seed_id": 20,
+  "published_protocol_commit": "328ae50986e66f4531ac3e3fcb4de9735aaef9ae",
+  "status": "loss",
+  "ante": 3,
+  "blind": "Big Blind",
+  "score": 4679,
+  "target": 4800,
+  "shortfall": 121,
+  "transitions": 63,
+  "prior_finished_episode_menu_transition": 1,
+  "gameplay_actions_excluding_start_menu": 61,
+  "controller_decisions_including_start": 37,
+  "script_decisions": 25,
+  "starts": 1,
+  "gameplay_retries": 0,
+  "pending_mutations": 0,
+  "prediction_checks": 18,
+  "exact_predictions": 18,
+  "policy_and_driver_source_files_verified": 35,
+  "engine_input_files_verified": 787,
+  "engine_port_closed": true,
+  "old_formal_freeze_intact": true,
+  "original_save_files_unchanged": 4,
+  "test_campaigns": 0,
+  "last_blind_plays": [
+    {
+      "sequence": 56,
+      "predicted": 282,
+      "actual": 282
+    },
+    {
+      "sequence": 57,
+      "predicted": 3632,
+      "actual": 3632
+    },
+    {
+      "sequence": 58,
+      "predicted": 152,
+      "actual": 152
+    },
+    {
+      "sequence": 59,
+      "predicted": 97,
+      "actual": 97
+    },
+    {
+      "sequence": 60,
+      "predicted": 65,
+      "actual": 65
+    },
+    {
+      "sequence": 61,
+      "predicted": 99,
+      "actual": 99
+    },
+    {
+      "sequence": 62,
+      "predicted": 192,
+      "actual": 192
+    },
+    {
+      "sequence": 63,
+      "predicted": 160,
+      "actual": 160
+    }
+  ],
+  "interpretation": "Observed late low-score sequence and controller purchases identify review candidates, not proven causal errors. No counterfactual replay or optimal combat proof was performed."
+}

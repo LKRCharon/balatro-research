@@ -4,6 +4,8 @@ Research into Blue Deck / Gold Stake strategy, risk-sensitive decisions, and car
 
 ## Current status
 
+**Hybrid pilot:** assistant-controlled growth plus frozen script combat is implemented and completed one TRAIN game. It lost at Ante 3 Big Blind, 4679/4800; all 18 observed play predictions matched the engine. This validates the handoff/data path, not improved win rate. [Pilot report (中文)](results/hybrid-pilot-001/report.zh-CN.md).
+
 **Combat-only TRAIN comparison:** four reused training seeds, two frozen policies, eight completed losses and no technical errors. Failure Antes were v3 `8/1/6/4` versus v4 `5/2/6/5`; the bounded lookahead searched only 30 of 182 combat decisions. This does not establish improved win rate or optimal combat. [Independent report (中文)](results/combat-compare-001/independent-report.zh-CN.md) · [Results](results/combat-compare-001/summary.json) · [Collected data and limits (中文)](docs/data-coverage.md).
 
 **Repair iteration:** [repair report and training checks (中文)](results/repair-001/report.zh-CN.md). The consumable readiness barrier reproduces the old failure and verifies cash-out/pack/sell-to-buy-use transitions without retries. [route_v3 shop planning](docs/route-v3-acquisition.md) compares immediate lineup/planet gains before speculative purchases. Two training checks ended in losses at Ante 8 and 1, with 269 successful actions and no interface errors; this is not evidence of improved win rate. The formal baseline result below remains unchanged.

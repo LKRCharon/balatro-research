@@ -1,0 +1,38 @@
+{
+  "purpose": "hybrid_train_only",
+  "strategy_winrate_eligible": false,
+  "status": "loss",
+  "terminal": true,
+  "ante": 3,
+  "transition_count": 63,
+  "decision_count": 62,
+  "controller_decisions": 37,
+  "script_decisions": 25,
+  "published_commit": "328ae50986e66f4531ac3e3fcb4de9735aaef9ae",
+  "seed_id": 20,
+  "partition": "train",
+  "failed_blind": "Big Blind",
+  "score": 4679,
+  "target": 4800,
+  "money": 27,
+  "prediction_checks": 18,
+  "prediction_mismatches": [],
+  "actions_by_origin": {
+    "controller": {
+      "start": 1,
+      "select": 8,
+      "cash_out": 7,
+      "buy": 8,
+      "pack": 2,
+      "next_round": 7,
+      "use": 2,
+      "sell": 1,
+      "reroll": 1
+    },
+    "script": {
+      "discard": 6,
+      "play": 18,
+      "rearrange": 1
+    }
+  }
+}
