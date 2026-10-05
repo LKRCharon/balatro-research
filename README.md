@@ -19,6 +19,8 @@ The full-game backend still uses a locally installed, isolated reference game en
 
 Formal preregistration and reports live under `results/` when available. A validation cohort is not automatically a fresh-seed LLM streak benchmark.
 
+First preregistered cohort: [16-game validation protocol](results/formal-validation-001/protocol.json), published before play in commit `6b8c3e1`. [Research charter (中文)](docs/research-charter.md) explains strategy, balance and fun as distinct research questions; [independent audit](docs/evaluation-validity-audit.md) records the protocol's checks and limits.
+
 ## Layout and local requirements
 
 `outputs/balatro-lab/` preserves the original research workspace layout: `cli/` contains observation/telemetry tools, `experiments/` contains policies and the seed registry, and `headless/` contains transport and isolation adapters.
@@ -33,6 +35,17 @@ python -m unittest discover -s outputs/balatro-lab/experiments -p test_protocol.
 These 16 tests passed for the initial export; they verify transport and registry behavior, not complete game-rule accuracy. Other tests may require the private engine or local trajectories.
 
 Legacy frozen Python files can contain non-secret local Windows runtime defaults. Override `BALATRO_LAB_PYTHON`, `BALATRO_LAB_REPO`, and `BALATRO_LAB_JUST` for your installation. Never point experiments at your normal player profile. Independent save identities and mute settings must be verified before starting workers.
+
+Run the supported game-free checks from the repository root, each in its own process:
+
+```powershell
+python -m unittest discover -s outputs/balatro-lab/experiments -p test_protocol.py -v
+python -m unittest discover -s outputs/balatro-lab/experiments -p test_formal_eval.py -v
+python -m unittest discover -s outputs/balatro-lab/headless -p test_transport.py -v
+python -m unittest discover -s outputs/balatro-lab/headless -p test_environment.py -v
+```
+
+GitHub Actions runs these checks on Windows/Python 3.12. They validate the harness, not full-game strategy strength. `.gitattributes` disables line-ending conversion so frozen file hashes survive checkout.
 
 ## Publication and reproducibility
 
