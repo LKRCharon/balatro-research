@@ -1,0 +1,12 @@
+{
+  "campaign_id": "f824a63c96310afbcb65980c7d64148d5f85f496833d72f71fbcdba9f94f0ae1",
+  "assigned": 16,
+  "true_terminals": 14,
+  "actions": 1201,
+  "wins": 0,
+  "audit": "passed",
+  "scope": "structural public artifacts; not full engine or strategic correctness proof",
+  "protocol_sha256": "b3418ad6255c9747d541a6122e03d5d1c5307f77e5b099dc625c2750f2899f49",
+  "test_campaign_count": 0,
+  "test_job_count": 0
+}

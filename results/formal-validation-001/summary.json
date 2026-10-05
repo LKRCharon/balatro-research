@@ -1,0 +1,529 @@
+{
+  "campaign_id": "f824a63c96310afbcb65980c7d64148d5f85f496833d72f71fbcdba9f94f0ae1",
+  "updated_utc": "2026-10-05T04:26:27.058217+00:00",
+  "assigned": 16,
+  "counts": {
+    "loss": 14,
+    "error": 2
+  },
+  "wins_per_assigned": 0.0,
+  "wilson_95": [
+    0,
+    0.1936076805344365
+  ],
+  "longest_streak_in_registered_order": 0,
+  "complete": true,
+  "jobs": [
+    {
+      "job_id": "9b64878771bf63ef7b6cba8947ad570a830c45604bae413a8981375f2e731583",
+      "seed_id": 144,
+      "status": "loss",
+      "result": {
+        "actions": 22,
+        "ante": 1,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 2,
+          "cash_out": 2,
+          "discard": 4,
+          "next_round": 2,
+          "play": 9,
+          "select": 3
+        },
+        "elapsed_seconds": 36.04700000002049,
+        "errors": [],
+        "money": 5,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 9,
+        "prediction_mismatches": [],
+        "round": 3,
+        "score": 564,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "a7249d3aca861a1bdc61777da0e85aac0ca2824047672f29fc63b8d8347f8610",
+      "seed_id": 145,
+      "status": "loss",
+      "result": {
+        "actions": 125,
+        "ante": 5,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 11,
+          "cash_out": 14,
+          "discard": 12,
+          "next_round": 14,
+          "pack": 6,
+          "play": 47,
+          "rearrange": 3,
+          "reroll": 3,
+          "select": 15
+        },
+        "elapsed_seconds": 228.96799999999348,
+        "errors": [],
+        "money": 5,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 18,
+        "prediction_mismatches": [],
+        "round": 15,
+        "score": 17640,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "dc9a34196f58e57cd64ce1293e6805bba6e973498739fe60e34409162cdd064a",
+      "seed_id": 146,
+      "status": "loss",
+      "result": {
+        "actions": 121,
+        "ante": 5,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 14,
+          "cash_out": 12,
+          "discard": 17,
+          "next_round": 12,
+          "pack": 4,
+          "play": 32,
+          "rearrange": 8,
+          "reroll": 5,
+          "select": 13,
+          "sell": 4
+        },
+        "elapsed_seconds": 313.26599999994505,
+        "errors": [],
+        "money": 7,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 32,
+        "prediction_mismatches": [],
+        "round": 13,
+        "score": 19664,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "6a632ee2ccf4ceb3a7d447b641e898aa98d31422c20cd014a8832af0616cbfe3",
+      "seed_id": 147,
+      "status": "loss",
+      "result": {
+        "actions": 116,
+        "ante": 4,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 14,
+          "cash_out": 11,
+          "discard": 21,
+          "next_round": 11,
+          "pack": 5,
+          "play": 30,
+          "reroll": 9,
+          "select": 12,
+          "sell": 3
+        },
+        "elapsed_seconds": 277.780999999959,
+        "errors": [],
+        "money": 4,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 14,
+        "prediction_mismatches": [],
+        "round": 12,
+        "score": 21213,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "9be48018b204eb8e88245494cf6635f152d4a6eb95cf6cbf4b08ea4ff8640fbd",
+      "seed_id": 148,
+      "status": "loss",
+      "result": {
+        "actions": 96,
+        "ante": 4,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 8,
+          "cash_out": 9,
+          "discard": 20,
+          "next_round": 9,
+          "pack": 2,
+          "play": 33,
+          "reroll": 4,
+          "select": 10,
+          "sell": 1
+        },
+        "elapsed_seconds": 213.0779999999795,
+        "errors": [],
+        "money": 3,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 33,
+        "prediction_mismatches": [],
+        "round": 10,
+        "score": 7261,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "7ab632858242d98e1a0e1a9046ca8c66f7281a42fbae652ad724a157eca7db27",
+      "seed_id": 149,
+      "status": "loss",
+      "result": {
+        "actions": 21,
+        "ante": 1,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 2,
+          "cash_out": 2,
+          "discard": 3,
+          "next_round": 2,
+          "play": 9,
+          "select": 3
+        },
+        "elapsed_seconds": 32.71900000004098,
+        "errors": [],
+        "money": 4,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 9,
+        "prediction_mismatches": [],
+        "round": 3,
+        "score": 407,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "593fc9b6a957ea6a7359a079400b0816abf2ba7a895851778eb8e21abcfac203",
+      "seed_id": 150,
+      "status": "loss",
+      "result": {
+        "actions": 106,
+        "ante": 4,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 18,
+          "cash_out": 11,
+          "discard": 15,
+          "next_round": 11,
+          "pack": 5,
+          "play": 25,
+          "rearrange": 1,
+          "reroll": 4,
+          "select": 12,
+          "sell": 4
+        },
+        "elapsed_seconds": 237.65700000000652,
+        "errors": [],
+        "money": 5,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 25,
+        "prediction_mismatches": [],
+        "round": 12,
+        "score": 6825,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "f0a921dfb42d3ff9bc78978d045be253f8fbc3bf5875fa3ce320a1006d85722a",
+      "seed_id": 151,
+      "status": "error",
+      "result": {
+        "actions": 53,
+        "ante": 3,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 8,
+          "cash_out": 6,
+          "discard": 10,
+          "next_round": 5,
+          "pack": 2,
+          "play": 12,
+          "reroll": 2,
+          "select": 6,
+          "sell": 2
+        },
+        "elapsed_seconds": 133.89000000001397,
+        "errors": [
+          {
+            "message": "Consumable 'Mercury' cannot be used at this time",
+            "type": "RpcError"
+          }
+        ],
+        "money": 18,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 8,
+        "prediction_mismatches": [],
+        "round": 6,
+        "score": 0,
+        "status": "error",
+        "terminal": false,
+        "won": false
+      }
+    },
+    {
+      "job_id": "55be69afe2cdd0e586342661e5e69b8a601641eae5eff8f5a4fdb184db1752ee",
+      "seed_id": 152,
+      "status": "loss",
+      "result": {
+        "actions": 66,
+        "ante": 3,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 6,
+          "cash_out": 8,
+          "discard": 12,
+          "next_round": 8,
+          "play": 21,
+          "reroll": 1,
+          "select": 9,
+          "sell": 1
+        },
+        "elapsed_seconds": 103.01599999994505,
+        "errors": [],
+        "money": 4,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 4,
+        "prediction_mismatches": [],
+        "round": 9,
+        "score": 4032,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "8f8f6255be1f0a38896f7a83b03d360a5194c1c53e5437bcde4620741e7b748f",
+      "seed_id": 153,
+      "status": "loss",
+      "result": {
+        "actions": 60,
+        "ante": 3,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 5,
+          "cash_out": 7,
+          "discard": 9,
+          "next_round": 7,
+          "play": 22,
+          "rearrange": 2,
+          "select": 8
+        },
+        "elapsed_seconds": 125.60899999993853,
+        "errors": [],
+        "money": 6,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 22,
+        "prediction_mismatches": [],
+        "round": 8,
+        "score": 4444,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "ca75271132b7aa2cf56176e6bfee836fffcebc8bb4d4504746a15f6c64f8308d",
+      "seed_id": 154,
+      "status": "loss",
+      "result": {
+        "actions": 15,
+        "ante": 1,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 1,
+          "cash_out": 1,
+          "discard": 4,
+          "next_round": 1,
+          "play": 6,
+          "select": 2
+        },
+        "elapsed_seconds": 29.859000000054948,
+        "errors": [],
+        "money": 3,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 6,
+        "prediction_mismatches": [],
+        "round": 2,
+        "score": 273,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "6d0d08ec50b35fe8438ac17db0387d6d1268851ba1b6bfb4d1a06de10e4c98f9",
+      "seed_id": 155,
+      "status": "loss",
+      "result": {
+        "actions": 81,
+        "ante": 3,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 7,
+          "cash_out": 7,
+          "discard": 13,
+          "next_round": 7,
+          "pack": 2,
+          "play": 31,
+          "rearrange": 4,
+          "select": 8,
+          "sell": 2
+        },
+        "elapsed_seconds": 161.875,
+        "errors": [],
+        "money": 5,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 31,
+        "prediction_mismatches": [],
+        "round": 8,
+        "score": 3442,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "239c7e4db7be9cc435af4b1ab0360579a7502047e46892fd3737e3c3c7b30452",
+      "seed_id": 156,
+      "status": "loss",
+      "result": {
+        "actions": 136,
+        "ante": 5,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 15,
+          "cash_out": 14,
+          "discard": 21,
+          "next_round": 14,
+          "pack": 8,
+          "play": 38,
+          "reroll": 6,
+          "select": 15,
+          "sell": 5
+        },
+        "elapsed_seconds": 383.6720000000205,
+        "errors": [],
+        "money": 4,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 27,
+        "prediction_mismatches": [],
+        "round": 15,
+        "score": 41262,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "1835d9948dca93f00c0321cfceec1760cece5707abe7f6fb8fdb6cfa6847cbee",
+      "seed_id": 157,
+      "status": "error",
+      "result": {
+        "actions": 35,
+        "ante": 2,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 4,
+          "cash_out": 5,
+          "discard": 8,
+          "next_round": 4,
+          "pack": 1,
+          "play": 6,
+          "rearrange": 1,
+          "select": 5,
+          "use": 1
+        },
+        "elapsed_seconds": 51.95299999997951,
+        "errors": [
+          {
+            "message": "Consumable 'Jupiter' cannot be used at this time",
+            "type": "RpcError"
+          }
+        ],
+        "money": 22,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 6,
+        "prediction_mismatches": [],
+        "round": 5,
+        "score": 0,
+        "status": "error",
+        "terminal": false,
+        "won": false
+      }
+    },
+    {
+      "job_id": "102aa4c537a45ee5f8cedfb95bb7321222a995f97f6ba7016ea4d4b9afae7746",
+      "seed_id": 158,
+      "status": "loss",
+      "result": {
+        "actions": 77,
+        "ante": 3,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 7,
+          "cash_out": 8,
+          "discard": 13,
+          "next_round": 8,
+          "pack": 1,
+          "play": 26,
+          "rearrange": 2,
+          "select": 9,
+          "sell": 3
+        },
+        "elapsed_seconds": 214.0470000000205,
+        "errors": [],
+        "money": 3,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 25,
+        "prediction_mismatches": [],
+        "round": 9,
+        "score": 5732,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    },
+    {
+      "job_id": "43f6877913ebbd2a39b47400f8b0ea1306249cedca0cdb62935c9af375a7940b",
+      "seed_id": 159,
+      "status": "loss",
+      "result": {
+        "actions": 71,
+        "ante": 3,
+        "controller": "scripted_no_llm",
+        "counts": {
+          "buy": 8,
+          "cash_out": 8,
+          "discard": 10,
+          "next_round": 8,
+          "pack": 2,
+          "play": 24,
+          "reroll": 2,
+          "select": 9
+        },
+        "elapsed_seconds": 174.26600000006147,
+        "errors": [],
+        "money": 4,
+        "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+        "prediction_checks": 23,
+        "prediction_mismatches": [],
+        "round": 9,
+        "score": 6229,
+        "status": "loss",
+        "terminal": true,
+        "won": false
+      }
+    }
+  ]
+}

@@ -4,6 +4,8 @@ Research into Blue Deck / Gold Stake strategy, risk-sensitive decisions, and car
 
 ## Current status
 
+**First formal validation completed:** 16 assigned Blue/Gold tasks → **0 wins, 14 actual game losses, 2 technical errors** in 13m16s. All attempts are retained; no failed seed was retried. The untouched final test has zero assigned jobs. [Results and diagnosis (中文)](results/formal-validation-001/report.zh-CN.md) · [Machine-readable results](results/formal-validation-001/summary.json) · [Audit](results/formal-validation-001/audit-result.json).
+
 This is an experimental **scripted policy baseline**, not a demonstrated LLM winstreak. The policy uses public observations and approximate scoring; coverage of every Joker does not imply that every interaction is correct. Blueprint / Brainstorm copying and consumable decisions are modeled, with remaining discrepancies recorded rather than hidden.
 
 The full-game backend still uses a locally installed, isolated reference game engine. A JSON-RPC / JSONL interface avoids per-action command startup; independent workers own independent processes, ports, and saves. This is **not yet a fully renderer-free Balatro implementation**. The small Lua mechanics service extracts functions from the user's own local source at runtime.

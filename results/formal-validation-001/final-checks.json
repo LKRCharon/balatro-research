@@ -1,0 +1,34 @@
+{
+  "campaign_id": "f824a63c96310afbcb65980c7d64148d5f85f496833d72f71fbcdba9f94f0ae1",
+  "checked_utc": "2026-10-05T04:28:29.792905+00:00",
+  "all_assigned_resolved": true,
+  "assigned": 16,
+  "true_terminal_games": 14,
+  "technical_errors": 2,
+  "actions": 1201,
+  "plays": 371,
+  "deterministic_prediction_checks": 292,
+  "deterministic_mismatches": 0,
+  "original_saves_unchanged": true,
+  "original_save_checks": {
+    "settings.jkr": true,
+    "steam_autocloud.vdf": true,
+    "1/meta.jkr": true,
+    "1/profile.jkr": true
+  },
+  "ports_open": {
+    "12346": true,
+    "12471": false,
+    "12472": false,
+    "12473": false,
+    "12474": false,
+    "12475": false,
+    "12476": false
+  },
+  "policy_integrity_verified": true,
+  "test_jobs": 0,
+  "first_transition_created_utc": "2026-10-05T04:13:06.605824+00:00",
+  "last_result_written_utc": "2026-10-05T04:26:22.143762+00:00",
+  "measured_campaign_seconds": 795.537938117981,
+  "timing_basis": "Filesystem timestamps: first transition journal creation to last job result write; includes worker recovery staging"
+}

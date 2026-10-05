@@ -1,0 +1,8405 @@
+{
+  "schema": 1,
+  "campaign_id": "f824a63c96310afbcb65980c7d64148d5f85f496833d72f71fbcdba9f94f0ae1",
+  "assigned_jobs": 16,
+  "complete": true,
+  "method": "posthoc paired transition intents/results; only observable snapshots; no raw states exported",
+  "caveats": [
+    "Rarity denominator is deduplicated observed SHOP Joker offers, not theoretical spawn probabilities.",
+    "Shop identity uses ante/round visit, reroll generation and stable card id; missing ids use fingerprint multiplicity and may merge indistinguishable replacements.",
+    "Voucher/pack offers count distinct observed card ids per shop visit; a persistent voucher seen in another visit counts again.",
+    "Resolved buy actions count returned engine actions targeting an observed offer, not independent inventory-diff verification.",
+    "Only visited shops are observed; survival and policy choices bias exposure. Pack contents are not shop offers.",
+    "Money curve retains phase or money changes; blind_boundary_money offers compact round checkpoints.",
+    "No raw seeds, card descriptions, decision prose or complete game states are exported."
+  ],
+  "shop_joker_rarity_offers": {
+    "2": 61,
+    "1": 169,
+    "3": 12
+  },
+  "shop_joker_offer_denominator": 242,
+  "jobs": [
+    {
+      "job_id": "9b64878771bf63ef7b6cba8947ad570a830c45604bae413a8981375f2e731583",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 4
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 5
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 3,
+          "event_id": 12
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 13
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 15
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 16
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "GAME_OVER",
+          "money": 5,
+          "event_id": 23
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 2,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 4,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 8
+        },
+        {
+          "event_id": 7,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 3
+        },
+        {
+          "event_id": 13,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 9
+        },
+        {
+          "event_id": 16,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 5
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "2": 1,
+        "1": 2
+      },
+      "shop_joker_offer_denominator": 3,
+      "offers_by_area_key": {
+        "shop:j_smeared": 1,
+        "shop:j_8_ball": 1,
+        "vouchers:v_overstock_norm": 2,
+        "packs:p_buffoon_normal_1": 1,
+        "packs:p_celestial_jumbo_2": 1,
+        "shop:j_hallucination": 1,
+        "shop:c_jupiter": 1,
+        "packs:p_standard_normal_4": 2
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_8_ball": 1,
+        "shop:j_hallucination": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 1,
+        "round": 3,
+        "blind": "The Club",
+        "blind_type": "BOSS",
+        "target": 600,
+        "score": 564
+      }
+    },
+    {
+      "job_id": "a7249d3aca861a1bdc61777da0e85aac0ca2824047672f29fc63b8d8347f8610",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 4
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 5
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 11
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 12
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 2,
+          "event_id": 13
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 16
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 17
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 2,
+          "event_id": 22
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 24
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 25
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 30
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 1,
+          "event_id": 31
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 1,
+          "event_id": 32
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 1,
+          "event_id": 33
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 1,
+          "event_id": 37
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 38
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 39
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 41
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 42
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 2,
+          "event_id": 48
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 49
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 50
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 52
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 53
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 56
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 57
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 58
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 59
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 63
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 13,
+          "event_id": 64
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 7,
+          "event_id": 65
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 66
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "BLIND_SELECT",
+          "money": 7,
+          "event_id": 67
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "SELECTING_HAND",
+          "money": 7,
+          "event_id": 68
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "ROUND_EVAL",
+          "money": 7,
+          "event_id": 71
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 72
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 12,
+          "event_id": 73
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 74
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 8,
+          "event_id": 75
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 76
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 77
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 78
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 79
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "ROUND_EVAL",
+          "money": 3,
+          "event_id": 80
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 81
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 82
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 83
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 84
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 86
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 87
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 88
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 89
+        },
+        {
+          "ante": 4,
+          "round": 12,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 90
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 94
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SHOP",
+          "money": 13,
+          "event_id": 95
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 7,
+          "event_id": 96
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 97
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "BLIND_SELECT",
+          "money": 7,
+          "event_id": 98
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "SELECTING_HAND",
+          "money": 7,
+          "event_id": 99
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "ROUND_EVAL",
+          "money": 7,
+          "event_id": 105
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 106
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 5,
+          "event_id": 107
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 108
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 109
+        },
+        {
+          "ante": 5,
+          "round": 14,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 110
+        },
+        {
+          "ante": 5,
+          "round": 14,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 115
+        },
+        {
+          "ante": 5,
+          "round": 14,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 116
+        },
+        {
+          "ante": 5,
+          "round": 14,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 117
+        },
+        {
+          "ante": 5,
+          "round": 14,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 118
+        },
+        {
+          "ante": 5,
+          "round": 15,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 119
+        },
+        {
+          "ante": 5,
+          "round": 15,
+          "phase": "GAME_OVER",
+          "money": 5,
+          "event_id": 126
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 2,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 5,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 8
+        },
+        {
+          "event_id": 8,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 0
+        },
+        {
+          "event_id": 12,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 8
+        },
+        {
+          "event_id": 17,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 2
+        },
+        {
+          "event_id": 23,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 8
+        },
+        {
+          "event_id": 26,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 0
+        },
+        {
+          "event_id": 31,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 1
+        },
+        {
+          "event_id": 33,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 1
+        },
+        {
+          "event_id": 38,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 6
+        },
+        {
+          "event_id": 42,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 2
+        },
+        {
+          "event_id": 49,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 8
+        },
+        {
+          "event_id": 53,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 4
+        },
+        {
+          "event_id": 57,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 6
+        },
+        {
+          "event_id": 59,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 6
+        },
+        {
+          "event_id": 64,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 8,
+          "money": 13
+        },
+        {
+          "event_id": 68,
+          "event": "select",
+          "ante": 3,
+          "round": 9,
+          "money": 7
+        },
+        {
+          "event_id": 72,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 9,
+          "money": 16
+        },
+        {
+          "event_id": 79,
+          "event": "select",
+          "ante": 4,
+          "round": 10,
+          "money": 3
+        },
+        {
+          "event_id": 81,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 10,
+          "money": 7
+        },
+        {
+          "event_id": 84,
+          "event": "select",
+          "ante": 4,
+          "round": 11,
+          "money": 4
+        },
+        {
+          "event_id": 87,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 11,
+          "money": 11
+        },
+        {
+          "event_id": 90,
+          "event": "select",
+          "ante": 4,
+          "round": 12,
+          "money": 6
+        },
+        {
+          "event_id": 95,
+          "event": "cash_out",
+          "ante": 5,
+          "round": 12,
+          "money": 13
+        },
+        {
+          "event_id": 99,
+          "event": "select",
+          "ante": 5,
+          "round": 13,
+          "money": 7
+        },
+        {
+          "event_id": 106,
+          "event": "cash_out",
+          "ante": 5,
+          "round": 13,
+          "money": 9
+        },
+        {
+          "event_id": 110,
+          "event": "select",
+          "ante": 5,
+          "round": 14,
+          "money": 5
+        },
+        {
+          "event_id": 116,
+          "event": "cash_out",
+          "ante": 5,
+          "round": 14,
+          "money": 10
+        },
+        {
+          "event_id": 119,
+          "event": "select",
+          "ante": 5,
+          "round": 15,
+          "money": 5
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "3": 2,
+        "1": 17,
+        "2": 7
+      },
+      "shop_joker_offer_denominator": 26,
+      "offers_by_area_key": {
+        "shop:j_trio": 1,
+        "shop:j_jolly": 1,
+        "vouchers:v_blank": 2,
+        "packs:p_buffoon_normal_2": 3,
+        "shop:c_saturn": 1,
+        "shop:j_wrathful_joker": 2,
+        "packs:p_spectral_jumbo_1": 1,
+        "packs:p_buffoon_jumbo_1": 1,
+        "shop:j_hit_the_road": 1,
+        "shop:j_rough_gem": 1,
+        "vouchers:v_hone": 3,
+        "packs:p_arcana_normal_1": 3,
+        "shop:j_odd_todd": 1,
+        "shop:j_lusty_joker": 1,
+        "packs:p_buffoon_normal_1": 1,
+        "packs:p_standard_normal_1": 1,
+        "shop:j_scary_face": 1,
+        "shop:j_square": 1,
+        "packs:p_standard_normal_3": 1,
+        "shop:j_misprint": 1,
+        "shop:j_greedy_joker": 1,
+        "vouchers:v_directors_cut": 3,
+        "packs:p_arcana_jumbo_1": 3,
+        "packs:p_celestial_normal_4": 1,
+        "shop:c_pluto": 2,
+        "shop:c_high_priestess": 1,
+        "packs:p_celestial_mega_1": 1,
+        "packs:p_arcana_normal_4": 1,
+        "shop:c_justice": 1,
+        "shop:j_joker": 1,
+        "packs:p_spectral_normal_2": 1,
+        "packs:p_celestial_jumbo_1": 2,
+        "shop:j_ceremonial": 1,
+        "shop:j_zany": 1,
+        "vouchers:v_seed_money": 3,
+        "packs:p_celestial_normal_1": 2,
+        "shop:j_red_card": 1,
+        "shop:j_sock_and_buskin": 1,
+        "packs:p_arcana_jumbo_2": 1,
+        "shop:j_space": 1,
+        "shop:c_earth": 1,
+        "packs:p_arcana_normal_2": 1,
+        "shop:j_selzer": 1,
+        "shop:j_bootstraps": 1,
+        "shop:j_smiley": 1,
+        "shop:c_wheel_of_fortune": 1,
+        "vouchers:v_reroll_surplus": 3,
+        "packs:p_standard_mega_1": 1,
+        "shop:j_mad": 1,
+        "shop:j_chaos": 1,
+        "packs:p_celestial_normal_3": 1,
+        "packs:p_standard_mega_2": 1,
+        "shop:c_judgement": 1,
+        "shop:j_hanging_chad": 1,
+        "packs:p_celestial_mega_2": 1,
+        "shop:j_stencil": 1,
+        "shop:j_drunkard": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_trio": 1,
+        "packs:p_buffoon_jumbo_1": 1,
+        "shop:j_hit_the_road": 1,
+        "shop:j_square": 1,
+        "shop:j_misprint": 1,
+        "packs:p_celestial_jumbo_1": 2,
+        "packs:p_celestial_normal_1": 2,
+        "shop:c_pluto": 1,
+        "packs:p_celestial_normal_3": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 5,
+        "round": 15,
+        "blind": "The Mouth",
+        "blind_type": "BOSS",
+        "target": 50000,
+        "score": 17640
+      }
+    },
+    {
+      "job_id": "dc9a34196f58e57cd64ce1293e6805bba6e973498739fe60e34409162cdd064a",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 4
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 5
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 2,
+          "event_id": 10
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 11
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 12
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 16
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 17
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 18
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 19
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 5,
+          "event_id": 20
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 21
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 22
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 14,
+          "event_id": 28
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 29
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 30
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 32
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 34
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 35
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 36
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 37
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 38
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 39
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 41
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 42
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 44
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 45
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 18,
+          "event_id": 46
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 15,
+          "event_id": 47
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 11,
+          "event_id": 49
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 50
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 11,
+          "event_id": 51
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 11,
+          "event_id": 52
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 11,
+          "event_id": 56
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 57
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 18,
+          "event_id": 58
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 59
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 11,
+          "event_id": 61
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 11,
+          "event_id": 62
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "ROUND_EVAL",
+          "money": 11,
+          "event_id": 66
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 20,
+          "event_id": 67
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 15,
+          "event_id": 68
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 69
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "BLIND_SELECT",
+          "money": 9,
+          "event_id": 70
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "SELECTING_HAND",
+          "money": 9,
+          "event_id": 71
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "ROUND_EVAL",
+          "money": 9,
+          "event_id": 76
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 17,
+          "event_id": 77
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 78
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 79
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 80
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 81
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 85
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 86
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 5,
+          "event_id": 87
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 88
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 89
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 90
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 97
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 98
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 99
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 100
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 102
+        },
+        {
+          "ante": 4,
+          "round": 12,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 103
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 110
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 111
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 7,
+          "event_id": 112
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 113
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "BLIND_SELECT",
+          "money": 7,
+          "event_id": 114
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "SELECTING_HAND",
+          "money": 7,
+          "event_id": 115
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "GAME_OVER",
+          "money": 7,
+          "event_id": 122
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 2,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 4,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 8
+        },
+        {
+          "event_id": 7,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 2
+        },
+        {
+          "event_id": 11,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 9
+        },
+        {
+          "event_id": 17,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 0
+        },
+        {
+          "event_id": 19,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 9
+        },
+        {
+          "event_id": 23,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 5
+        },
+        {
+          "event_id": 27,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 10
+        },
+        {
+          "event_id": 35,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 0
+        },
+        {
+          "event_id": 37,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 8
+        },
+        {
+          "event_id": 42,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 6
+        },
+        {
+          "event_id": 45,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 16
+        },
+        {
+          "event_id": 52,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 11
+        },
+        {
+          "event_id": 57,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 16
+        },
+        {
+          "event_id": 62,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 11
+        },
+        {
+          "event_id": 67,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 8,
+          "money": 20
+        },
+        {
+          "event_id": 71,
+          "event": "select",
+          "ante": 3,
+          "round": 9,
+          "money": 9
+        },
+        {
+          "event_id": 77,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 9,
+          "money": 17
+        },
+        {
+          "event_id": 81,
+          "event": "select",
+          "ante": 4,
+          "round": 10,
+          "money": 6
+        },
+        {
+          "event_id": 86,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 10,
+          "money": 9
+        },
+        {
+          "event_id": 90,
+          "event": "select",
+          "ante": 4,
+          "round": 11,
+          "money": 5
+        },
+        {
+          "event_id": 98,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 11,
+          "money": 10
+        },
+        {
+          "event_id": 103,
+          "event": "select",
+          "ante": 4,
+          "round": 12,
+          "money": 5
+        },
+        {
+          "event_id": 111,
+          "event": "cash_out",
+          "ante": 5,
+          "round": 12,
+          "money": 11
+        },
+        {
+          "event_id": 115,
+          "event": "select",
+          "ante": 5,
+          "round": 13,
+          "money": 7
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "2": 3,
+        "1": 21,
+        "3": 1
+      },
+      "shop_joker_offer_denominator": 25,
+      "offers_by_area_key": {
+        "shop:c_judgement": 1,
+        "shop:j_throwback": 1,
+        "vouchers:v_crystal_ball": 2,
+        "packs:p_buffoon_normal_1": 1,
+        "packs:p_celestial_jumbo_1": 1,
+        "shop:j_gluttenous_joker": 1,
+        "shop:j_even_steven": 2,
+        "packs:p_standard_normal_4": 1,
+        "packs:p_standard_normal_1": 1,
+        "shop:j_drivers_license": 1,
+        "shop:c_neptune": 1,
+        "vouchers:v_hone": 3,
+        "packs:p_standard_normal_2": 2,
+        "packs:p_celestial_normal_1": 3,
+        "shop:c_hermit": 1,
+        "shop:c_pluto": 2,
+        "packs:p_standard_jumbo_2": 2,
+        "shop:j_raised_fist": 1,
+        "shop:j_mad": 1,
+        "shop:j_mail": 1,
+        "shop:j_odd_todd": 1,
+        "packs:p_arcana_normal_1": 2,
+        "packs:p_buffoon_normal_2": 2,
+        "shop:j_droll": 1,
+        "shop:j_sly": 1,
+        "vouchers:v_grabber": 3,
+        "packs:p_celestial_normal_3": 1,
+        "shop:j_walkie_talkie": 1,
+        "shop:j_onyx_agate": 1,
+        "packs:p_celestial_normal_2": 2,
+        "packs:p_arcana_normal_3": 2,
+        "shop:j_riff_raff": 1,
+        "packs:p_spectral_normal_2": 1,
+        "shop:c_sun": 1,
+        "shop:j_scholar": 2,
+        "shop:c_saturn": 1,
+        "shop:j_red_card": 1,
+        "shop:c_devil": 1,
+        "vouchers:v_wasteful": 3,
+        "shop:j_ride_the_bus": 1,
+        "shop:j_hiker": 1,
+        "shop:j_egg": 1,
+        "shop:j_jolly": 1,
+        "shop:j_hallucination": 1,
+        "shop:j_mystic_summit": 1,
+        "packs:p_standard_normal_3": 1,
+        "shop:j_juggler": 1,
+        "shop:j_scary_face": 1,
+        "packs:p_arcana_jumbo_1": 1,
+        "shop:c_lovers": 1,
+        "vouchers:v_tarot_merchant": 1,
+        "packs:p_buffoon_jumbo_1": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_throwback": 1,
+        "shop:j_even_steven": 1,
+        "shop:j_gluttenous_joker": 1,
+        "packs:p_celestial_normal_1": 3,
+        "shop:c_hermit": 1,
+        "shop:j_raised_fist": 1,
+        "shop:j_mad": 1,
+        "shop:j_mail": 1,
+        "shop:j_sly": 1,
+        "shop:j_onyx_agate": 1,
+        "shop:j_scary_face": 1,
+        "packs:p_celestial_normal_2": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 5,
+        "round": 13,
+        "blind": "Small Blind",
+        "blind_type": "SMALL",
+        "target": 25000,
+        "score": 19664
+      }
+    },
+    {
+      "job_id": "6a632ee2ccf4ceb3a7d447b641e898aa98d31422c20cd014a8832af0616cbfe3",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 5
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 2,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 15
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 16
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 17
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 18
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 24
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 25
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 29
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 13,
+          "event_id": 30
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 31
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 32
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 33
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 34
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 35
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 40
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 41
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 42
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 43
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 44
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 48
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 19,
+          "event_id": 49
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 21,
+          "event_id": 50
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 17,
+          "event_id": 51
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 17,
+          "event_id": 52
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 17,
+          "event_id": 53
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 17,
+          "event_id": 55
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 29,
+          "event_id": 56
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 25,
+          "event_id": 57
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 25,
+          "event_id": 58
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 19,
+          "event_id": 59
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 19,
+          "event_id": 60
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 19,
+          "event_id": 61
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 19,
+          "event_id": 62
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "ROUND_EVAL",
+          "money": 19,
+          "event_id": 67
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 33,
+          "event_id": 68
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 35,
+          "event_id": 69
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 31,
+          "event_id": 70
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 25,
+          "event_id": 71
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 25,
+          "event_id": 72
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 21,
+          "event_id": 73
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 21,
+          "event_id": 74
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 75
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 76
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 77
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 78
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 79
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "ROUND_EVAL",
+          "money": 3,
+          "event_id": 82
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 15,
+          "event_id": 83
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 11,
+          "event_id": 84
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 85
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 86
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 87
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 88
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 93
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 94
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 95
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 13,
+          "event_id": 96
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 97
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "BLIND_SELECT",
+          "money": 8,
+          "event_id": 98
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SELECTING_HAND",
+          "money": 8,
+          "event_id": 99
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "ROUND_EVAL",
+          "money": 8,
+          "event_id": 104
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 22,
+          "event_id": 105
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 17,
+          "event_id": 106
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 107
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 108
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 109
+        },
+        {
+          "ante": 4,
+          "round": 12,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 110
+        },
+        {
+          "ante": 4,
+          "round": 12,
+          "phase": "GAME_OVER",
+          "money": 4,
+          "event_id": 117
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 2,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 6,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 7
+        },
+        {
+          "event_id": 9,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 2
+        },
+        {
+          "event_id": 15,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 8
+        },
+        {
+          "event_id": 18,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 0
+        },
+        {
+          "event_id": 24,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 10
+        },
+        {
+          "event_id": 27,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 5
+        },
+        {
+          "event_id": 30,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 13
+        },
+        {
+          "event_id": 35,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 0
+        },
+        {
+          "event_id": 41,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 9
+        },
+        {
+          "event_id": 44,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 5
+        },
+        {
+          "event_id": 49,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 19
+        },
+        {
+          "event_id": 53,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 17
+        },
+        {
+          "event_id": 56,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 29
+        },
+        {
+          "event_id": 62,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 19
+        },
+        {
+          "event_id": 68,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 8,
+          "money": 33
+        },
+        {
+          "event_id": 79,
+          "event": "select",
+          "ante": 3,
+          "round": 9,
+          "money": 3
+        },
+        {
+          "event_id": 83,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 9,
+          "money": 15
+        },
+        {
+          "event_id": 88,
+          "event": "select",
+          "ante": 4,
+          "round": 10,
+          "money": 6
+        },
+        {
+          "event_id": 94,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 10,
+          "money": 16
+        },
+        {
+          "event_id": 99,
+          "event": "select",
+          "ante": 4,
+          "round": 11,
+          "money": 8
+        },
+        {
+          "event_id": 105,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 11,
+          "money": 22
+        },
+        {
+          "event_id": 110,
+          "event": "select",
+          "ante": 4,
+          "round": 12,
+          "money": 4
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "2": 9,
+        "1": 20
+      },
+      "shop_joker_offer_denominator": 29,
+      "offers_by_area_key": {
+        "shop:c_neptune": 2,
+        "shop:j_loyalty_card": 1,
+        "vouchers:v_hieroglyph": 2,
+        "packs:p_buffoon_normal_1": 1,
+        "packs:p_standard_normal_3": 1,
+        "shop:j_rocket": 1,
+        "shop:j_mr_bones": 1,
+        "packs:p_celestial_jumbo_1": 2,
+        "packs:p_buffoon_jumbo_1": 1,
+        "shop:c_heirophant": 1,
+        "shop:j_greedy_joker": 1,
+        "vouchers:v_planet_merchant": 3,
+        "packs:p_buffoon_mega_1": 1,
+        "packs:p_arcana_normal_1": 2,
+        "shop:j_diet_cola": 1,
+        "shop:j_8_ball": 1,
+        "packs:p_arcana_normal_4": 2,
+        "shop:j_acrobat": 1,
+        "shop:c_mercury": 1,
+        "shop:c_devil": 1,
+        "shop:j_smiley": 1,
+        "packs:p_celestial_jumbo_2": 1,
+        "shop:j_even_steven": 1,
+        "shop:j_abstract": 1,
+        "vouchers:v_tarot_merchant": 3,
+        "packs:p_arcana_normal_3": 2,
+        "packs:p_standard_normal_2": 1,
+        "shop:c_world": 1,
+        "packs:p_celestial_normal_2": 2,
+        "packs:p_arcana_jumbo_1": 2,
+        "shop:j_scary_face": 1,
+        "shop:j_clever": 1,
+        "shop:j_matador": 1,
+        "shop:j_seeing_double": 1,
+        "shop:j_mystic_summit": 1,
+        "shop:c_uranus": 3,
+        "shop:j_gluttenous_joker": 1,
+        "shop:c_death": 1,
+        "shop:j_midas_mask": 1,
+        "shop:j_devious": 1,
+        "vouchers:v_magic_trick": 3,
+        "packs:p_buffoon_normal_2": 1,
+        "shop:c_jupiter": 1,
+        "shop:j_hallucination": 1,
+        "shop:j_reserved_parking": 1,
+        "packs:p_standard_jumbo_2": 2,
+        "shop:j_blue_joker": 1,
+        "shop:j_stencil": 1,
+        "shop:j_egg": 1,
+        "shop:j_faceless": 2,
+        "packs:p_standard_normal_1": 1,
+        "shop:j_lusty_joker": 1,
+        "shop:j_crafty": 1,
+        "shop:j_superposition": 1,
+        "shop:j_popcorn": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_loyalty_card": 1,
+        "shop:j_rocket": 1,
+        "shop:j_greedy_joker": 1,
+        "shop:j_8_ball": 1,
+        "shop:c_mercury": 1,
+        "shop:j_smiley": 1,
+        "shop:j_even_steven": 1,
+        "packs:p_celestial_normal_2": 2,
+        "packs:p_arcana_jumbo_1": 2,
+        "shop:j_scary_face": 1,
+        "packs:p_arcana_normal_3": 1,
+        "shop:j_blue_joker": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 4,
+        "round": 12,
+        "blind": "The Wall",
+        "blind_type": "BOSS",
+        "target": 36000,
+        "score": 21213
+      }
+    },
+    {
+      "job_id": "9be48018b204eb8e88245494cf6635f152d4a6eb95cf6cbf4b08ea4ff8640fbd",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "GAME_OVER",
+          "money": 5,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 10
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 11
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 2,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 15
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 16
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 17
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 18
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 21
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 22
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 24
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 25
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 10,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 10,
+          "event_id": 32
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 13,
+          "event_id": 33
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 34
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 35
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 36
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 37
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 43
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 44
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 45
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 46
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 47
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 53
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 54
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 6,
+          "event_id": 55
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 56
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 57
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 58
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 63
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 64
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 5,
+          "event_id": 65
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 66
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 67
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 68
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 75
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 76
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 77
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 78
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "BLIND_SELECT",
+          "money": 7,
+          "event_id": 79
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "SELECTING_HAND",
+          "money": 7,
+          "event_id": 80
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "ROUND_EVAL",
+          "money": 7,
+          "event_id": 86
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 14,
+          "event_id": 87
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 88
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 89
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 90
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 91
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "GAME_OVER",
+          "money": 3,
+          "event_id": 98
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 3,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 8,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 7
+        },
+        {
+          "event_id": 11,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 2
+        },
+        {
+          "event_id": 15,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 10
+        },
+        {
+          "event_id": 18,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 6
+        },
+        {
+          "event_id": 22,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 16
+        },
+        {
+          "event_id": 26,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 5
+        },
+        {
+          "event_id": 33,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 13
+        },
+        {
+          "event_id": 37,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 4
+        },
+        {
+          "event_id": 44,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 9
+        },
+        {
+          "event_id": 47,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 4
+        },
+        {
+          "event_id": 54,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 10
+        },
+        {
+          "event_id": 58,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 6
+        },
+        {
+          "event_id": 64,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 9
+        },
+        {
+          "event_id": 68,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 5
+        },
+        {
+          "event_id": 76,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 8,
+          "money": 10
+        },
+        {
+          "event_id": 80,
+          "event": "select",
+          "ante": 3,
+          "round": 9,
+          "money": 7
+        },
+        {
+          "event_id": 87,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 9,
+          "money": 14
+        },
+        {
+          "event_id": 91,
+          "event": "select",
+          "ante": 4,
+          "round": 10,
+          "money": 3
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "1": 16,
+        "2": 4,
+        "3": 1
+      },
+      "shop_joker_offer_denominator": 21,
+      "offers_by_area_key": {
+        "shop:j_superposition": 2,
+        "shop:j_mystic_summit": 1,
+        "vouchers:v_planet_merchant": 2,
+        "packs:p_buffoon_normal_2": 1,
+        "packs:p_arcana_mega_2": 1,
+        "shop:j_droll": 1,
+        "shop:j_faceless": 1,
+        "packs:p_celestial_jumbo_1": 2,
+        "packs:p_standard_jumbo_1": 2,
+        "shop:j_ride_the_bus": 1,
+        "shop:j_mr_bones": 1,
+        "vouchers:v_magic_trick": 4,
+        "packs:p_arcana_normal_4": 3,
+        "shop:j_smiley": 1,
+        "shop:j_todo_list": 1,
+        "packs:p_buffoon_normal_1": 1,
+        "packs:p_arcana_jumbo_2": 1,
+        "shop:j_juggler": 2,
+        "shop:j_photograph": 1,
+        "shop:j_reserved_parking": 1,
+        "shop:j_egg": 1,
+        "shop:c_neptune": 1,
+        "shop:c_tower": 1,
+        "shop:c_jupiter": 1,
+        "vouchers:v_hieroglyph": 3,
+        "packs:p_standard_normal_2": 1,
+        "packs:p_celestial_normal_4": 2,
+        "shop:j_bootstraps": 1,
+        "shop:j_constellation": 1,
+        "packs:p_standard_mega_1": 1,
+        "shop:c_devil": 1,
+        "shop:j_gros_michel": 1,
+        "packs:p_arcana_normal_2": 1,
+        "shop:j_shoot_the_moon": 1,
+        "packs:p_spectral_jumbo_1": 1,
+        "packs:p_arcana_jumbo_1": 1,
+        "shop:j_drivers_license": 1,
+        "shop:c_magician": 1,
+        "shop:j_jolly": 1,
+        "shop:j_sock_and_buskin": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_mystic_summit": 1,
+        "shop:j_faceless": 1,
+        "shop:j_ride_the_bus": 1,
+        "shop:j_mr_bones": 1,
+        "shop:j_smiley": 1,
+        "packs:p_celestial_normal_4": 2,
+        "shop:j_gros_michel": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 4,
+        "round": 10,
+        "blind": "Small Blind",
+        "blind_type": "SMALL",
+        "target": 9000,
+        "score": 7261
+      }
+    },
+    {
+      "job_id": "7ab632858242d98e1a0e1a9046ca8c66f7281a42fbae652ad724a157eca7db27",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 5,
+          "round": 15,
+          "phase": "GAME_OVER",
+          "money": 5,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 5
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 1,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 1,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 1,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 1,
+          "event_id": 12
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 13
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 15
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 16
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "GAME_OVER",
+          "money": 4,
+          "event_id": 23
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 3,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 6,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 7
+        },
+        {
+          "event_id": 9,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 1
+        },
+        {
+          "event_id": 13,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 8
+        },
+        {
+          "event_id": 16,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 4
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "2": 2,
+        "1": 1
+      },
+      "shop_joker_offer_denominator": 3,
+      "offers_by_area_key": {
+        "shop:j_satellite": 1,
+        "shop:c_heirophant": 1,
+        "vouchers:v_magic_trick": 2,
+        "packs:p_buffoon_normal_2": 1,
+        "packs:p_celestial_normal_2": 1,
+        "shop:j_astronomer": 1,
+        "shop:j_devious": 1,
+        "packs:p_standard_normal_3": 1,
+        "packs:p_standard_normal_4": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_satellite": 1,
+        "shop:j_devious": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 1,
+        "round": 3,
+        "blind": "The Manacle",
+        "blind_type": "BOSS",
+        "target": 600,
+        "score": 407
+      }
+    },
+    {
+      "job_id": "593fc9b6a957ea6a7359a079400b0816abf2ba7a895851778eb8e21abcfac203",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "GAME_OVER",
+          "money": 7,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 5
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 2,
+          "event_id": 11
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 12
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 10,
+          "event_id": 13
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 10,
+          "event_id": 14
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 10,
+          "event_id": 18
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 20,
+          "event_id": 19
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 20
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 13,
+          "event_id": 21
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 13,
+          "event_id": 22
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 13,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 13,
+          "event_id": 24
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 19,
+          "event_id": 25
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 14,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 14,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 14,
+          "event_id": 28
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 14,
+          "event_id": 30
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 24,
+          "event_id": 31
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 32
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 33
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 12,
+          "event_id": 34
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 12,
+          "event_id": 35
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 12,
+          "event_id": 36
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 23,
+          "event_id": 37
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 25,
+          "event_id": 38
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 21,
+          "event_id": 39
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 15,
+          "event_id": 40
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 15,
+          "event_id": 41
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 11,
+          "event_id": 42
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 43
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 44
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 45
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 46
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 52
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 53
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 54
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 55
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 56
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 57
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 58
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 59
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "ROUND_EVAL",
+          "money": 2,
+          "event_id": 63
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 64
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 5,
+          "event_id": 65
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 66
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 67
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 68
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 71
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 15,
+          "event_id": 72
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 11,
+          "event_id": 73
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 74
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 75
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 76
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 77
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 81
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 82
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 14,
+          "event_id": 83
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 84
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 26,
+          "event_id": 85
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 20,
+          "event_id": 86
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 20,
+          "event_id": 87
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 15,
+          "event_id": 88
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 89
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 90
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 91
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 92
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 96
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 97
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 98
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 100
+        },
+        {
+          "ante": 4,
+          "round": 12,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 101
+        },
+        {
+          "ante": 4,
+          "round": 12,
+          "phase": "GAME_OVER",
+          "money": 5,
+          "event_id": 108
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 3,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 6,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 7
+        },
+        {
+          "event_id": 9,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 2
+        },
+        {
+          "event_id": 12,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 10
+        },
+        {
+          "event_id": 14,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 10
+        },
+        {
+          "event_id": 19,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 20
+        },
+        {
+          "event_id": 23,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 13
+        },
+        {
+          "event_id": 25,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 19
+        },
+        {
+          "event_id": 28,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 14
+        },
+        {
+          "event_id": 31,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 24
+        },
+        {
+          "event_id": 35,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 12
+        },
+        {
+          "event_id": 37,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 23
+        },
+        {
+          "event_id": 46,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 6
+        },
+        {
+          "event_id": 53,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 8
+        },
+        {
+          "event_id": 59,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 2
+        },
+        {
+          "event_id": 64,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 8,
+          "money": 9
+        },
+        {
+          "event_id": 68,
+          "event": "select",
+          "ante": 3,
+          "round": 9,
+          "money": 5
+        },
+        {
+          "event_id": 72,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 9,
+          "money": 15
+        },
+        {
+          "event_id": 77,
+          "event": "select",
+          "ante": 4,
+          "round": 10,
+          "money": 6
+        },
+        {
+          "event_id": 82,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 10,
+          "money": 10
+        },
+        {
+          "event_id": 92,
+          "event": "select",
+          "ante": 4,
+          "round": 11,
+          "money": 5
+        },
+        {
+          "event_id": 97,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 11,
+          "money": 12
+        },
+        {
+          "event_id": 101,
+          "event": "select",
+          "ante": 4,
+          "round": 12,
+          "money": 5
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "1": 13,
+        "2": 4,
+        "3": 3
+      },
+      "shop_joker_offer_denominator": 20,
+      "offers_by_area_key": {
+        "shop:j_egg": 1,
+        "shop:j_blue_joker": 1,
+        "vouchers:v_reroll_surplus": 2,
+        "packs:p_buffoon_normal_1": 1,
+        "packs:p_arcana_jumbo_2": 1,
+        "shop:c_pluto": 1,
+        "shop:j_misprint": 1,
+        "packs:p_celestial_normal_3": 3,
+        "packs:p_standard_normal_4": 1,
+        "shop:c_mercury": 3,
+        "shop:j_smiley": 1,
+        "vouchers:v_clearance_sale": 3,
+        "packs:p_standard_normal_2": 3,
+        "packs:p_celestial_jumbo_2": 4,
+        "shop:j_gros_michel": 2,
+        "shop:j_mime": 1,
+        "packs:p_arcana_normal_1": 1,
+        "shop:j_even_steven": 1,
+        "shop:j_baron": 1,
+        "packs:p_buffoon_normal_2": 2,
+        "packs:p_arcana_normal_4": 1,
+        "shop:j_crafty": 1,
+        "vouchers:v_hone": 3,
+        "shop:c_jupiter": 1,
+        "shop:j_juggler": 1,
+        "shop:j_superposition": 1,
+        "shop:c_hermit": 2,
+        "packs:p_arcana_mega_1": 3,
+        "shop:j_shoot_the_moon": 1,
+        "shop:j_raised_fist": 1,
+        "shop:j_order": 1,
+        "shop:j_troubadour": 1,
+        "shop:c_strength": 1,
+        "shop:j_popcorn": 1,
+        "vouchers:v_wasteful": 3,
+        "packs:p_standard_normal_3": 1,
+        "shop:j_merry_andy": 1,
+        "shop:c_sun": 1,
+        "packs:p_arcana_jumbo_1": 1,
+        "shop:j_drivers_license": 1,
+        "shop:c_uranus": 1,
+        "shop:j_bootstraps": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_blue_joker": 1,
+        "shop:j_smiley": 1,
+        "shop:c_mercury": 2,
+        "shop:j_mime": 1,
+        "shop:j_baron": 1,
+        "shop:j_even_steven": 1,
+        "shop:j_crafty": 1,
+        "packs:p_celestial_jumbo_2": 1,
+        "packs:p_celestial_normal_3": 2,
+        "shop:c_hermit": 2,
+        "shop:j_shoot_the_moon": 1,
+        "packs:p_standard_normal_3": 1,
+        "packs:p_arcana_jumbo_1": 1,
+        "shop:j_drivers_license": 1,
+        "shop:j_bootstraps": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 4,
+        "round": 12,
+        "blind": "The Arm",
+        "blind_type": "BOSS",
+        "target": 18000,
+        "score": 6825
+      }
+    },
+    {
+      "job_id": "f0a921dfb42d3ff9bc78978d045be253f8fbc3bf5875fa3ce320a1006d85722a",
+      "status": "error",
+      "money_curve": [
+        {
+          "ante": 4,
+          "round": 12,
+          "phase": "GAME_OVER",
+          "money": 4,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 1,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 1,
+          "event_id": 10
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 1,
+          "event_id": 11
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 1,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 13,
+          "event_id": 15
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 16
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 17
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 18
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 19
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 3,
+          "event_id": 20
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 21
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 18,
+          "event_id": 22
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 13,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 9,
+          "event_id": 24
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 25
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 28
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 33
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 34
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 14,
+          "event_id": 35
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 36
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 37
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 38
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 39
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 40
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 43
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 14,
+          "event_id": 44
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 14,
+          "event_id": 45
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 14,
+          "event_id": 46
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 14,
+          "event_id": 52
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 22,
+          "event_id": 53
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 18,
+          "event_id": 54
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 18,
+          "event_id": 55
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 3,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 8,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 7
+        },
+        {
+          "event_id": 11,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 1
+        },
+        {
+          "event_id": 15,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 13
+        },
+        {
+          "event_id": 19,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 3
+        },
+        {
+          "event_id": 21,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 16
+        },
+        {
+          "event_id": 28,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 4
+        },
+        {
+          "event_id": 34,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 10
+        },
+        {
+          "event_id": 40,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 5
+        },
+        {
+          "event_id": 44,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 14
+        },
+        {
+          "event_id": 46,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 14
+        },
+        {
+          "event_id": 53,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 22
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "1": 9,
+        "2": 4
+      },
+      "shop_joker_offer_denominator": 13,
+      "offers_by_area_key": {
+        "shop:j_riff_raff": 1,
+        "shop:j_egg": 2,
+        "vouchers:v_hieroglyph": 2,
+        "packs:p_buffoon_normal_2": 2,
+        "packs:p_standard_normal_2": 1,
+        "shop:j_8_ball": 2,
+        "shop:j_lusty_joker": 1,
+        "packs:p_standard_jumbo_1": 1,
+        "packs:p_arcana_jumbo_2": 2,
+        "shop:j_wrathful_joker": 1,
+        "shop:c_venus": 1,
+        "vouchers:v_tarot_merchant": 4,
+        "packs:p_celestial_normal_4": 1,
+        "shop:j_acrobat": 1,
+        "shop:j_gluttenous_joker": 1,
+        "shop:c_hermit": 1,
+        "shop:j_scholar": 1,
+        "packs:p_standard_normal_4": 1,
+        "packs:p_arcana_normal_4": 2,
+        "shop:j_diet_cola": 1,
+        "shop:j_marble": 1,
+        "packs:p_standard_normal_3": 1,
+        "shop:c_mars": 1,
+        "shop:j_burglar": 1,
+        "packs:p_arcana_normal_3": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_riff_raff": 1,
+        "shop:j_lusty_joker": 1,
+        "shop:j_8_ball": 2,
+        "shop:j_wrathful_joker": 1,
+        "packs:p_celestial_normal_4": 1,
+        "shop:c_hermit": 1,
+        "packs:p_arcana_normal_3": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 1,
+      "failure": null
+    },
+    {
+      "job_id": "55be69afe2cdd0e586342661e5e69b8a601641eae5eff8f5a4fdb184db1752ee",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "GAME_OVER",
+          "money": 3,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 10
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 11
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 12
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 13
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 19
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 20
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 21
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 22
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 1,
+          "event_id": 25
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 1,
+          "event_id": 28
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 1,
+          "event_id": 29
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 1,
+          "event_id": 30
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": -2,
+          "event_id": 31
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 32
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 33
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 34
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": -1,
+          "event_id": 36
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 37
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 7,
+          "event_id": 38
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 7,
+          "event_id": 39
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 41
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 42
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 43
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 8,
+          "event_id": 44
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 8,
+          "event_id": 45
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 48
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 49
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 9,
+          "event_id": 50
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 9,
+          "event_id": 51
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 52
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 15,
+          "event_id": 53
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 17,
+          "event_id": 54
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 55
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 56
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 57
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 58
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "GAME_OVER",
+          "money": 4,
+          "event_id": 68
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 3,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 10,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 5
+        },
+        {
+          "event_id": 13,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 0
+        },
+        {
+          "event_id": 20,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 5
+        },
+        {
+          "event_id": 23,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 4
+        },
+        {
+          "event_id": 26,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 10
+        },
+        {
+          "event_id": 30,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 1
+        },
+        {
+          "event_id": 32,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 2
+        },
+        {
+          "event_id": 34,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 2
+        },
+        {
+          "event_id": 37,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 7
+        },
+        {
+          "event_id": 39,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 7
+        },
+        {
+          "event_id": 42,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 12
+        },
+        {
+          "event_id": 45,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 8
+        },
+        {
+          "event_id": 49,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 9
+        },
+        {
+          "event_id": 51,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 9
+        },
+        {
+          "event_id": 53,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 8,
+          "money": 15
+        },
+        {
+          "event_id": 58,
+          "event": "select",
+          "ante": 3,
+          "round": 9,
+          "money": 4
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "2": 4,
+        "1": 9,
+        "3": 2
+      },
+      "shop_joker_offer_denominator": 15,
+      "offers_by_area_key": {
+        "shop:j_loyalty_card": 1,
+        "shop:j_hallucination": 1,
+        "vouchers:v_grabber": 2,
+        "packs:p_buffoon_normal_2": 1,
+        "packs:p_arcana_normal_1": 1,
+        "shop:j_golden": 1,
+        "shop:j_merry_andy": 1,
+        "packs:p_celestial_mega_2": 1,
+        "packs:p_celestial_normal_3": 1,
+        "shop:j_blue_joker": 1,
+        "shop:j_egg": 1,
+        "vouchers:v_planet_merchant": 3,
+        "packs:p_standard_mega_1": 1,
+        "packs:p_celestial_normal_2": 1,
+        "shop:j_campfire": 1,
+        "shop:j_even_steven": 1,
+        "packs:p_celestial_jumbo_2": 2,
+        "packs:p_standard_normal_4": 3,
+        "shop:c_venus": 1,
+        "shop:c_mercury": 1,
+        "packs:p_arcana_normal_3": 3,
+        "shop:j_jolly": 1,
+        "shop:j_misprint": 1,
+        "vouchers:v_tarot_merchant": 3,
+        "packs:p_standard_normal_3": 1,
+        "shop:j_space": 1,
+        "shop:c_star": 1,
+        "packs:p_celestial_normal_1": 1,
+        "shop:j_business": 1,
+        "shop:j_burnt": 1,
+        "shop:j_shortcut": 1,
+        "shop:j_crafty": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_loyalty_card": 1,
+        "shop:j_merry_andy": 1,
+        "shop:j_blue_joker": 1,
+        "shop:j_egg": 1,
+        "shop:j_misprint": 1,
+        "shop:j_burnt": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 3,
+        "round": 9,
+        "blind": "The Window",
+        "blind_type": "BOSS",
+        "target": 6400,
+        "score": 4032
+      }
+    },
+    {
+      "job_id": "8f8f6255be1f0a38896f7a83b03d360a5194c1c53e5437bcde4620741e7b748f",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "GAME_OVER",
+          "money": 4,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 10
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 11
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 3,
+          "event_id": 17
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 18
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 19
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 1,
+          "event_id": 20
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 1,
+          "event_id": 21
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 1,
+          "event_id": 22
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": -2,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 24
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 25
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 28
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 29
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 30
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 31
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 32
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 1,
+          "event_id": 36
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 37
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 38
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 40
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 41
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": -1,
+          "event_id": 45
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 46
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 47
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 48
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 3,
+          "event_id": 52
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 53
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 54
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 55
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "GAME_OVER",
+          "money": 6,
+          "event_id": 62
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 3,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 8,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 7
+        },
+        {
+          "event_id": 11,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 3
+        },
+        {
+          "event_id": 18,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 8
+        },
+        {
+          "event_id": 22,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 1
+        },
+        {
+          "event_id": 24,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 7
+        },
+        {
+          "event_id": 28,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 3
+        },
+        {
+          "event_id": 30,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 4
+        },
+        {
+          "event_id": 32,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 4
+        },
+        {
+          "event_id": 37,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 6
+        },
+        {
+          "event_id": 41,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 2
+        },
+        {
+          "event_id": 46,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 6
+        },
+        {
+          "event_id": 48,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 6
+        },
+        {
+          "event_id": 53,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 6
+        },
+        {
+          "event_id": 55,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 6
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "1": 8,
+        "2": 3,
+        "3": 1
+      },
+      "shop_joker_offer_denominator": 12,
+      "offers_by_area_key": {
+        "shop:j_red_card": 1,
+        "shop:j_juggler": 1,
+        "vouchers:v_overstock_norm": 2,
+        "packs:p_buffoon_normal_2": 1,
+        "packs:p_celestial_jumbo_2": 1,
+        "shop:j_ramen": 1,
+        "shop:j_stencil": 1,
+        "packs:p_arcana_normal_4": 3,
+        "packs:p_arcana_normal_2": 1,
+        "shop:j_crafty": 1,
+        "shop:j_joker": 1,
+        "vouchers:v_planet_merchant": 3,
+        "packs:p_arcana_jumbo_2": 2,
+        "shop:c_earth": 1,
+        "shop:j_ancient": 1,
+        "packs:p_arcana_mega_1": 1,
+        "shop:j_green_joker": 1,
+        "shop:j_runner": 1,
+        "packs:p_celestial_normal_3": 1,
+        "packs:p_standard_normal_3": 1,
+        "shop:j_swashbuckler": 1,
+        "shop:j_golden": 1,
+        "vouchers:v_directors_cut": 2,
+        "packs:p_celestial_normal_1": 1,
+        "packs:p_standard_normal_2": 1,
+        "shop:j_hack": 1,
+        "shop:c_sun": 1,
+        "packs:p_arcana_normal_3": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_juggler": 1,
+        "shop:j_ramen": 1,
+        "shop:j_stencil": 1,
+        "shop:j_crafty": 1,
+        "shop:j_green_joker": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 3,
+        "round": 8,
+        "blind": "Big Blind",
+        "blind_type": "BIG",
+        "target": 4800,
+        "score": 4444
+      }
+    },
+    {
+      "job_id": "ca75271132b7aa2cf56176e6bfee836fffcebc8bb4d4504746a15f6c64f8308d",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 4,
+          "round": 12,
+          "phase": "GAME_OVER",
+          "money": 5,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 10
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "GAME_OVER",
+          "money": 3,
+          "event_id": 17
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 3,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 7,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 8
+        },
+        {
+          "event_id": 10,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 3
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "1": 2
+      },
+      "shop_joker_offer_denominator": 2,
+      "offers_by_area_key": {
+        "shop:j_8_ball": 1,
+        "shop:j_todo_list": 1,
+        "vouchers:v_grabber": 1,
+        "packs:p_buffoon_normal_1": 1,
+        "packs:p_standard_jumbo_2": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_8_ball": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 1,
+        "round": 2,
+        "blind": "Big Blind",
+        "blind_type": "BIG",
+        "target": 450,
+        "score": 273
+      }
+    },
+    {
+      "job_id": "6d0d08ec50b35fe8438ac17db0387d6d1268851ba1b6bfb4d1a06de10e4c98f9",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 4
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 5
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 0,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 10
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 16
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 17
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 18
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 19
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 24
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 13,
+          "event_id": 25
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 28
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 35
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 36
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 37
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 39
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 40
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 46
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 47
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 48
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 49
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 53
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 54
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 14,
+          "event_id": 55
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 56
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 57
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 5,
+          "event_id": 59
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 60
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 62
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 63
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 70
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 71
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 72
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 74
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 75
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "GAME_OVER",
+          "money": 5,
+          "event_id": 82
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 2,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 5,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 8
+        },
+        {
+          "event_id": 10,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 0
+        },
+        {
+          "event_id": 17,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 5
+        },
+        {
+          "event_id": 19,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 5
+        },
+        {
+          "event_id": 25,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 13
+        },
+        {
+          "event_id": 28,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 5
+        },
+        {
+          "event_id": 36,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 6
+        },
+        {
+          "event_id": 40,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 0
+        },
+        {
+          "event_id": 47,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 5
+        },
+        {
+          "event_id": 49,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 5
+        },
+        {
+          "event_id": 54,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 12
+        },
+        {
+          "event_id": 63,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 5
+        },
+        {
+          "event_id": 71,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 6
+        },
+        {
+          "event_id": 75,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 5
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "1": 1,
+        "2": 5,
+        "3": 1
+      },
+      "shop_joker_offer_denominator": 7,
+      "offers_by_area_key": {
+        "shop:j_devious": 1,
+        "shop:c_justice": 1,
+        "vouchers:v_seed_money": 2,
+        "packs:p_buffoon_normal_1": 2,
+        "packs:p_arcana_normal_3": 1,
+        "shop:c_saturn": 3,
+        "shop:c_venus": 1,
+        "packs:p_celestial_jumbo_2": 1,
+        "packs:p_arcana_jumbo_1": 1,
+        "shop:j_burglar": 1,
+        "shop:j_family": 1,
+        "vouchers:v_crystal_ball": 3,
+        "packs:p_standard_normal_2": 1,
+        "packs:p_standard_jumbo_1": 2,
+        "shop:j_flower_pot": 1,
+        "shop:j_madness": 1,
+        "shop:c_earth": 1,
+        "packs:p_spectral_jumbo_1": 1,
+        "packs:p_arcana_normal_2": 1,
+        "shop:j_flash": 1,
+        "shop:c_neptune": 1,
+        "vouchers:v_paint_brush": 2,
+        "packs:p_standard_jumbo_2": 1,
+        "packs:p_buffoon_jumbo_1": 1,
+        "shop:j_fibonacci": 1,
+        "packs:p_celestial_jumbo_1": 1,
+        "packs:p_celestial_normal_1": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_devious": 1,
+        "packs:p_buffoon_normal_1": 1,
+        "shop:j_family": 1,
+        "shop:j_flower_pot": 1,
+        "shop:j_flash": 1,
+        "packs:p_buffoon_jumbo_1": 1,
+        "shop:j_fibonacci": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 3,
+        "round": 8,
+        "blind": "Big Blind",
+        "blind_type": "BIG",
+        "target": 4800,
+        "score": 3442
+      }
+    },
+    {
+      "job_id": "239c7e4db7be9cc435af4b1ab0360579a7502047e46892fd3737e3c3c7b30452",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "GAME_OVER",
+          "money": 4,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 5
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 4,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 10
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 13
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 15
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 16
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 17
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 18
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 19
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 12,
+          "event_id": 20
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 21
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 12,
+          "event_id": 22
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 12,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 12,
+          "event_id": 24
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 18,
+          "event_id": 25
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 12,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 12,
+          "event_id": 28
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 12,
+          "event_id": 30
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 22,
+          "event_id": 31
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 17,
+          "event_id": 32
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 33
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 34
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 35
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 36
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 3,
+          "event_id": 41
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 42
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 43
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 44
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 45
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 46
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 47
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 51
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 52
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 53
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 54
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 7,
+          "event_id": 55
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 7,
+          "event_id": 56
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "ROUND_EVAL",
+          "money": 7,
+          "event_id": 60
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 15,
+          "event_id": 61
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 18,
+          "event_id": 62
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 14,
+          "event_id": 63
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 10,
+          "event_id": 64
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 65
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "BLIND_SELECT",
+          "money": 10,
+          "event_id": 66
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "SELECTING_HAND",
+          "money": 10,
+          "event_id": 67
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "ROUND_EVAL",
+          "money": 10,
+          "event_id": 71
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "SHOP",
+          "money": 20,
+          "event_id": 72
+        },
+        {
+          "ante": 4,
+          "round": 9,
+          "phase": "BLIND_SELECT",
+          "money": 20,
+          "event_id": 73
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SELECTING_HAND",
+          "money": 20,
+          "event_id": 74
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "ROUND_EVAL",
+          "money": 20,
+          "event_id": 78
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 27,
+          "event_id": 79
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 23,
+          "event_id": 80
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 23,
+          "event_id": 81
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 17,
+          "event_id": 82
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "SHOP",
+          "money": 17,
+          "event_id": 83
+        },
+        {
+          "ante": 4,
+          "round": 10,
+          "phase": "BLIND_SELECT",
+          "money": 17,
+          "event_id": 84
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SELECTING_HAND",
+          "money": 17,
+          "event_id": 85
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "ROUND_EVAL",
+          "money": 17,
+          "event_id": 90
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 26,
+          "event_id": 91
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 28,
+          "event_id": 92
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 23,
+          "event_id": 93
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 17,
+          "event_id": 94
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "SHOP",
+          "money": 17,
+          "event_id": 95
+        },
+        {
+          "ante": 4,
+          "round": 11,
+          "phase": "BLIND_SELECT",
+          "money": 17,
+          "event_id": 96
+        },
+        {
+          "ante": 4,
+          "round": 12,
+          "phase": "SELECTING_HAND",
+          "money": 17,
+          "event_id": 97
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "ROUND_EVAL",
+          "money": 17,
+          "event_id": 101
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SHOP",
+          "money": 26,
+          "event_id": 102
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 18,
+          "event_id": 103
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SHOP",
+          "money": 18,
+          "event_id": 105
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SHOP",
+          "money": 13,
+          "event_id": 106
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 107
+        },
+        {
+          "ante": 5,
+          "round": 12,
+          "phase": "BLIND_SELECT",
+          "money": 7,
+          "event_id": 108
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "SELECTING_HAND",
+          "money": 7,
+          "event_id": 109
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "ROUND_EVAL",
+          "money": 7,
+          "event_id": 116
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 117
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 118
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 119
+        },
+        {
+          "ante": 5,
+          "round": 13,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 120
+        },
+        {
+          "ante": 5,
+          "round": 14,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 121
+        },
+        {
+          "ante": 5,
+          "round": 14,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 127
+        },
+        {
+          "ante": 5,
+          "round": 14,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 128
+        },
+        {
+          "ante": 5,
+          "round": 14,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 129
+        },
+        {
+          "ante": 5,
+          "round": 14,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 130
+        },
+        {
+          "ante": 5,
+          "round": 15,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 131
+        },
+        {
+          "ante": 5,
+          "round": 15,
+          "phase": "GAME_OVER",
+          "money": 4,
+          "event_id": 138
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 3,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 6,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 8
+        },
+        {
+          "event_id": 10,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 4
+        },
+        {
+          "event_id": 14,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 11
+        },
+        {
+          "event_id": 17,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 6
+        },
+        {
+          "event_id": 19,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 16
+        },
+        {
+          "event_id": 23,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 12
+        },
+        {
+          "event_id": 25,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 18
+        },
+        {
+          "event_id": 28,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 12
+        },
+        {
+          "event_id": 31,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 22
+        },
+        {
+          "event_id": 36,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 3
+        },
+        {
+          "event_id": 42,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 10
+        },
+        {
+          "event_id": 47,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 6
+        },
+        {
+          "event_id": 52,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 10
+        },
+        {
+          "event_id": 56,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 7
+        },
+        {
+          "event_id": 61,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 8,
+          "money": 15
+        },
+        {
+          "event_id": 67,
+          "event": "select",
+          "ante": 3,
+          "round": 9,
+          "money": 10
+        },
+        {
+          "event_id": 72,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 9,
+          "money": 20
+        },
+        {
+          "event_id": 74,
+          "event": "select",
+          "ante": 4,
+          "round": 10,
+          "money": 20
+        },
+        {
+          "event_id": 79,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 10,
+          "money": 27
+        },
+        {
+          "event_id": 85,
+          "event": "select",
+          "ante": 4,
+          "round": 11,
+          "money": 17
+        },
+        {
+          "event_id": 91,
+          "event": "cash_out",
+          "ante": 4,
+          "round": 11,
+          "money": 26
+        },
+        {
+          "event_id": 97,
+          "event": "select",
+          "ante": 4,
+          "round": 12,
+          "money": 17
+        },
+        {
+          "event_id": 102,
+          "event": "cash_out",
+          "ante": 5,
+          "round": 12,
+          "money": 26
+        },
+        {
+          "event_id": 109,
+          "event": "select",
+          "ante": 5,
+          "round": 13,
+          "money": 7
+        },
+        {
+          "event_id": 117,
+          "event": "cash_out",
+          "ante": 5,
+          "round": 13,
+          "money": 8
+        },
+        {
+          "event_id": 121,
+          "event": "select",
+          "ante": 5,
+          "round": 14,
+          "money": 4
+        },
+        {
+          "event_id": 128,
+          "event": "cash_out",
+          "ante": 5,
+          "round": 14,
+          "money": 9
+        },
+        {
+          "event_id": 131,
+          "event": "select",
+          "ante": 5,
+          "round": 15,
+          "money": 4
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "1": 22,
+        "2": 7,
+        "3": 1
+      },
+      "shop_joker_offer_denominator": 30,
+      "offers_by_area_key": {
+        "shop:j_splash": 2,
+        "shop:j_onyx_agate": 1,
+        "vouchers:v_overstock_norm": 2,
+        "packs:p_buffoon_normal_2": 3,
+        "packs:p_arcana_normal_4": 1,
+        "shop:j_hanging_chad": 1,
+        "shop:j_shoot_the_moon": 1,
+        "packs:p_arcana_jumbo_1": 1,
+        "packs:p_standard_normal_4": 1,
+        "shop:j_photograph": 1,
+        "shop:c_chariot": 1,
+        "vouchers:v_blank": 6,
+        "packs:p_standard_normal_2": 3,
+        "shop:j_matador": 1,
+        "shop:j_fortune_teller": 1,
+        "packs:p_arcana_normal_3": 1,
+        "shop:c_mars": 2,
+        "shop:j_blue_joker": 1,
+        "packs:p_arcana_mega_1": 1,
+        "packs:p_standard_jumbo_2": 1,
+        "shop:j_baseball": 1,
+        "shop:c_uranus": 1,
+        "shop:j_ice_cream": 2,
+        "shop:j_credit_card": 1,
+        "shop:c_tower": 1,
+        "shop:j_delayed_grat": 1,
+        "vouchers:v_clearance_sale": 3,
+        "packs:p_arcana_jumbo_2": 2,
+        "packs:p_buffoon_normal_1": 1,
+        "shop:c_judgement": 1,
+        "shop:j_space": 1,
+        "shop:j_supernova": 2,
+        "packs:p_standard_normal_3": 2,
+        "packs:p_arcana_normal_1": 3,
+        "shop:j_swashbuckler": 1,
+        "packs:p_celestial_normal_3": 2,
+        "packs:p_buffoon_jumbo_1": 1,
+        "shop:c_heirophant": 2,
+        "shop:j_zany": 1,
+        "vouchers:v_hieroglyph": 3,
+        "packs:p_standard_jumbo_1": 1,
+        "shop:j_hack": 1,
+        "shop:j_square": 1,
+        "shop:j_raised_fist": 1,
+        "shop:j_golden": 1,
+        "packs:p_celestial_jumbo_2": 1,
+        "packs:p_celestial_mega_2": 2,
+        "shop:c_strength": 1,
+        "shop:j_throwback": 1,
+        "shop:j_dusk": 1,
+        "shop:j_misprint": 1,
+        "shop:j_wrathful_joker": 1,
+        "shop:j_business": 1,
+        "shop:j_greedy_joker": 1,
+        "packs:p_arcana_mega_2": 1,
+        "shop:j_flash": 1,
+        "shop:c_earth": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "packs:p_buffoon_normal_2": 2,
+        "shop:j_shoot_the_moon": 1,
+        "shop:j_fortune_teller": 1,
+        "shop:j_baseball": 1,
+        "shop:j_splash": 1,
+        "shop:j_supernova": 1,
+        "shop:j_swashbuckler": 1,
+        "packs:p_celestial_normal_3": 1,
+        "packs:p_arcana_normal_1": 1,
+        "packs:p_arcana_jumbo_2": 1,
+        "shop:j_raised_fist": 1,
+        "packs:p_celestial_jumbo_2": 1,
+        "packs:p_celestial_mega_2": 1,
+        "shop:j_misprint": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 5,
+        "round": 15,
+        "blind": "The Hook",
+        "blind_type": "BOSS",
+        "target": 50000,
+        "score": 41262
+      }
+    },
+    {
+      "job_id": "1835d9948dca93f00c0321cfceec1760cece5707abe7f6fb8fdb6cfa6847cbee",
+      "status": "error",
+      "money_curve": [
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "GAME_OVER",
+          "money": 6,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 5
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 3,
+          "event_id": 11
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 12
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 5,
+          "event_id": 13
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 5,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 5,
+          "event_id": 15
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 5,
+          "event_id": 19
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 14,
+          "event_id": 20
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 10,
+          "event_id": 21
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 10,
+          "event_id": 22
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 10,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 10,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 16,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 12,
+          "event_id": 28
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 29
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 12,
+          "event_id": 30
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 12,
+          "event_id": 31
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 12,
+          "event_id": 36
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 22,
+          "event_id": 37
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 3,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 6,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 8
+        },
+        {
+          "event_id": 9,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 3
+        },
+        {
+          "event_id": 12,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 11
+        },
+        {
+          "event_id": 15,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 5
+        },
+        {
+          "event_id": 20,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 14
+        },
+        {
+          "event_id": 23,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 10
+        },
+        {
+          "event_id": 27,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 16
+        },
+        {
+          "event_id": 31,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 12
+        },
+        {
+          "event_id": 37,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 22
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "1": 5,
+        "2": 1
+      },
+      "shop_joker_offer_denominator": 6,
+      "offers_by_area_key": {
+        "shop:j_gros_michel": 1,
+        "shop:j_faceless": 1,
+        "vouchers:v_blank": 2,
+        "packs:p_buffoon_normal_1": 1,
+        "packs:p_standard_jumbo_2": 1,
+        "shop:j_certificate": 1,
+        "shop:c_world": 1,
+        "packs:p_celestial_normal_1": 1,
+        "packs:p_celestial_normal_4": 1,
+        "shop:j_scholar": 1,
+        "shop:j_zany": 1,
+        "vouchers:v_seed_money": 3,
+        "packs:p_arcana_jumbo_2": 1,
+        "packs:p_celestial_normal_3": 1,
+        "shop:c_justice": 1,
+        "shop:c_lovers": 1,
+        "packs:p_arcana_normal_2": 1,
+        "packs:p_standard_normal_4": 1,
+        "shop:j_joker": 1,
+        "shop:c_neptune": 1,
+        "packs:p_standard_mega_1": 1,
+        "packs:p_celestial_jumbo_2": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_gros_michel": 1,
+        "shop:j_certificate": 1,
+        "shop:j_zany": 1,
+        "packs:p_standard_normal_4": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 1,
+      "failure": null
+    },
+    {
+      "job_id": "102aa4c537a45ee5f8cedfb95bb7321222a995f97f6ba7016ea4d4b9afae7746",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "GAME_OVER",
+          "money": 3,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 3
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 10
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 11
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 0,
+          "event_id": 12
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 13
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 15
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 19
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 20
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 21
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 22
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 23
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 2,
+          "event_id": 24
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 25
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 26
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 28
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 29
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 3,
+          "event_id": 31
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 32
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 33
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 34
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 35
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": -3,
+          "event_id": 38
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 39
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 40
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 41
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 1,
+          "event_id": 45
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 46
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 47
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 48
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 50
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 51
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 56
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 57
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 58
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 59
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 61
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 62
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "ROUND_EVAL",
+          "money": -3,
+          "event_id": 68
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 69
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 70
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 71
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 72
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "GAME_OVER",
+          "money": 3,
+          "event_id": 79
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 3,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 11,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 15,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 0
+        },
+        {
+          "event_id": 20,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 7
+        },
+        {
+          "event_id": 23,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 2
+        },
+        {
+          "event_id": 25,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 11
+        },
+        {
+          "event_id": 29,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 6
+        },
+        {
+          "event_id": 32,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 6
+        },
+        {
+          "event_id": 35,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 0
+        },
+        {
+          "event_id": 39,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 4
+        },
+        {
+          "event_id": 41,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 4
+        },
+        {
+          "event_id": 46,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 9
+        },
+        {
+          "event_id": 51,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 3
+        },
+        {
+          "event_id": 57,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 2
+        },
+        {
+          "event_id": 62,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 3
+        },
+        {
+          "event_id": 69,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 8,
+          "money": 2
+        },
+        {
+          "event_id": 72,
+          "event": "select",
+          "ante": 3,
+          "round": 9,
+          "money": 3
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "2": 6,
+        "1": 10
+      },
+      "shop_joker_offer_denominator": 16,
+      "offers_by_area_key": {
+        "shop:j_bloodstone": 1,
+        "shop:j_seance": 1,
+        "vouchers:v_hieroglyph": 2,
+        "packs:p_buffoon_normal_1": 2,
+        "packs:p_celestial_jumbo_1": 1,
+        "shop:j_lusty_joker": 1,
+        "shop:j_gluttenous_joker": 1,
+        "packs:p_standard_normal_1": 2,
+        "packs:p_arcana_normal_3": 2,
+        "shop:j_crafty": 1,
+        "shop:j_seeing_double": 1,
+        "vouchers:v_telescope": 3,
+        "shop:j_business": 1,
+        "shop:j_constellation": 1,
+        "packs:p_celestial_normal_2": 3,
+        "packs:p_standard_normal_3": 1,
+        "shop:j_drunkard": 1,
+        "shop:j_runner": 1,
+        "packs:p_celestial_normal_4": 1,
+        "shop:j_wily": 1,
+        "shop:j_ride_the_bus": 1,
+        "vouchers:v_grabber": 3,
+        "packs:p_celestial_jumbo_2": 1,
+        "packs:p_standard_normal_4": 1,
+        "shop:j_trading": 1,
+        "shop:j_trousers": 1,
+        "packs:p_standard_normal_2": 1,
+        "shop:j_todo_list": 1,
+        "shop:j_banner": 1,
+        "packs:p_buffoon_mega_1": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "packs:p_buffoon_normal_1": 1,
+        "shop:j_gluttenous_joker": 1,
+        "shop:j_crafty": 1,
+        "shop:j_seeing_double": 1,
+        "shop:j_constellation": 1,
+        "shop:j_ride_the_bus": 1,
+        "shop:j_trousers": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 3,
+        "round": 9,
+        "blind": "The Psychic",
+        "blind_type": "BOSS",
+        "target": 6400,
+        "score": 5732
+      }
+    },
+    {
+      "job_id": "43f6877913ebbd2a39b47400f8b0ea1306249cedca0cdb62935c9af375a7940b",
+      "status": "loss",
+      "money_curve": [
+        {
+          "ante": 1,
+          "round": 0,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 1
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 2
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 5
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 6
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 7
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "SHOP",
+          "money": 0,
+          "event_id": 8
+        },
+        {
+          "ante": 1,
+          "round": 1,
+          "phase": "BLIND_SELECT",
+          "money": 0,
+          "event_id": 9
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SELECTING_HAND",
+          "money": 0,
+          "event_id": 10
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "ROUND_EVAL",
+          "money": 0,
+          "event_id": 13
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 14
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "SHOP",
+          "money": 2,
+          "event_id": 15
+        },
+        {
+          "ante": 1,
+          "round": 2,
+          "phase": "BLIND_SELECT",
+          "money": 2,
+          "event_id": 16
+        },
+        {
+          "ante": 1,
+          "round": 3,
+          "phase": "SELECTING_HAND",
+          "money": 2,
+          "event_id": 17
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "ROUND_EVAL",
+          "money": 2,
+          "event_id": 18
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 11,
+          "event_id": 19
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "SHOP",
+          "money": 6,
+          "event_id": 20
+        },
+        {
+          "ante": 2,
+          "round": 3,
+          "phase": "BLIND_SELECT",
+          "money": 6,
+          "event_id": 21
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SELECTING_HAND",
+          "money": 6,
+          "event_id": 22
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "ROUND_EVAL",
+          "money": 6,
+          "event_id": 27
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 28
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 29
+        },
+        {
+          "ante": 2,
+          "round": 4,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 30
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 31
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "ROUND_EVAL",
+          "money": 4,
+          "event_id": 33
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 12,
+          "event_id": 34
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "SHOP",
+          "money": 7,
+          "event_id": 35
+        },
+        {
+          "ante": 2,
+          "round": 5,
+          "phase": "BLIND_SELECT",
+          "money": 7,
+          "event_id": 36
+        },
+        {
+          "ante": 2,
+          "round": 6,
+          "phase": "SELECTING_HAND",
+          "money": 7,
+          "event_id": 37
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "ROUND_EVAL",
+          "money": 7,
+          "event_id": 40
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "SHOP",
+          "money": 15,
+          "event_id": 41
+        },
+        {
+          "ante": 3,
+          "round": 6,
+          "phase": "BLIND_SELECT",
+          "money": 15,
+          "event_id": 42
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SELECTING_HAND",
+          "money": 15,
+          "event_id": 43
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "ROUND_EVAL",
+          "money": 15,
+          "event_id": 47
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 20,
+          "event_id": 48
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 14,
+          "event_id": 49
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 14,
+          "event_id": 50
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 9,
+          "event_id": 51
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "SHOP",
+          "money": 3,
+          "event_id": 52
+        },
+        {
+          "ante": 3,
+          "round": 7,
+          "phase": "BLIND_SELECT",
+          "money": 3,
+          "event_id": 53
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SELECTING_HAND",
+          "money": 3,
+          "event_id": 54
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "ROUND_EVAL",
+          "money": 3,
+          "event_id": 60
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 8,
+          "event_id": 61
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SMODS_BOOSTER_OPENED",
+          "money": 4,
+          "event_id": 62
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "SHOP",
+          "money": 4,
+          "event_id": 63
+        },
+        {
+          "ante": 3,
+          "round": 8,
+          "phase": "BLIND_SELECT",
+          "money": 4,
+          "event_id": 64
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "SELECTING_HAND",
+          "money": 4,
+          "event_id": 65
+        },
+        {
+          "ante": 3,
+          "round": 9,
+          "phase": "GAME_OVER",
+          "money": 4,
+          "event_id": 72
+        }
+      ],
+      "blind_boundary_money": [
+        {
+          "event_id": 2,
+          "event": "select",
+          "ante": 1,
+          "round": 1,
+          "money": 4
+        },
+        {
+          "event_id": 6,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 1,
+          "money": 7
+        },
+        {
+          "event_id": 10,
+          "event": "select",
+          "ante": 1,
+          "round": 2,
+          "money": 0
+        },
+        {
+          "event_id": 14,
+          "event": "cash_out",
+          "ante": 1,
+          "round": 2,
+          "money": 7
+        },
+        {
+          "event_id": 17,
+          "event": "select",
+          "ante": 1,
+          "round": 3,
+          "money": 2
+        },
+        {
+          "event_id": 19,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 3,
+          "money": 11
+        },
+        {
+          "event_id": 22,
+          "event": "select",
+          "ante": 2,
+          "round": 4,
+          "money": 6
+        },
+        {
+          "event_id": 28,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 4,
+          "money": 9
+        },
+        {
+          "event_id": 31,
+          "event": "select",
+          "ante": 2,
+          "round": 5,
+          "money": 4
+        },
+        {
+          "event_id": 34,
+          "event": "cash_out",
+          "ante": 2,
+          "round": 5,
+          "money": 12
+        },
+        {
+          "event_id": 37,
+          "event": "select",
+          "ante": 2,
+          "round": 6,
+          "money": 7
+        },
+        {
+          "event_id": 41,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 6,
+          "money": 15
+        },
+        {
+          "event_id": 43,
+          "event": "select",
+          "ante": 3,
+          "round": 7,
+          "money": 15
+        },
+        {
+          "event_id": 48,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 7,
+          "money": 20
+        },
+        {
+          "event_id": 54,
+          "event": "select",
+          "ante": 3,
+          "round": 8,
+          "money": 3
+        },
+        {
+          "event_id": 61,
+          "event": "cash_out",
+          "ante": 3,
+          "round": 8,
+          "money": 8
+        },
+        {
+          "event_id": 65,
+          "event": "select",
+          "ante": 3,
+          "round": 9,
+          "money": 4
+        }
+      ],
+      "shop_joker_rarity_offers": {
+        "1": 13,
+        "2": 1
+      },
+      "shop_joker_offer_denominator": 14,
+      "offers_by_area_key": {
+        "shop:j_odd_todd": 1,
+        "shop:j_splash": 1,
+        "vouchers:v_wasteful": 2,
+        "packs:p_buffoon_normal_2": 1,
+        "packs:p_standard_normal_2": 1,
+        "shop:j_wrathful_joker": 1,
+        "shop:j_gros_michel": 1,
+        "packs:p_standard_normal_3": 2,
+        "shop:j_red_card": 1,
+        "shop:j_runner": 1,
+        "vouchers:v_directors_cut": 3,
+        "packs:p_celestial_normal_2": 1,
+        "packs:p_spectral_jumbo_1": 1,
+        "shop:c_saturn": 2,
+        "shop:j_lusty_joker": 1,
+        "packs:p_celestial_normal_1": 1,
+        "packs:p_buffoon_mega_1": 1,
+        "shop:j_mail": 1,
+        "shop:j_banner": 1,
+        "packs:p_arcana_normal_4": 1,
+        "packs:p_arcana_normal_1": 1,
+        "shop:c_earth": 1,
+        "shop:c_neptune": 2,
+        "vouchers:v_planet_merchant": 3,
+        "packs:p_celestial_jumbo_1": 3,
+        "shop:c_venus": 1,
+        "packs:p_arcana_jumbo_1": 1,
+        "shop:j_gluttenous_joker": 1,
+        "shop:j_8_ball": 1,
+        "shop:j_greedy_joker": 1,
+        "shop:j_raised_fist": 1,
+        "shop:j_bull": 1,
+        "packs:p_standard_normal_4": 1,
+        "packs:p_celestial_normal_3": 1
+      },
+      "resolved_buy_actions_by_area_key": {
+        "shop:j_odd_todd": 1,
+        "shop:j_splash": 1,
+        "shop:j_gros_michel": 1,
+        "shop:j_red_card": 1,
+        "shop:j_lusty_joker": 1,
+        "shop:j_banner": 1,
+        "packs:p_celestial_jumbo_1": 1,
+        "packs:p_celestial_normal_3": 1
+      },
+      "fallback_identity_exposures": 0,
+      "unresolved_intents": 0,
+      "failure": {
+        "ante": 3,
+        "round": 9,
+        "blind": "The Psychic",
+        "blind_type": "BOSS",
+        "target": 6400,
+        "score": 6229
+      }
+    }
+  ]
+}

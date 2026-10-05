@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-05T04:22:48.766130+00:00",
+  "seed_id": 159,
+  "job_id": "43f6877913ebbd2a39b47400f8b0ea1306249cedca0cdb62935c9af375a7940b",
+  "old_worker": "formal-d",
+  "new_worker": "formal-f",
+  "new_identity": "Balatro-Lab-Headless-formal-f-cd3971cec8f1",
+  "policy_id": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+  "engine_hashes_match": true,
+  "reason": "Previous worker stopped after seed_id151 technical error. This assigned job was never started; failed jobs are not retried."
+}
