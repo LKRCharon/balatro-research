@@ -1,0 +1,363 @@
+{
+  "purpose": "paired_combat_ablation_train_only",
+  "strategy_winrate_eligible": false,
+  "published_commit": "775e01c4b617c2dfb716ced6d810bd378c094e11",
+  "seconds": 806.515999999945,
+  "planned": 8,
+  "completed": 8,
+  "status_counts": {
+    "loss": 8
+  },
+  "pairs": [
+    {
+      "seed_id": 16,
+      "route_v3": {
+        "status": "loss",
+        "ante": 8,
+        "actions": 261
+      },
+      "route_v4": {
+        "status": "loss",
+        "ante": 5,
+        "actions": 113
+      }
+    },
+    {
+      "seed_id": 17,
+      "route_v3": {
+        "status": "loss",
+        "ante": 1,
+        "actions": 8
+      },
+      "route_v4": {
+        "status": "loss",
+        "ante": 2,
+        "actions": 53
+      }
+    },
+    {
+      "seed_id": 18,
+      "route_v3": {
+        "status": "loss",
+        "ante": 6,
+        "actions": 171
+      },
+      "route_v4": {
+        "status": "loss",
+        "ante": 6,
+        "actions": 171
+      }
+    },
+    {
+      "seed_id": 19,
+      "route_v3": {
+        "status": "loss",
+        "ante": 4,
+        "actions": 85
+      },
+      "route_v4": {
+        "status": "loss",
+        "ante": 5,
+        "actions": 100
+      }
+    }
+  ],
+  "not_run": [],
+  "results": [
+    {
+      "job_id": "train-17-route_v3",
+      "purpose": "paired_combat_ablation_train_only",
+      "strategy_winrate_eligible": false,
+      "seed_id": 17,
+      "commitment": "d6ca6b2fa5484456a596109a8d3bd888d3d0476cab24ff8a024ff3575bb200d6",
+      "policy": "route_v3",
+      "policy_digest": "f49ad0cceda9dec992efc5d9c650ed4d62b82547d1f394a69520465af76a90d7",
+      "engine_digest": "dc30113c15c0b344b3bea3851f4124a1ac45bb39fc1b77f32acba28ebb06c4f1",
+      "status": "loss",
+      "terminal": true,
+      "ante": 1,
+      "actions": 8,
+      "counts": {
+        "select": 1,
+        "discard": 2,
+        "play": 5
+      },
+      "errors": [],
+      "solver_counts": {
+        "combat_decisions": 7
+      },
+      "seconds": 11.718999999924563,
+      "prediction_checks": 5,
+      "prediction_mismatches": []
+    },
+    {
+      "job_id": "train-17-route_v4",
+      "purpose": "paired_combat_ablation_train_only",
+      "strategy_winrate_eligible": false,
+      "seed_id": 17,
+      "commitment": "d6ca6b2fa5484456a596109a8d3bd888d3d0476cab24ff8a024ff3575bb200d6",
+      "policy": "route_v4",
+      "policy_digest": "d72547742c8117a0fb60106c1b4e47d9481882439301a7d732e38be456d236e2",
+      "engine_digest": "dc30113c15c0b344b3bea3851f4124a1ac45bb39fc1b77f32acba28ebb06c4f1",
+      "status": "loss",
+      "terminal": true,
+      "ante": 2,
+      "actions": 53,
+      "counts": {
+        "select": 6,
+        "discard": 15,
+        "play": 13,
+        "cash_out": 5,
+        "buy": 6,
+        "pack": 2,
+        "next_round": 5,
+        "reroll": 1
+      },
+      "errors": [],
+      "solver_counts": {
+        "decisions_with_diagnostics": 53,
+        "combat_decisions": 28,
+        "attempted": 28,
+        "supported": 2,
+        "used": 1,
+        "action_changed": 1,
+        "fallback": 27,
+        "fallback_reason:already_winning": 1,
+        "fallback_reason:mutable_or_unmodeled_jokers:j_drunkard": 4,
+        "fallback_reason:mutable_or_unmodeled_jokers:j_bloodstone,j_drunkard": 14,
+        "fallback_reason:mutable_or_unmodeled_jokers:j_bloodstone,j_drunkard,j_swashbuckler": 8
+      },
+      "seconds": 135.64000000001397,
+      "prediction_checks": 3,
+      "prediction_mismatches": []
+    },
+    {
+      "job_id": "train-16-route_v4",
+      "purpose": "paired_combat_ablation_train_only",
+      "strategy_winrate_eligible": false,
+      "seed_id": 16,
+      "commitment": "525668b2ba9e5f8e41efdb7a0a4743937f24126afb5b92009f5a13807746e787",
+      "policy": "route_v4",
+      "policy_digest": "d72547742c8117a0fb60106c1b4e47d9481882439301a7d732e38be456d236e2",
+      "engine_digest": "dc30113c15c0b344b3bea3851f4124a1ac45bb39fc1b77f32acba28ebb06c4f1",
+      "status": "loss",
+      "terminal": true,
+      "ante": 5,
+      "actions": 113,
+      "counts": {
+        "select": 14,
+        "play": 38,
+        "cash_out": 13,
+        "buy": 17,
+        "next_round": 13,
+        "discard": 4,
+        "pack": 5,
+        "sell": 5,
+        "reroll": 4
+      },
+      "errors": [],
+      "solver_counts": {
+        "decisions_with_diagnostics": 113,
+        "combat_decisions": 42,
+        "attempted": 42,
+        "supported": 8,
+        "used": 4,
+        "action_changed": 3,
+        "fallback": 38,
+        "fallback_reason:already_winning": 4,
+        "fallback_reason:mutable_or_unmodeled_jokers:j_green_joker": 5,
+        "fallback_reason:mutable_or_unmodeled_jokers:j_green_joker,j_gros_michel": 2,
+        "fallback_reason:mutable_or_unmodeled_jokers:j_green_joker,j_gros_michel,j_supernova": 3,
+        "fallback_reason:mutable_or_unmodeled_jokers:j_green_joker,j_supernova,j_trousers": 24
+      },
+      "seconds": 333.155999999959,
+      "prediction_checks": 38,
+      "prediction_mismatches": []
+    },
+    {
+      "job_id": "train-18-route_v3",
+      "purpose": "paired_combat_ablation_train_only",
+      "strategy_winrate_eligible": false,
+      "seed_id": 18,
+      "commitment": "bdf4ef2fbf2bace4d247426c7ef98c5671a36fdf31b0484785f875890df9d605",
+      "policy": "route_v3",
+      "policy_digest": "f49ad0cceda9dec992efc5d9c650ed4d62b82547d1f394a69520465af76a90d7",
+      "engine_digest": "dc30113c15c0b344b3bea3851f4124a1ac45bb39fc1b77f32acba28ebb06c4f1",
+      "status": "loss",
+      "terminal": true,
+      "ante": 6,
+      "actions": 171,
+      "counts": {
+        "select": 18,
+        "discard": 7,
+        "play": 59,
+        "cash_out": 17,
+        "buy": 22,
+        "next_round": 17,
+        "pack": 14,
+        "rearrange": 2,
+        "sell": 2,
+        "reroll": 13
+      },
+      "errors": [],
+      "solver_counts": {
+        "combat_decisions": 66
+      },
+      "seconds": 406.2969999999041,
+      "prediction_checks": 57,
+      "prediction_mismatches": []
+    },
+    {
+      "job_id": "train-18-route_v4",
+      "purpose": "paired_combat_ablation_train_only",
+      "strategy_winrate_eligible": false,
+      "seed_id": 18,
+      "commitment": "bdf4ef2fbf2bace4d247426c7ef98c5671a36fdf31b0484785f875890df9d605",
+      "policy": "route_v4",
+      "policy_digest": "d72547742c8117a0fb60106c1b4e47d9481882439301a7d732e38be456d236e2",
+      "engine_digest": "dc30113c15c0b344b3bea3851f4124a1ac45bb39fc1b77f32acba28ebb06c4f1",
+      "status": "loss",
+      "terminal": true,
+      "ante": 6,
+      "actions": 171,
+      "counts": {
+        "select": 18,
+        "discard": 7,
+        "play": 59,
+        "cash_out": 17,
+        "buy": 22,
+        "next_round": 17,
+        "pack": 14,
+        "rearrange": 2,
+        "sell": 2,
+        "reroll": 13
+      },
+      "errors": [],
+      "solver_counts": {
+        "decisions_with_diagnostics": 171,
+        "combat_decisions": 66,
+        "attempted": 66,
+        "supported": 2,
+        "used": 1,
+        "fallback": 65,
+        "fallback_reason:already_winning": 1,
+        "fallback_reason:mutable_or_unmodeled_jokers:j_green_joker": 7,
+        "fallback_reason:mutable_or_unmodeled_jokers:j_green_joker,j_raised_fist": 47,
+        "fallback_reason:mutable_or_unmodeled_jokers:j_green_joker,j_raised_fist,j_to_the_moon": 7,
+        "fallback_reason:hidden_identity": 3
+      },
+      "seconds": 474.8429999999935,
+      "prediction_checks": 57,
+      "prediction_mismatches": []
+    },
+    {
+      "job_id": "train-19-route_v3",
+      "purpose": "paired_combat_ablation_train_only",
+      "strategy_winrate_eligible": false,
+      "seed_id": 19,
+      "commitment": "365e2f0e1e3b934a66ad461f36edadf7d0c61b671e333c96a52571de06b2f9b2",
+      "policy": "route_v3",
+      "policy_digest": "f49ad0cceda9dec992efc5d9c650ed4d62b82547d1f394a69520465af76a90d7",
+      "engine_digest": "dc30113c15c0b344b3bea3851f4124a1ac45bb39fc1b77f32acba28ebb06c4f1",
+      "status": "loss",
+      "terminal": true,
+      "ante": 4,
+      "actions": 85,
+      "counts": {
+        "select": 11,
+        "discard": 11,
+        "play": 21,
+        "cash_out": 10,
+        "buy": 10,
+        "pack": 3,
+        "next_round": 10,
+        "rearrange": 6,
+        "sell": 3
+      },
+      "errors": [],
+      "solver_counts": {
+        "combat_decisions": 38
+      },
+      "seconds": 278.28100000007544,
+      "prediction_checks": 20,
+      "prediction_mismatches": []
+    },
+    {
+      "job_id": "train-16-route_v3",
+      "purpose": "paired_combat_ablation_train_only",
+      "strategy_winrate_eligible": false,
+      "seed_id": 16,
+      "commitment": "525668b2ba9e5f8e41efdb7a0a4743937f24126afb5b92009f5a13807746e787",
+      "policy": "route_v3",
+      "policy_digest": "f49ad0cceda9dec992efc5d9c650ed4d62b82547d1f394a69520465af76a90d7",
+      "engine_digest": "dc30113c15c0b344b3bea3851f4124a1ac45bb39fc1b77f32acba28ebb06c4f1",
+      "status": "loss",
+      "terminal": true,
+      "ante": 8,
+      "actions": 261,
+      "counts": {
+        "select": 23,
+        "discard": 12,
+        "play": 74,
+        "cash_out": 22,
+        "buy": 42,
+        "pack": 28,
+        "next_round": 22,
+        "sell": 7,
+        "reroll": 25,
+        "use": 3,
+        "rearrange": 3
+      },
+      "errors": [],
+      "solver_counts": {
+        "combat_decisions": 88
+      },
+      "seconds": 721.109000000055,
+      "prediction_checks": 69,
+      "prediction_mismatches": []
+    },
+    {
+      "job_id": "train-19-route_v4",
+      "purpose": "paired_combat_ablation_train_only",
+      "strategy_winrate_eligible": false,
+      "seed_id": 19,
+      "commitment": "365e2f0e1e3b934a66ad461f36edadf7d0c61b671e333c96a52571de06b2f9b2",
+      "policy": "route_v4",
+      "policy_digest": "d72547742c8117a0fb60106c1b4e47d9481882439301a7d732e38be456d236e2",
+      "engine_digest": "dc30113c15c0b344b3bea3851f4124a1ac45bb39fc1b77f32acba28ebb06c4f1",
+      "status": "loss",
+      "terminal": true,
+      "ante": 5,
+      "actions": 100,
+      "counts": {
+        "select": 13,
+        "discard": 13,
+        "play": 25,
+        "cash_out": 12,
+        "buy": 11,
+        "pack": 3,
+        "next_round": 12,
+        "rearrange": 8,
+        "sell": 3
+      },
+      "errors": [],
+      "solver_counts": {
+        "decisions_with_diagnostics": 100,
+        "combat_decisions": 46,
+        "attempted": 39,
+        "supported": 35,
+        "used": 24,
+        "action_changed": 15,
+        "fallback": 22,
+        "fallback_reason:already_winning": 10,
+        "fallback_reason:hidden_identity": 2,
+        "fallback_reason:phase_or_consumable": 7,
+        "fallback_reason:unmodeled_boss:The Tooth": 2,
+        "fallback_reason:preserve_special_action": 1
+      },
+      "seconds": 385.5,
+      "prediction_checks": 24,
+      "prediction_mismatches": []
+    }
+  ]
+}

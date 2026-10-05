@@ -1,0 +1,125 @@
+{
+  "checked_utc": "2026-10-05T05:16:45.616647+00:00",
+  "phase": "campaign_running_snapshot",
+  "protocol_source_export_byte_identical": true,
+  "policy_files": {
+    "route_v3": {
+      "source": {
+        "checked": 16,
+        "mismatches": []
+      },
+      "export": {
+        "checked": 16,
+        "mismatches": []
+      }
+    },
+    "route_v4": {
+      "source": {
+        "checked": 17,
+        "mismatches": []
+      },
+      "export": {
+        "checked": 17,
+        "mismatches": []
+      }
+    }
+  },
+  "dependency_files": {
+    "source": {
+      "checked": 19,
+      "mismatches": []
+    },
+    "export": {
+      "checked": 19,
+      "mismatches": []
+    }
+  },
+  "engines": [
+    {
+      "worker": 0,
+      "manifest_unchanged": true,
+      "input_map_matches_protocol": true,
+      "input_files": {
+        "checked": 787,
+        "mismatches": []
+      },
+      "readiness_version": 3
+    },
+    {
+      "worker": 1,
+      "manifest_unchanged": true,
+      "input_map_matches_protocol": true,
+      "input_files": {
+        "checked": 787,
+        "mismatches": []
+      },
+      "readiness_version": 3
+    },
+    {
+      "worker": 2,
+      "manifest_unchanged": true,
+      "input_map_matches_protocol": true,
+      "input_files": {
+        "checked": 787,
+        "mismatches": []
+      },
+      "readiness_version": 3
+    },
+    {
+      "worker": 3,
+      "manifest_unchanged": true,
+      "input_map_matches_protocol": true,
+      "input_files": {
+        "checked": 787,
+        "mismatches": []
+      },
+      "readiness_version": 3
+    }
+  ],
+  "original_save_checks": {
+    "settings.jkr": true,
+    "steam_autocloud.vdf": true,
+    "1/meta.jkr": true,
+    "1/profile.jkr": true
+  },
+  "original_saves_unchanged": true,
+  "seed_bindings": [
+    {
+      "job_id": "train-16-route_v3",
+      "registered_train_and_commitment_matches": true
+    },
+    {
+      "job_id": "train-16-route_v4",
+      "registered_train_and_commitment_matches": true
+    },
+    {
+      "job_id": "train-17-route_v3",
+      "registered_train_and_commitment_matches": true
+    },
+    {
+      "job_id": "train-17-route_v4",
+      "registered_train_and_commitment_matches": true
+    },
+    {
+      "job_id": "train-18-route_v3",
+      "registered_train_and_commitment_matches": true
+    },
+    {
+      "job_id": "train-18-route_v4",
+      "registered_train_and_commitment_matches": true
+    },
+    {
+      "job_id": "train-19-route_v3",
+      "registered_train_and_commitment_matches": true
+    },
+    {
+      "job_id": "train-19-route_v4",
+      "registered_train_and_commitment_matches": true
+    }
+  ],
+  "registry_test_jobs": 0,
+  "registry_test_campaigns": 0,
+  "test_seed_values_read": false,
+  "scope": "Read-only integrity snapshot; this file does not assert campaign completion.",
+  "passed": true
+}

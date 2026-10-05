@@ -1,0 +1,19 @@
+{
+  "audit": "passed",
+  "jobs": 8,
+  "true_terminals": 8,
+  "completed_actions": 962,
+  "status_counts": {
+    "loss": 8
+  },
+  "each_job_claimed_started_and_completed_once": true,
+  "public_observation_key_audit": "passed",
+  "policies_and_runner_frozen": "passed",
+  "growth_code_unchanged": true,
+  "old_formal_source_files_verified": 15,
+  "old_formal_context_files_verified": 236,
+  "original_save_files_unchanged": 4,
+  "test_campaigns": 0,
+  "published_commit": "775e01c4b617c2dfb716ced6d810bd378c094e11",
+  "scope": "Structural trace/source audit, not proof of exact mechanics or globally optimal combat."
+}

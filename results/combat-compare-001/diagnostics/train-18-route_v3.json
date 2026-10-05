@@ -1,0 +1,115 @@
+{
+  "job_id": "train-18-route_v3",
+  "seed_id": 18,
+  "policy": "route_v3",
+  "status": "loss",
+  "ante": 6,
+  "coverage": {
+    "combat_decisions": 66,
+    "attempted": 0,
+    "supported": 0,
+    "used": 0,
+    "action_changed": 0
+  },
+  "combat_fallback_reasons": {},
+  "last_blind": {
+    "round_num": 18,
+    "name": "The Pillar",
+    "target": 120000,
+    "is_failed_blind": true,
+    "decisions": [
+      {
+        "action": 165,
+        "method": "discard",
+        "remaining_score": 120000,
+        "hands_left": 6,
+        "discards_left": 2,
+        "chosen_immediate_model_score": null,
+        "best_immediate_model_score": 12800,
+        "myopic_score_gap": null,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 166,
+        "method": "play",
+        "remaining_score": 120000,
+        "hands_left": 6,
+        "discards_left": 1,
+        "chosen_immediate_model_score": 18960,
+        "best_immediate_model_score": 18960,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 167,
+        "method": "play",
+        "remaining_score": 101040,
+        "hands_left": 5,
+        "discards_left": 1,
+        "chosen_immediate_model_score": 19200,
+        "best_immediate_model_score": 19200,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 168,
+        "method": "play",
+        "remaining_score": 81840,
+        "hands_left": 4,
+        "discards_left": 1,
+        "chosen_immediate_model_score": 17982,
+        "best_immediate_model_score": 17982,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 169,
+        "method": "play",
+        "remaining_score": 63858,
+        "hands_left": 3,
+        "discards_left": 1,
+        "chosen_immediate_model_score": 17384,
+        "best_immediate_model_score": 17384,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 170,
+        "method": "play",
+        "remaining_score": 46474,
+        "hands_left": 2,
+        "discards_left": 1,
+        "chosen_immediate_model_score": 18260,
+        "best_immediate_model_score": 18260,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 171,
+        "method": "play",
+        "remaining_score": 28214,
+        "hands_left": 1,
+        "discards_left": 1,
+        "chosen_immediate_model_score": 18144,
+        "best_immediate_model_score": 18144,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      }
+    ]
+  },
+  "interpretation": "Myopic score gaps use the frozen scorer at visited public states. A gap may buy draws, economy or future value. It is not counterfactual engine regret, an optimal survival bound, or proof that another action would win."
+}

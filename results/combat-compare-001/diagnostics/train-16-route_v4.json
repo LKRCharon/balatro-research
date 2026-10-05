@@ -1,0 +1,145 @@
+{
+  "job_id": "train-16-route_v4",
+  "seed_id": 16,
+  "policy": "route_v4",
+  "status": "loss",
+  "ante": 5,
+  "coverage": {
+    "combat_decisions": 42,
+    "attempted": 42,
+    "supported": 8,
+    "used": 4,
+    "action_changed": 3
+  },
+  "combat_fallback_reasons": {
+    "already_winning": 4,
+    "mutable_or_unmodeled_jokers:j_green_joker": 5,
+    "mutable_or_unmodeled_jokers:j_green_joker,j_gros_michel": 2,
+    "mutable_or_unmodeled_jokers:j_green_joker,j_gros_michel,j_supernova": 3,
+    "mutable_or_unmodeled_jokers:j_green_joker,j_supernova,j_trousers": 24
+  },
+  "last_blind": {
+    "round_num": 14,
+    "name": "Big Blind",
+    "target": 37500,
+    "is_failed_blind": true,
+    "decisions": [
+      {
+        "action": 109,
+        "method": "play",
+        "remaining_score": 37500,
+        "hands_left": 5,
+        "discards_left": 2,
+        "chosen_immediate_model_score": 6930,
+        "best_immediate_model_score": 6930,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": {
+          "attempted": true,
+          "supported": false,
+          "fallback_reason": "mutable_or_unmodeled_jokers:j_green_joker,j_supernova,j_trousers",
+          "used": false,
+          "action_changed": false,
+          "candidate_count": 0,
+          "samples": 0,
+          "estimated_two_action_clear_fraction": null,
+          "elapsed_seconds": 0.0
+        }
+      },
+      {
+        "action": 110,
+        "method": "play",
+        "remaining_score": 30570,
+        "hands_left": 4,
+        "discards_left": 2,
+        "chosen_immediate_model_score": 6048,
+        "best_immediate_model_score": 6048,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": {
+          "attempted": true,
+          "supported": false,
+          "fallback_reason": "mutable_or_unmodeled_jokers:j_green_joker,j_supernova,j_trousers",
+          "used": false,
+          "action_changed": false,
+          "candidate_count": 0,
+          "samples": 0,
+          "estimated_two_action_clear_fraction": null,
+          "elapsed_seconds": 0.0
+        }
+      },
+      {
+        "action": 111,
+        "method": "play",
+        "remaining_score": 24522,
+        "hands_left": 3,
+        "discards_left": 2,
+        "chosen_immediate_model_score": 7176,
+        "best_immediate_model_score": 7176,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": {
+          "attempted": true,
+          "supported": false,
+          "fallback_reason": "mutable_or_unmodeled_jokers:j_green_joker,j_supernova,j_trousers",
+          "used": false,
+          "action_changed": false,
+          "candidate_count": 0,
+          "samples": 0,
+          "estimated_two_action_clear_fraction": null,
+          "elapsed_seconds": 0.0
+        }
+      },
+      {
+        "action": 112,
+        "method": "play",
+        "remaining_score": 17346,
+        "hands_left": 2,
+        "discards_left": 2,
+        "chosen_immediate_model_score": 8000,
+        "best_immediate_model_score": 8000,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": {
+          "attempted": true,
+          "supported": false,
+          "fallback_reason": "mutable_or_unmodeled_jokers:j_green_joker,j_supernova,j_trousers",
+          "used": false,
+          "action_changed": false,
+          "candidate_count": 0,
+          "samples": 0,
+          "estimated_two_action_clear_fraction": null,
+          "elapsed_seconds": 0.0
+        }
+      },
+      {
+        "action": 113,
+        "method": "play",
+        "remaining_score": 9346,
+        "hands_left": 1,
+        "discards_left": 2,
+        "chosen_immediate_model_score": 6708,
+        "best_immediate_model_score": 6708,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": {
+          "attempted": true,
+          "supported": false,
+          "fallback_reason": "mutable_or_unmodeled_jokers:j_green_joker,j_supernova,j_trousers",
+          "used": false,
+          "action_changed": false,
+          "candidate_count": 0,
+          "samples": 0,
+          "estimated_two_action_clear_fraction": null,
+          "elapsed_seconds": 0.0
+        }
+      }
+    ]
+  },
+  "interpretation": "Myopic score gaps use the frozen scorer at visited public states. A gap may buy draws, economy or future value. It is not counterfactual engine regret, an optimal survival bound, or proof that another action would win."
+}

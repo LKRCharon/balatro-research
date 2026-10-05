@@ -1,0 +1,98 @@
+{
+  "combat_coverage": {
+    "combat_decisions": 182,
+    "attempted": 175,
+    "supported": 47,
+    "used": 30,
+    "action_changed": 19
+  },
+  "coverage_denominator": "all182 SELECTING_HAND decisions; not all game actions",
+  "fallback_reasons": {
+    "already_winning": 16,
+    "mutable_or_unmodeled_jokers:j_green_joker": 12,
+    "mutable_or_unmodeled_jokers:j_green_joker,j_gros_michel": 2,
+    "mutable_or_unmodeled_jokers:j_green_joker,j_gros_michel,j_supernova": 3,
+    "mutable_or_unmodeled_jokers:j_green_joker,j_supernova,j_trousers": 24,
+    "mutable_or_unmodeled_jokers:j_drunkard": 4,
+    "mutable_or_unmodeled_jokers:j_bloodstone,j_drunkard": 14,
+    "mutable_or_unmodeled_jokers:j_bloodstone,j_drunkard,j_swashbuckler": 8,
+    "mutable_or_unmodeled_jokers:j_green_joker,j_raised_fist": 47,
+    "mutable_or_unmodeled_jokers:j_green_joker,j_raised_fist,j_to_the_moon": 7,
+    "hidden_identity": 5,
+    "phase_or_consumable": 7,
+    "unmodeled_boss:The Tooth": 2,
+    "preserve_special_action": 1
+  },
+  "failed_blind_diagnostics": [
+    {
+      "job_id": "train-16-route_v3",
+      "failed_blind": "Big Blind",
+      "positive_myopic_gaps": 0,
+      "max_myopic_gap": 0,
+      "uncertain_decisions": 0,
+      "model_immediate_clear_available": 0
+    },
+    {
+      "job_id": "train-16-route_v4",
+      "failed_blind": "Big Blind",
+      "positive_myopic_gaps": 0,
+      "max_myopic_gap": 0,
+      "uncertain_decisions": 0,
+      "model_immediate_clear_available": 0
+    },
+    {
+      "job_id": "train-17-route_v3",
+      "failed_blind": "Small Blind",
+      "positive_myopic_gaps": 0,
+      "max_myopic_gap": 0,
+      "uncertain_decisions": 0,
+      "model_immediate_clear_available": 0
+    },
+    {
+      "job_id": "train-17-route_v4",
+      "failed_blind": "The Wall",
+      "positive_myopic_gaps": 0,
+      "max_myopic_gap": 0,
+      "uncertain_decisions": 8,
+      "model_immediate_clear_available": 0
+    },
+    {
+      "job_id": "train-18-route_v3",
+      "failed_blind": "The Pillar",
+      "positive_myopic_gaps": 0,
+      "max_myopic_gap": 0,
+      "uncertain_decisions": 0,
+      "model_immediate_clear_available": 0
+    },
+    {
+      "job_id": "train-18-route_v4",
+      "failed_blind": "The Pillar",
+      "positive_myopic_gaps": 0,
+      "max_myopic_gap": 0,
+      "uncertain_decisions": 0,
+      "model_immediate_clear_available": 0
+    },
+    {
+      "job_id": "train-19-route_v3",
+      "failed_blind": "Big Blind",
+      "positive_myopic_gaps": 0,
+      "max_myopic_gap": 0,
+      "uncertain_decisions": 0,
+      "model_immediate_clear_available": 0
+    },
+    {
+      "job_id": "train-19-route_v4",
+      "failed_blind": "Small Blind",
+      "positive_myopic_gaps": 0,
+      "max_myopic_gap": 0,
+      "uncertain_decisions": 0,
+      "model_immediate_clear_available": 0
+    }
+  ],
+  "no_global_regret_claim": true,
+  "no_growth_only_bottleneck_claim": true,
+  "tests": {
+    "independent_tiny_world_oracles": 5,
+    "scheduler_tests": 6
+  }
+}

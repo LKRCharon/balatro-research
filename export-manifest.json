@@ -91,6 +91,12 @@
       "transformation": null
     },
     {
+      "path": "experiments/audit_combat_compare.py",
+      "source_sha256": "b1b05a32620a8889db37a5b5c1ffce4bf28842443c5414b43838aae809118aa0",
+      "export_sha256": "b1b05a32620a8889db37a5b5c1ffce4bf28842443c5414b43838aae809118aa0",
+      "transformation": null
+    },
+    {
       "path": "experiments/audit_formal_result.py",
       "source_sha256": "7a903a49b55499c7b116005844880533bca48212f9fe1f21b5f478506f57b358",
       "export_sha256": "7a903a49b55499c7b116005844880533bca48212f9fe1f21b5f478506f57b358",
@@ -118,6 +124,12 @@
       "path": "experiments/calibrate_v2.py",
       "source_sha256": "bb81de1b506916d16edfbd8dd7bd8aef3e56c2e32e7d2500d629837d5a0f3bf8",
       "export_sha256": "bb81de1b506916d16edfbd8dd7bd8aef3e56c2e32e7d2500d629837d5a0f3bf8",
+      "transformation": null
+    },
+    {
+      "path": "experiments/combat_diagnostics.py",
+      "source_sha256": "7b5d68ecc58176814bef6052644fd56f508266978e4c2022e05986e7c57de313",
+      "export_sha256": "7b5d68ecc58176814bef6052644fd56f508266978e4c2022e05986e7c57de313",
       "transformation": null
     },
     {
@@ -637,6 +649,12 @@
       "transformation": null
     },
     {
+      "path": "headless/hybrid_session.py",
+      "source_sha256": "ded0781faf6e4ea5168c6ae08d997831da87e94bcfc8b1dfbf05be5fc2b57a74",
+      "export_sha256": "ded0781faf6e4ea5168c6ae08d997831da87e94bcfc8b1dfbf05be5fc2b57a74",
+      "transformation": null
+    },
+    {
       "path": "headless/isolation.py",
       "source_sha256": "1f105578e46f5f9a7ed373fedf3a3a8175fd94268f667cb3a92d2bd4109ca743",
       "export_sha256": "1f105578e46f5f9a7ed373fedf3a3a8175fd94268f667cb3a92d2bd4109ca743",
@@ -667,6 +685,12 @@
       "transformation": null
     },
     {
+      "path": "headless/summarize_trace.py",
+      "source_sha256": "b300694921de1b80741c9a52eaaa8a7084f8b493837a3e2e28eb30eec89d42d7",
+      "export_sha256": "b300694921de1b80741c9a52eaaa8a7084f8b493837a3e2e28eb30eec89d42d7",
+      "transformation": null
+    },
+    {
       "path": "headless/test_combat_compare.py",
       "source_sha256": "eb5fe7d1c68397470321534e537e8265c416e3ac1809a0204713db5a0f1884a2",
       "export_sha256": "eb5fe7d1c68397470321534e537e8265c416e3ac1809a0204713db5a0f1884a2",
@@ -679,6 +703,12 @@
       "transformation": null
     },
     {
+      "path": "headless/test_hybrid_session.py",
+      "source_sha256": "b88a93f9a14d3ec5247dab8023fdedd377f5e1bd80b7cab3a55679943d7530db",
+      "export_sha256": "b88a93f9a14d3ec5247dab8023fdedd377f5e1bd80b7cab3a55679943d7530db",
+      "transformation": null
+    },
+    {
       "path": "headless/test_isolation.py",
       "source_sha256": "996b7a15e4e9a600b643d65cd18a62aa4e3dbbd5caa4fe5e30f95ee992a92b06",
       "export_sha256": "996b7a15e4e9a600b643d65cd18a62aa4e3dbbd5caa4fe5e30f95ee992a92b06",
@@ -688,6 +718,12 @@
       "path": "headless/test_run_seeds.py",
       "source_sha256": "2fe5e3025099026988bd4f46fe8353b29c7f21956f3c151d80c4e904baade915",
       "export_sha256": "2fe5e3025099026988bd4f46fe8353b29c7f21956f3c151d80c4e904baade915",
+      "transformation": null
+    },
+    {
+      "path": "headless/test_summarize_trace.py",
+      "source_sha256": "4f090d91e7b5484b02ea6e2e12627ee208073f7d8e55e8d0ef70368545151429",
+      "export_sha256": "4f090d91e7b5484b02ea6e2e12627ee208073f7d8e55e8d0ef70368545151429",
       "transformation": null
     },
     {

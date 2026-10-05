@@ -1,0 +1,115 @@
+{
+  "job_id": "train-17-route_v3",
+  "seed_id": 17,
+  "policy": "route_v3",
+  "status": "loss",
+  "ante": 1,
+  "coverage": {
+    "combat_decisions": 7,
+    "attempted": 0,
+    "supported": 0,
+    "used": 0,
+    "action_changed": 0
+  },
+  "combat_fallback_reasons": {},
+  "last_blind": {
+    "round_num": 1,
+    "name": "Small Blind",
+    "target": 300,
+    "is_failed_blind": true,
+    "decisions": [
+      {
+        "action": 2,
+        "method": "discard",
+        "remaining_score": 300,
+        "hands_left": 5,
+        "discards_left": 2,
+        "chosen_immediate_model_score": null,
+        "best_immediate_model_score": 96,
+        "myopic_score_gap": null,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 3,
+        "method": "discard",
+        "remaining_score": 300,
+        "hands_left": 5,
+        "discards_left": 1,
+        "chosen_immediate_model_score": null,
+        "best_immediate_model_score": 60,
+        "myopic_score_gap": null,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 4,
+        "method": "play",
+        "remaining_score": 300,
+        "hands_left": 5,
+        "discards_left": 0,
+        "chosen_immediate_model_score": 120,
+        "best_immediate_model_score": 120,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 5,
+        "method": "play",
+        "remaining_score": 180,
+        "hands_left": 4,
+        "discards_left": 0,
+        "chosen_immediate_model_score": 112,
+        "best_immediate_model_score": 112,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 6,
+        "method": "play",
+        "remaining_score": 68,
+        "hands_left": 3,
+        "discards_left": 0,
+        "chosen_immediate_model_score": 16,
+        "best_immediate_model_score": 16,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 7,
+        "method": "play",
+        "remaining_score": 52,
+        "hands_left": 2,
+        "discards_left": 0,
+        "chosen_immediate_model_score": 16,
+        "best_immediate_model_score": 16,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      },
+      {
+        "action": 8,
+        "method": "play",
+        "remaining_score": 36,
+        "hands_left": 1,
+        "discards_left": 0,
+        "chosen_immediate_model_score": 15,
+        "best_immediate_model_score": 15,
+        "myopic_score_gap": 0,
+        "model_uncertain": false,
+        "model_immediate_clear_available": false,
+        "solver_diagnostics": null
+      }
+    ]
+  },
+  "interpretation": "Myopic score gaps use the frozen scorer at visited public states. A gap may buy draws, economy or future value. It is not counterfactual engine regret, an optimal survival bound, or proof that another action would win."
+}

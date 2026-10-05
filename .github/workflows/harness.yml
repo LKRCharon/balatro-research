@@ -24,6 +24,12 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Telemetry accounting
         run: python -m unittest discover -s tools -p test_summarize_evaluation.py -v
+      - name: Hybrid boundaries and trace accounting
+        run: |
+          python -m unittest discover -s outputs/balatro-lab/headless -p test_hybrid_session.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/headless -p test_summarize_trace.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Frozen candidate integrity
         run: python tools/verify_frozen.py
       - name: Combat comparison regressions
