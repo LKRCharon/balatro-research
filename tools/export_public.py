@@ -25,7 +25,7 @@ def main():
     files.extend((source / 'headless/kernel').glob('*.py'))
     files.append(source / 'scripts/lua_bridge.py')
     for folder in (source / 'experiments/policies').iterdir():
-        if folder.is_dir() and (folder.name in ('route_v2', 'route_v3') or folder.name.startswith('formal_public_route_v2_')):
+        if folder.is_dir() and (folder.name in ('route_v2', 'route_v3', 'route_v4') or folder.name.startswith('formal_public_route_v2_')):
             files.extend(folder.glob('*.py'))
             files.extend(folder.glob('joker_specs.json'))
     manifest = []

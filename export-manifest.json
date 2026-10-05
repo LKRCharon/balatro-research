@@ -439,6 +439,108 @@
       "transformation": null
     },
     {
+      "path": "experiments/policies/route_v4/advisor.py",
+      "source_sha256": "84f2434ae87f79bf564a9ab89413bc38af8468e374ce75fdc840f3fbe5427964",
+      "export_sha256": "84f2434ae87f79bf564a9ab89413bc38af8468e374ce75fdc840f3fbe5427964",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/balatro_cli.py",
+      "source_sha256": "f37d386c080043724f2cf074bb66dc49e96fdf36e392ba0308fc7077dcf98d88",
+      "export_sha256": "f37d386c080043724f2cf074bb66dc49e96fdf36e392ba0308fc7077dcf98d88",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/belief.py",
+      "source_sha256": "b660549660a598bc1a7eb3a7d0877ea8b5da1eb03dcc342439aa85e60f488224",
+      "export_sha256": "b660549660a598bc1a7eb3a7d0877ea8b5da1eb03dcc342439aa85e60f488224",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/combat.py",
+      "source_sha256": "5f71f520770f352712c528f2d15cc4a3b898084f6593a8a4fc2f5f9e6411a5d2",
+      "export_sha256": "5f71f520770f352712c528f2d15cc4a3b898084f6593a8a4fc2f5f9e6411a5d2",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/consumables.py",
+      "source_sha256": "0433e783b57f281b1633fc60583b8cb440f96b2eacf78ce50e4e3ff225d18ecb",
+      "export_sha256": "0433e783b57f281b1633fc60583b8cb440f96b2eacf78ce50e4e3ff225d18ecb",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/copying.py",
+      "source_sha256": "61fb1ce832ccb26d24001e5f887f6cf7203dfbed3e8097b851616d76c56501be",
+      "export_sha256": "61fb1ce832ccb26d24001e5f887f6cf7203dfbed3e8097b851616d76c56501be",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/execution.py",
+      "source_sha256": "673f61a141a3c184788033d7e886f94d62d98bd7ecec6f67a7445c21dff5ff43",
+      "export_sha256": "673f61a141a3c184788033d7e886f94d62d98bd7ecec6f67a7445c21dff5ff43",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/forecast.py",
+      "source_sha256": "aac66450795367057182d61c165fb3aa04ecbafddf85270354d1e86cb6fda242",
+      "export_sha256": "aac66450795367057182d61c165fb3aa04ecbafddf85270354d1e86cb6fda242",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/joker_specs.json",
+      "source_sha256": "d77940d453175af925f0375b7993beff3aa0fbfcdfd36067bf0dc3663eff5936",
+      "export_sha256": "d77940d453175af925f0375b7993beff3aa0fbfcdfd36067bf0dc3663eff5936",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/phases.py",
+      "source_sha256": "44631e388f9c65bf9fa06ab9856e64430a5a3ed83338c3106d32254a47ac9869",
+      "export_sha256": "44631e388f9c65bf9fa06ab9856e64430a5a3ed83338c3106d32254a47ac9869",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/policy.py",
+      "source_sha256": "0236b82164befa71eb0e4cf616a8c4b13b24c4f0d5eb2d392c33fe7c3cceca58",
+      "export_sha256": "0236b82164befa71eb0e4cf616a8c4b13b24c4f0d5eb2d392c33fe7c3cceca58",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/routes.py",
+      "source_sha256": "b0e913f5ca22158bc6f0907c8d65d76299ac23d26ed4d62b1704323896821469",
+      "export_sha256": "b0e913f5ca22158bc6f0907c8d65d76299ac23d26ed4d62b1704323896821469",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/scoring.py",
+      "source_sha256": "9bead60ccc9bd86f1f7794e5416e394316c5a2d1993c4d4f7e10591b3df2a4f5",
+      "export_sha256": "9bead60ccc9bd86f1f7794e5416e394316c5a2d1993c4d4f7e10591b3df2a4f5",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/shop_planning.py",
+      "source_sha256": "943edc9fa0972968bf510fcf6330d416c0108b6698c4ebb558e12be0b93b6445",
+      "export_sha256": "943edc9fa0972968bf510fcf6330d416c0108b6698c4ebb558e12be0b93b6445",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/strategy.py",
+      "source_sha256": "3abf0adaf8d4a1623fa5f4411cafa63ea3181e3e98e46182ec3f055124c1ff1b",
+      "export_sha256": "3abf0adaf8d4a1623fa5f4411cafa63ea3181e3e98e46182ec3f055124c1ff1b",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/tactics.py",
+      "source_sha256": "42f29b86032a85dd930300a55d3f1e0aca759ff3fe0ceb7d8dfbe14f932a0701",
+      "export_sha256": "42f29b86032a85dd930300a55d3f1e0aca759ff3fe0ceb7d8dfbe14f932a0701",
+      "transformation": null
+    },
+    {
+      "path": "experiments/policies/route_v4/worker.py",
+      "source_sha256": "40475e81e5fe479b03fbfa2fc727c232d11dd28140f7147e376bcfa1a4aa45a8",
+      "export_sha256": "40475e81e5fe479b03fbfa2fc727c232d11dd28140f7147e376bcfa1a4aa45a8",
+      "transformation": null
+    },
+    {
       "path": "experiments/protocol.py",
       "source_sha256": "a1907316249bb268859a76b07c336fd5e979b20be18a6629584a4bc45acd5a44",
       "export_sha256": "a1907316249bb268859a76b07c336fd5e979b20be18a6629584a4bc45acd5a44",
@@ -466,6 +568,18 @@
       "path": "experiments/test_batch_supervisor.py",
       "source_sha256": "473d954414549ce416bbffd1314d97af1114e67343efa9651232f4697244c802",
       "export_sha256": "473d954414549ce416bbffd1314d97af1114e67343efa9651232f4697244c802",
+      "transformation": null
+    },
+    {
+      "path": "experiments/test_combat_audit.py",
+      "source_sha256": "e7a1b29dd71b9a26436a94478b40164dab1f010c52c98e89edabaa34715a4135",
+      "export_sha256": "e7a1b29dd71b9a26436a94478b40164dab1f010c52c98e89edabaa34715a4135",
+      "transformation": null
+    },
+    {
+      "path": "experiments/test_combat_v4.py",
+      "source_sha256": "72d64fc123f5066eed21cf551694949bfacd48035c2098e85177b6bd390fb0d0",
+      "export_sha256": "72d64fc123f5066eed21cf551694949bfacd48035c2098e85177b6bd390fb0d0",
       "transformation": null
     },
     {
@@ -502,6 +616,12 @@
       "path": "experiments/test_telemetry.py",
       "source_sha256": "b7c67bd9d7756abba73ff72c4d39f02038372181460b170b7e2e48fd460bf90c",
       "export_sha256": "b7c67bd9d7756abba73ff72c4d39f02038372181460b170b7e2e48fd460bf90c",
+      "transformation": null
+    },
+    {
+      "path": "headless/combat_compare.py",
+      "source_sha256": "ae041380ace39213f8a73f3b6bb6bfdaf2f3ceb8bc348d24e50abb10087a364c",
+      "export_sha256": "ae041380ace39213f8a73f3b6bb6bfdaf2f3ceb8bc348d24e50abb10087a364c",
       "transformation": null
     },
     {
@@ -544,6 +664,12 @@
       "path": "headless/run_seeds.py",
       "source_sha256": "e07ff80aeee8afccf52cdf60c3af5521b68e20344cd10289d50ed2b3e2e4b9cd",
       "export_sha256": "e07ff80aeee8afccf52cdf60c3af5521b68e20344cd10289d50ed2b3e2e4b9cd",
+      "transformation": null
+    },
+    {
+      "path": "headless/test_combat_compare.py",
+      "source_sha256": "eb5fe7d1c68397470321534e537e8265c416e3ac1809a0204713db5a0f1884a2",
+      "export_sha256": "eb5fe7d1c68397470321534e537e8265c416e3ac1809a0204713db5a0f1884a2",
       "transformation": null
     },
     {
