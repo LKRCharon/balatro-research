@@ -1,0 +1,80 @@
+{
+  "kind": "administrative_mechanism_fixture",
+  "seed_id": 1,
+  "seed_commitment": "7d759bd2c1a5abb83a589639ee4947eacf60bdfa1294865d973ed066925ee319",
+  "patched": true,
+  "events": [
+    {
+      "method": "start",
+      "seconds": 0.6719999999040738,
+      "status": "ok"
+    },
+    {
+      "method": "select",
+      "seconds": 0.4690000000409782,
+      "status": "ok"
+    },
+    {
+      "method": "add",
+      "seconds": 0.015000000013969839,
+      "status": "ok"
+    },
+    {
+      "method": "set",
+      "seconds": 0.015999999945051968,
+      "status": "ok"
+    },
+    {
+      "method": "play",
+      "seconds": 1.9690000000409782,
+      "status": "ok"
+    },
+    {
+      "method": "cash_out",
+      "seconds": 0.43700000003445894,
+      "status": "ok"
+    },
+    {
+      "method": "use",
+      "seconds": 1.077999999979511,
+      "status": "ok"
+    },
+    {
+      "method": "add",
+      "seconds": 0.015999999945051968,
+      "status": "ok"
+    },
+    {
+      "method": "buy",
+      "seconds": 0.859000000054948,
+      "status": "ok"
+    },
+    {
+      "method": "pack",
+      "seconds": 0.1559999999590218,
+      "status": "ok"
+    },
+    {
+      "method": "use",
+      "seconds": 0.9220000000204891,
+      "status": "ok"
+    },
+    {
+      "method": "lab_readiness",
+      "seconds": 0.0,
+      "status": "ok"
+    }
+  ],
+  "passed": true,
+  "cashout_planet_exactly_once": true,
+  "pack_planet_exactly_once": true,
+  "readiness": {
+    "ready": true,
+    "play_cards": 0,
+    "locked": false,
+    "post_waits": 3,
+    "pre_waits": 0,
+    "stop_use": 0,
+    "timeouts": 0
+  }
+}

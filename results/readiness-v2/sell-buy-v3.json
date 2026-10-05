@@ -1,0 +1,52 @@
+{
+  "kind": "administrative_mechanism_fixture",
+  "purpose": "sell to buy-use readiness",
+  "passed": true,
+  "events": [
+    {
+      "method": "set",
+      "params": {
+        "money": 1000
+      }
+    },
+    {
+      "method": "add",
+      "params": {
+        "key": "j_joker"
+      }
+    },
+    {
+      "method": "gamestate",
+      "params": null
+    },
+    {
+      "method": "sell",
+      "params": {
+        "joker": 0
+      }
+    },
+    {
+      "method": "buy",
+      "params": {
+        "card": 1,
+        "use": true
+      }
+    },
+    {
+      "method": "lab_readiness",
+      "params": null
+    }
+  ],
+  "level_changes": {
+    "Pair": 1
+  },
+  "readiness": {
+    "timeouts": 0,
+    "ready": true,
+    "post_waits": 3,
+    "stop_use": 0,
+    "play_cards": 0,
+    "pre_waits": 1,
+    "locked": false
+  }
+}

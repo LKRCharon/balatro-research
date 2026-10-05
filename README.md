@@ -4,6 +4,8 @@ Research into Blue Deck / Gold Stake strategy, risk-sensitive decisions, and car
 
 ## Current status
 
+**Repair iteration:** [repair report and training checks (中文)](results/repair-001/report.zh-CN.md). The consumable readiness barrier reproduces the old failure and verifies cash-out/pack/sell-to-buy-use transitions without retries. [route_v3 shop planning](docs/route-v3-acquisition.md) compares immediate lineup/planet gains before speculative purchases. Two training checks ended in losses at Ante 8 and 1, with 269 successful actions and no interface errors; this is not evidence of improved win rate. The formal baseline result below remains unchanged.
+
 **First formal validation completed:** 16 assigned Blue/Gold tasks → **0 wins, 14 actual game losses, 2 technical errors** in 13m16s. All attempts are retained; no failed seed was retried. The untouched final test has zero assigned jobs. [Results and diagnosis (中文)](results/formal-validation-001/report.zh-CN.md) · [Machine-readable results](results/formal-validation-001/summary.json) · [Audit](results/formal-validation-001/audit-result.json).
 
 This is an experimental **scripted policy baseline**, not a demonstrated LLM winstreak. The policy uses public observations and approximate scoring; coverage of every Joker does not imply that every interaction is correct. Blueprint / Brainstorm copying and consumable decisions are modeled, with remaining discrepancies recorded rather than hidden.
@@ -48,6 +50,8 @@ python -m unittest discover -s outputs/balatro-lab/headless -p test_environment.
 ```
 
 GitHub Actions runs these checks on Windows/Python 3.12. They validate the harness, not full-game strategy strength. `.gitattributes` disables line-ending conversion so frozen file hashes survive checkout.
+
+The readiness Lua tests additionally use `lupa==2.8`; CI installs it explicitly. Run `python -m unittest discover -s tools -p test_readiness_patch.py -v` for those checks. The supplied `tools/readiness_v2.lua` and `readiness_v3.lua` are original transport wrappers, not copied game source. Install into a **new, never-launched isolated instance** with `python tools/readiness_patch.py path/to/instance.json` before launching; v3 is the default. Existing game/engine installations are not patched by this command.
 
 ## Publication and reproducibility
 

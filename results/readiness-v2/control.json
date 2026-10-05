@@ -1,0 +1,44 @@
+{
+  "kind": "administrative_mechanism_fixture",
+  "seed_id": 1,
+  "seed_commitment": "7d759bd2c1a5abb83a589639ee4947eacf60bdfa1294865d973ed066925ee319",
+  "patched": false,
+  "events": [
+    {
+      "method": "start",
+      "seconds": 0.43700000003445894,
+      "status": "ok"
+    },
+    {
+      "method": "select",
+      "seconds": 0.4059999999590218,
+      "status": "ok"
+    },
+    {
+      "method": "add",
+      "seconds": 0.0,
+      "status": "ok"
+    },
+    {
+      "method": "set",
+      "seconds": 0.01600000006146729,
+      "status": "ok"
+    },
+    {
+      "method": "play",
+      "seconds": 1.452999999979511,
+      "status": "ok"
+    },
+    {
+      "method": "cash_out",
+      "seconds": 0.2970000000204891,
+      "status": "ok"
+    },
+    {
+      "method": "use",
+      "status": "error",
+      "error": "Consumable 'Jupiter' cannot be used at this time"
+    }
+  ],
+  "passed": false
+}

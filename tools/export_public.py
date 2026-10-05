@@ -25,7 +25,7 @@ def main():
     files.extend((source / 'headless/kernel').glob('*.py'))
     files.append(source / 'scripts/lua_bridge.py')
     for folder in (source / 'experiments/policies').iterdir():
-        if folder.is_dir() and (folder.name == 'route_v2' or folder.name.startswith('formal_public_route_v2_')):
+        if folder.is_dir() and (folder.name in ('route_v2', 'route_v3') or folder.name.startswith('formal_public_route_v2_')):
             files.extend(folder.glob('*.py'))
             files.extend(folder.glob('joker_specs.json'))
     manifest = []
@@ -34,7 +34,7 @@ def main():
         content = path.read_bytes()
         exported = content
         transform = None
-        if path.name == 'joker_specs.json' and not path.parent.name.startswith('formal_public_'):
+        if path.name == 'joker_specs.json' and path.parent.name == 'route_v2':
             spec = json.loads(content)
             spec = {k: {field: v[field] for field in ('blueprint_compat', 'rarity', 'config') if field in v} for k, v in spec.items()}
             exported = (json.dumps(spec, ensure_ascii=False, indent=2) + '\n').encode('utf-8')

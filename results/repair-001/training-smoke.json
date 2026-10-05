@@ -1,0 +1,129 @@
+{
+  "purpose": "train-only engineering smoke; not formal evaluation or win-rate evidence",
+  "runs": [
+    {
+      "purpose": "engineering_train_only",
+      "strategy_winrate_eligible": false,
+      "seed_id": 16,
+      "commitment": "525668b2ba9e5f8e41efdb7a0a4743937f24126afb5b92009f5a13807746e787",
+      "policy": "route_v3",
+      "policy_files": {
+        "advisor.py": "84f2434ae87f79bf564a9ab89413bc38af8468e374ce75fdc840f3fbe5427964",
+        "balatro_cli.py": "f37d386c080043724f2cf074bb66dc49e96fdf36e392ba0308fc7077dcf98d88",
+        "belief.py": "b660549660a598bc1a7eb3a7d0877ea8b5da1eb03dcc342439aa85e60f488224",
+        "consumables.py": "0433e783b57f281b1633fc60583b8cb440f96b2eacf78ce50e4e3ff225d18ecb",
+        "copying.py": "61fb1ce832ccb26d24001e5f887f6cf7203dfbed3e8097b851616d76c56501be",
+        "execution.py": "673f61a141a3c184788033d7e886f94d62d98bd7ecec6f67a7445c21dff5ff43",
+        "forecast.py": "aac66450795367057182d61c165fb3aa04ecbafddf85270354d1e86cb6fda242",
+        "joker_specs.json": "d77940d453175af925f0375b7993beff3aa0fbfcdfd36067bf0dc3663eff5936",
+        "phases.py": "44631e388f9c65bf9fa06ab9856e64430a5a3ed83338c3106d32254a47ac9869",
+        "policy.py": "0bcc320b7c27f7d3434adffa0da7334bd122f44f59802242a18f7298339a6fbb",
+        "routes.py": "b0e913f5ca22158bc6f0907c8d65d76299ac23d26ed4d62b1704323896821469",
+        "scoring.py": "9bead60ccc9bd86f1f7794e5416e394316c5a2d1993c4d4f7e10591b3df2a4f5",
+        "shop_planning.py": "943edc9fa0972968bf510fcf6330d416c0108b6698c4ebb558e12be0b93b6445",
+        "strategy.py": "3abf0adaf8d4a1623fa5f4411cafa63ea3181e3e98e46182ec3f055124c1ff1b",
+        "tactics.py": "42f29b86032a85dd930300a55d3f1e0aca759ff3fe0ceb7d8dfbe14f932a0701",
+        "worker.py": "40475e81e5fe479b03fbfa2fc727c232d11dd28140f7147e376bcfa1a4aa45a8"
+      },
+      "status": "loss",
+      "terminal": true,
+      "ante": 8,
+      "actions": 261,
+      "counts": {
+        "select": 23,
+        "discard": 12,
+        "play": 74,
+        "cash_out": 22,
+        "buy": 42,
+        "pack": 28,
+        "next_round": 22,
+        "sell": 7,
+        "reroll": 25,
+        "use": 3,
+        "rearrange": 3
+      },
+      "errors": [],
+      "seconds": 574.0779999999795,
+      "prediction_checks": 69,
+      "prediction_mismatches": [],
+      "engine_manifest_sha256": "fcf614d55c912c320e6f03e9792d7c0483e24223e439e270b6322eef79c98ac1",
+      "readiness_patch_version": 2,
+      "readiness": {
+        "locked": false,
+        "ready": false,
+        "timeouts": 0,
+        "play_cards": 0,
+        "stop_use": 1,
+        "post_waits": 74,
+        "pre_waits": 1
+      },
+      "evidence": {
+        "decisions.jsonl": "a5de5103f638c174d809844c6b819d313beaf90ce41991ecd4489d46cf9bf55e",
+        "transitions.jsonl": "d821cbd2403e6178049189db60cc74388c8847f557f9d7f930c93105eff1a122",
+        "result.json": "43d2df0f901a570266bb9340014d9a9a8fd1e1b6b17894ce7683eac8144e520c"
+      }
+    },
+    {
+      "purpose": "engineering_train_only",
+      "strategy_winrate_eligible": false,
+      "seed_id": 17,
+      "commitment": "d6ca6b2fa5484456a596109a8d3bd888d3d0476cab24ff8a024ff3575bb200d6",
+      "policy": "route_v3",
+      "policy_files": {
+        "advisor.py": "84f2434ae87f79bf564a9ab89413bc38af8468e374ce75fdc840f3fbe5427964",
+        "balatro_cli.py": "f37d386c080043724f2cf074bb66dc49e96fdf36e392ba0308fc7077dcf98d88",
+        "belief.py": "b660549660a598bc1a7eb3a7d0877ea8b5da1eb03dcc342439aa85e60f488224",
+        "consumables.py": "0433e783b57f281b1633fc60583b8cb440f96b2eacf78ce50e4e3ff225d18ecb",
+        "copying.py": "61fb1ce832ccb26d24001e5f887f6cf7203dfbed3e8097b851616d76c56501be",
+        "execution.py": "673f61a141a3c184788033d7e886f94d62d98bd7ecec6f67a7445c21dff5ff43",
+        "forecast.py": "aac66450795367057182d61c165fb3aa04ecbafddf85270354d1e86cb6fda242",
+        "joker_specs.json": "d77940d453175af925f0375b7993beff3aa0fbfcdfd36067bf0dc3663eff5936",
+        "phases.py": "44631e388f9c65bf9fa06ab9856e64430a5a3ed83338c3106d32254a47ac9869",
+        "policy.py": "0bcc320b7c27f7d3434adffa0da7334bd122f44f59802242a18f7298339a6fbb",
+        "routes.py": "b0e913f5ca22158bc6f0907c8d65d76299ac23d26ed4d62b1704323896821469",
+        "scoring.py": "9bead60ccc9bd86f1f7794e5416e394316c5a2d1993c4d4f7e10591b3df2a4f5",
+        "shop_planning.py": "943edc9fa0972968bf510fcf6330d416c0108b6698c4ebb558e12be0b93b6445",
+        "strategy.py": "3abf0adaf8d4a1623fa5f4411cafa63ea3181e3e98e46182ec3f055124c1ff1b",
+        "tactics.py": "42f29b86032a85dd930300a55d3f1e0aca759ff3fe0ceb7d8dfbe14f932a0701",
+        "worker.py": "40475e81e5fe479b03fbfa2fc727c232d11dd28140f7147e376bcfa1a4aa45a8"
+      },
+      "status": "loss",
+      "terminal": true,
+      "ante": 1,
+      "actions": 8,
+      "counts": {
+        "select": 1,
+        "discard": 2,
+        "play": 5
+      },
+      "errors": [],
+      "seconds": 13.577999999979511,
+      "prediction_checks": 5,
+      "prediction_mismatches": [],
+      "engine_manifest_sha256": "fcf614d55c912c320e6f03e9792d7c0483e24223e439e270b6322eef79c98ac1",
+      "readiness_patch_version": 2,
+      "readiness": {
+        "stop_use": 1,
+        "ready": false,
+        "pre_waits": 0,
+        "locked": false,
+        "timeouts": 0,
+        "play_cards": 0,
+        "post_waits": 0
+      },
+      "evidence": {
+        "decisions.jsonl": "a6722035e87686f122dc763961fc32ace6afda2d8b68f6a8baad087da6ae697e",
+        "transitions.jsonl": "5ceec527e2e19a4fd921ec1a90b788a7c67b009eaa28ad84078a16912ca7f454",
+        "result.json": "f8ffbe993eec5dc4a4e90a39fab7c1830b85d19e585bfc5866f94706a28a1de7"
+      }
+    }
+  ],
+  "original_save_checks": {
+    "settings.jkr": true,
+    "steam_autocloud.vdf": true,
+    "1/meta.jkr": true,
+    "1/profile.jkr": true
+  },
+  "startup_failures_before_any_game_start": 2,
+  "startup_failure_reason": "Runner import path omitted cli/observations; corrected before either start call. Empty startup directories and error markers retained privately."
+}

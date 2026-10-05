@@ -1,0 +1,43 @@
+{
+  "audit": "passed",
+  "scope": "train-only repair smoke plus independent source/context checks",
+  "smoke": [
+    {
+      "seed_id": 16,
+      "status": "loss",
+      "terminal": true,
+      "actions": 261,
+      "prediction_checks": 69,
+      "prediction_mismatches": [],
+      "errors": []
+    },
+    {
+      "seed_id": 17,
+      "status": "loss",
+      "terminal": true,
+      "actions": 8,
+      "prediction_checks": 5,
+      "prediction_mismatches": [],
+      "errors": []
+    }
+  ],
+  "smoke_readiness_version": 2,
+  "readiness_regression_tests": 16,
+  "route_v3_regression_tests": 8,
+  "original_formal_policy": "fc97ca775c6685c8b170a7f5de6acda79871d7f53212542b8662cd87bae40f28",
+  "old_formal_source_files_verified": 15,
+  "old_formal_context_files_verified": 236,
+  "running_train_policy_ids_verified": [
+    "739763078170a61dc7a9e0bf89b6ef7a630acd01ca101931ee4e89303d80f8ea"
+  ],
+  "test_campaigns": 0,
+  "limitations": [
+    "Two development seeds are not win-rate evidence.",
+    "Readiness v3 additionally has targeted mechanism evidence; these complete games used v2.",
+    "No claim that all possible transient states or card effects are proven."
+  ],
+  "public_route_v3_matches_private": true,
+  "public_route_v3_files_verified": 16,
+  "ports_12481_to_12486_closed": true,
+  "startup_failures": "Two pre-game import failures disclosed separately; successful episode journals each contain exactly one start, no gameplay retry."
+}
