@@ -46,8 +46,11 @@ class EnvironmentTests(unittest.TestCase):
         with sqlite3.connect(self.registry) as db:
             db.execute('CREATE TABLE seeds(seed TEXT, partition TEXT)')
             db.execute("INSERT INTO seeds VALUES ('TRAIN123', 'train')")
+        # The connection context commits but does not close the Windows handle.
+        db.close()
 
     def tearDown(self):
+        self.doCleanups()
         self.tmp.cleanup()
 
     def make_env(self, name='one', state=None):
