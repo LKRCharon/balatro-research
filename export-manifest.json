@@ -103,6 +103,12 @@
       "transformation": null
     },
     {
+      "path": "experiments/audit_manual_ten.py",
+      "source_sha256": "71c37a455dd37c0e3e2b3377ebbb284a6c439474a2cb0c0ac4966eb5c3a19f21",
+      "export_sha256": "71c37a455dd37c0e3e2b3377ebbb284a6c439474a2cb0c0ac4966eb5c3a19f21",
+      "transformation": null
+    },
+    {
       "path": "experiments/batch_report.py",
       "source_sha256": "3c46c9330f4c7870600c76c17bc7479794165f914307fbd50699f3c35722ceca",
       "export_sha256": "3c46c9330f4c7870600c76c17bc7479794165f914307fbd50699f3c35722ceca",
@@ -112,6 +118,12 @@
       "path": "experiments/batch_train.py",
       "source_sha256": "674cd01de403bc32d1fea22952742833340ac86dfede4e8209b30c235b7d8f65",
       "export_sha256": "674cd01de403bc32d1fea22952742833340ac86dfede4e8209b30c235b7d8f65",
+      "transformation": null
+    },
+    {
+      "path": "experiments/build_casebook.py",
+      "source_sha256": "fbbdcc9e4173d8e5182e03ffadef11ebc4e91b6bd5597070949f9645d91c5f92",
+      "export_sha256": "fbbdcc9e4173d8e5182e03ffadef11ebc4e91b6bd5597070949f9645d91c5f92",
       "transformation": null
     },
     {
@@ -583,6 +595,12 @@
       "transformation": null
     },
     {
+      "path": "experiments/test_build_casebook.py",
+      "source_sha256": "defea241f893cad729e8f52e3fbb5fa2cae61a4f09fe3120fb7c67bbbdaa541d",
+      "export_sha256": "defea241f893cad729e8f52e3fbb5fa2cae61a4f09fe3120fb7c67bbbdaa541d",
+      "transformation": null
+    },
+    {
       "path": "experiments/test_combat_audit.py",
       "source_sha256": "e7a1b29dd71b9a26436a94478b40164dab1f010c52c98e89edabaa34715a4135",
       "export_sha256": "e7a1b29dd71b9a26436a94478b40164dab1f010c52c98e89edabaa34715a4135",
@@ -679,6 +697,12 @@
       "transformation": null
     },
     {
+      "path": "headless/manual_session.py",
+      "source_sha256": "e86f658377a7cf177edc02211758141260c76c6806503602004bad485bbb2d8b",
+      "export_sha256": "e86f658377a7cf177edc02211758141260c76c6806503602004bad485bbb2d8b",
+      "transformation": null
+    },
+    {
       "path": "headless/run_seeds.py",
       "source_sha256": "e07ff80aeee8afccf52cdf60c3af5521b68e20344cd10289d50ed2b3e2e4b9cd",
       "export_sha256": "e07ff80aeee8afccf52cdf60c3af5521b68e20344cd10289d50ed2b3e2e4b9cd",
@@ -712,6 +736,12 @@
       "path": "headless/test_isolation.py",
       "source_sha256": "996b7a15e4e9a600b643d65cd18a62aa4e3dbbd5caa4fe5e30f95ee992a92b06",
       "export_sha256": "996b7a15e4e9a600b643d65cd18a62aa4e3dbbd5caa4fe5e30f95ee992a92b06",
+      "transformation": null
+    },
+    {
+      "path": "headless/test_manual_session.py",
+      "source_sha256": "0e100d63bbc0e964d12e6a1fdf91a3547689261b3e40f62d4668f2f0f7e305cc",
+      "export_sha256": "0e100d63bbc0e964d12e6a1fdf91a3547689261b3e40f62d4668f2f0f7e305cc",
       "transformation": null
     },
     {
