@@ -32,6 +32,16 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Frozen candidate integrity
         run: python tools/verify_frozen.py
+      - name: Casebook and audited recovery boundaries
+        run: |
+          python -m unittest discover -s outputs/balatro-lab/experiments -p test_build_casebook.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/experiments -p test_casebook_query.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/headless -p test_reconcile_rejected_pack.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/headless -p test_terminal_menu.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Combat comparison regressions
         run: |
           python -m unittest discover -s outputs/balatro-lab/experiments -p test_combat_v4.py -v

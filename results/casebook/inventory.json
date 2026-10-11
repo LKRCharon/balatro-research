@@ -1,0 +1,102 @@
+{
+  "case_count": 8073,
+  "cohorts": {
+    "manual-ten": 1745,
+    "formal-validation-001": 1203,
+    "combat-compare-001": 962,
+    "hybrid-pilot-001": 61,
+    "manual-ten-002": 1567,
+    "scripted-training": 2535
+  },
+  "partitions": {
+    "train": 6870,
+    "validation_already_consumed": 1203
+  },
+  "origins": {
+    "root_agent": 1745,
+    "script": 4725,
+    "controller": 1603
+  },
+  "methods": {
+    "select": 878,
+    "play": 2145,
+    "cash_out": 804,
+    "buy": 1118,
+    "pack": 507,
+    "next_round": 801,
+    "discard": 883,
+    "sell": 203,
+    "rearrange": 164,
+    "reroll": 429,
+    "skip": 16,
+    "use": 125
+  },
+  "plans_explicitly_recorded": 0,
+  "after_linked": 3789,
+  "inventory": [
+    {
+      "cohort": "manual-ten",
+      "runs": 10,
+      "partition": "train",
+      "source_manifest_sha256": "032fa3c465d5ebeff485f0f90dd4038976a434f8112eaa067e3a3502fe4116ea",
+      "control": "root_agent_adaptive",
+      "not_independent_of_replays": true
+    },
+    {
+      "cohort": "formal-validation-001",
+      "trace_folders": 16,
+      "partition": "validation_already_consumed",
+      "control": "script",
+      "presence": "available",
+      "unfinished_or_unselected_folders_excluded": 0,
+      "not_a_new_validation_sample": true
+    },
+    {
+      "cohort": "combat-compare-001",
+      "trace_folders": 8,
+      "partition": "train",
+      "control": "script",
+      "presence": "available",
+      "unfinished_or_unselected_folders_excluded": 0,
+      "not_a_new_validation_sample": true
+    },
+    {
+      "cohort": "hybrid-pilot-001",
+      "trace_folders": 1,
+      "partition": "train",
+      "control": "mixed",
+      "presence": "available",
+      "unfinished_or_unselected_folders_excluded": 0,
+      "not_a_new_validation_sample": true
+    },
+    {
+      "cohort": "manual-ten-002",
+      "trace_folders": 10,
+      "partition": "train",
+      "control": "root_agent",
+      "presence": "available",
+      "unfinished_or_unselected_folders_excluded": 0,
+      "not_a_new_validation_sample": true
+    },
+    {
+      "cohort": "scripted-training",
+      "result_files": 41,
+      "outcomes": {
+        "loss": 39,
+        "error": 2
+      },
+      "partition_counts": {
+        "train": 41
+      },
+      "control": "script",
+      "note": "multiple versions and repeated seeds; not a pooled independent win-rate cohort"
+    },
+    {
+      "cohort": "legacy-rpc-source-archive",
+      "primary_logs": 69,
+      "partition": "mixed_or_unverified",
+      "control": "mixed_or_unverified",
+      "note": "Overlaps normalized manual and script records; early probes and replay run21 remain archived, not independently counted or silently promoted to training labels."
+    }
+  ]
+}

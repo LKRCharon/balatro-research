@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "purpose": "mechanism_checklist_without_current_state_or_outcome_labels",
+  "rules": [
+    {
+      "id": "serpent_small_action_hand_growth",
+      "keys": ["bl_serpent", "discard", "play"],
+      "condition": "The Serpent is active after a play or discard and at least three cards remain in the draw pile.",
+      "check": "Refill is three cards rather than ordinary empty-slot capacity. Removing one card can therefore increase the hand by two, even beyond its nominal limit. Track the actual deck bound and action budget before valuing this information gain.",
+      "limit": "Initial draw is normal; fewer than three remaining deck cards reduce refill. Extra actions still cost hands/discards and can interact with Joker effects. This is not an unconditional instruction to discard one.",
+      "evidence": "boss-wiki/bl_serpent.md; serpent_initial_normal_then_over_limit and serpent_discard_refill_deck_bound fixtures"
+    },
+    {
+      "id": "death_gold_held_income",
+      "keys": ["c_death", "GOLD", "j_mime"],
+      "condition": "Death can duplicate a Gold-enhanced card while a useful recipient and legal ordering are available.",
+      "check": "The left selected card becomes a copy of the right selected card. Protect the intended Gold donor and count each effective Gold card only if held at round end. Two unmodified held Gold cards normally provide six dollars gross, not immediate income at the moment of copying.",
+      "limit": "Round completion, debuffs, holding both cards, retriggers and rental/other costs change realized net cash. Gold enhancement is distinct from Gold seal. A valuable scoring recipient may make the copy an unfavorable tradeoff.",
+      "evidence": "Vanilla Death direction and Gold held-at-round-end rules; no current episode or future outcome used"
+    },
+    {
+      "id": "observe_after_shop_mutation",
+      "keys": ["v_overstock_norm", "v_overstock_plus", "reroll"],
+      "condition": "A voucher purchase or other action can change currently visible shop inventory.",
+      "check": "Read the returned inventory before acting again. Recompute candidate indices, prices and alternatives; do not execute a reroll planned from the previous shop snapshot.",
+      "limit": "This is a state-consistency requirement, not an instruction to buy any particular newly visible Joker.",
+      "evidence": "completed manual-ten-002/train-39 sequence 102 and following reroll"
+    },
+    {
+      "id": "directed_planet_growth",
+      "keys": ["j_astronomer", "v_telescope"],
+      "condition": "Free planet access and Telescope coexist while a preferred hand is most played.",
+      "check": "Inspect actual prices and the guaranteed most-played-hand slot, then account for permanent level gains separately from scoring Joker synergies. Track ties or changes in most-played hand instead of assuming a fixed route forever.",
+      "limit": "Availability and survival are prerequisites; a successful example does not guarantee access or a stable win rate.",
+      "evidence": "completed manual-ten-002/train-39 sequences 25, 26, 44, 70"
+    },
+    {
+      "id": "eternal_rental_option_cost",
+      "keys": ["ETERNAL", "RENTAL", "j_ramen", "j_onyx_agate", "j_seeing_double"],
+      "condition": "Several eternal slots and rental costs coexist with conditional scoring components.",
+      "check": "Compare current rescue value with remaining replaceable slots, expected net cash per round, discard costs and score when the suit condition fails. Record these separately rather than valuing only the current best hand.",
+      "limit": "This does not blacklist eternal or rental cards; the appropriate tradeoff depends on immediate survival and available alternatives.",
+      "evidence": "completed manual-ten-002/train-40 acquisition and terminal trace"
+    },
+    {
+      "id": "face_retrigger_order",
+      "keys": ["j_smiley", "j_photograph", "j_hanging_chad"],
+      "condition": "A scoring face card triggers additive on-card Mult and Photograph, with retriggers available.",
+      "check": "Apply card enhancement and Joker effects in actual trigger order. Smiley before Photograph lets its per-trigger +Mult be multiplied; repeat the full trigger chain for Chad. Do not collapse all additions into an after-trigger lump.",
+      "limit": "Debuffed faces, different scoring order, and copy chains require a fresh legal score calculation.",
+      "evidence": "manual-ten-002/train-33 decision sequence 53; completed train-35 scoring comparisons"
+    },
+    {
+      "id": "single_vs_pair_whole_blind",
+      "keys": ["j_photograph", "j_hanging_chad"],
+      "condition": "Several enhanced faces are available and multiple hands remain.",
+      "check": "Compare the Pair with separate face plays across remaining hands, retained Steel/Blue seals and refill capacity. A slightly stronger Pair can consume two future scoring resources.",
+      "limit": "This is an optimization question, not a universal preference for single cards. Need target, hands left, current certainty and Boss constraints. Do not assume discarded or destroyed cards refill immediately.",
+      "evidence": "completed train-35 High Card/Pair comparisons and sequence 240"
+    },
+    {
+      "id": "perkeo_unique_source",
+      "keys": ["j_perkeo"],
+      "condition": "Leaving shop with Perkeo and a desired consumable to copy.",
+      "check": "Audit every held consumable, including Negative copies. If deterministic copying is required, remove competing eligible sources while retaining the intended original. Use or sell choices have different economic and deck effects.",
+      "limit": "Do not infer source uniqueness from ordinary slot occupancy alone. This checklist does not prescribe always selling all other consumables.",
+      "evidence": "manual-ten-002/train-35 sequences 118, 132-134"
+    },
+    {
+      "id": "steel_blue_seal_dual_role",
+      "keys": ["STEEL", "BLUE"],
+      "condition": "A Steel card with a Blue seal can remain held while scoring other cards.",
+      "check": "Count held-card multiplier separately from the Blue-seal end-round planet opportunity. Confirm consumable capacity, winning hand type and Boss debuffs. Avoid spending the held card merely because it forms a locally stronger hand.",
+      "limit": "The future planet requires the actual round-end conditions; do not count it as already owned or guaranteed before the round is won.",
+      "evidence": "manual-ten-002/train-35 sequence 200 and its preceding Flint plays"
+    },
+    {
+      "id": "bones_actual_insurance",
+      "keys": ["j_mr_bones"],
+      "condition": "Mr. Bones is active and a failed blind can meet at least one quarter of its score requirement.",
+      "check": "Track normal target and insurance threshold separately. Preserve the insurance Joker until the actual failure trigger; verify consumption and resulting game state. Do not call threshold coverage a naturally sufficient score.",
+      "limit": "Insurance planning is state-dependent and can displace scaling; it is not evidence of a generally strong scoring route.",
+      "evidence": "manual-ten-002/train-35 sequences 202, 238, 247"
+    },
+    {
+      "id": "cli_structural_mask",
+      "keys": ["reroll_boss", "rearrange", "c_death"],
+      "condition": "A desired action is available in game rules but absent from the CLI phase mask.",
+      "check": "Treat the mask as an engineering limitation, not a statement of game legality or strategic worth. Boss reroll and pack-hand rearrangement may be unavailable. Do not improvise reversed Death targets or count a rejected request as executed.",
+      "limit": "Frozen interfaces remain unchanged during the batch. Record the blocked opportunity and test a new interface version separately.",
+      "evidence": "manual-ten-002 completed train-35 Director's Cut/Death decisions; train-33 rejected sequence 62"
+    }
+  ]
+}

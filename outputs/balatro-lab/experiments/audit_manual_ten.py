@@ -10,6 +10,8 @@ HERE=Path(__file__).resolve().parent
 sys.path.insert(0,str(HERE.parent/'headless'))
 import protocol as registry
 from audit_formal_result import public_check
+from environment import canonical_state
+from reconcile_rejected_pack import digest as evidence_digest,validate_rejection
 
 
 def read(path):return json.loads(Path(path).read_text(encoding='utf8'))
@@ -32,6 +34,9 @@ def audit(protocol_path,sessions,baseline_path,complete=True):
         assert config['automatic_methods']==[]
         assert config['source_hashes']==spec['source_hashes']
         assert config['protocol_sha256']==sha(protocol_path)
+        claim_path=Path(config['registry']).resolve().parent/'manual-allocation-locks'/sha(protocol_path)/f'{seed_id}.json'
+        claim=read(claim_path)
+        assert claim['seed_id']==seed_id and Path(claim['session']).resolve()==root.resolve()
         assert sha(config['manifest'])==config['manifest_sha256']==spec['engine_manifest_sha256']
         engine=read(config['manifest']);assert engine['input_hashes']==spec['engine_input_hashes']
         for relative,digest in engine['input_hashes'].items():assert sha(Path(engine['checkout'])/relative)==digest
@@ -42,7 +47,21 @@ def audit(protocol_path,sessions,baseline_path,complete=True):
         predictions=lines(root/'predictions.jsonl') if (root/'predictions.jsonl').exists() else []
         intents={e['id']:e for e in events if e['event']=='intent'}
         outcomes={e['id']:e for e in events if e['event']=='result'}
-        assert len(intents)+len(outcomes)==len(events) and outcomes.keys()<=intents.keys()
+        rejections={e['id']:e for e in events if e['event']=='rejection_reconciliation'}
+        assert len(intents)+len(outcomes)+len(rejections)==len(events) and outcomes.keys()<=intents.keys()
+        assert rejections.keys()<=outcomes.keys()
+        for ident,proof in rejections.items():
+            intent=intents[ident];resolution=outcomes[ident]
+            validate_rejection(intent,proof['explicit_rpc_rejection'])
+            assert proof['original_intent_sha256']==evidence_digest(intent)
+            assert proof['before_public_sha256']==evidence_digest(canonical_state(intent['before']))
+            assert proof['after_public_sha256']==evidence_digest(canonical_state(resolution['after']))==proof['before_public_sha256']
+            assert proof['engine_manifest_sha256']==config['manifest_sha256'] and proof['method_resent'] is False
+            for record in (proof,resolution):
+                assert record['outcome']=='rejected_no_mutation' and record['accepted'] is False and record['applied'] is False
+            assert resolution['reconciliation_record']==f'rejection-reconciliation-{ident}.json'
+            assert read(root/resolution['reconciliation_record'])==proof
+        assert all(i in rejections for i,e in outcomes.items() if e.get('accepted') is False or e.get('applied') is False or e.get('outcome')=='rejected_no_mutation')
         assert all(e.get('controller_origin')=='controller' for e in events)
         starts=[e for e in intents.values() if e['method']=='start']
         assert len(starts)==1 and starts[0]['params']['start_commitment']==expected[seed_id]
@@ -58,6 +77,16 @@ def audit(protocol_path,sessions,baseline_path,complete=True):
             if 'before' in d:public_check(d['before'])
         assert {d['sequence'] for d in decisions}==set(intents)-{m['id'] for m in menus}
         final=outcomes[max(outcomes)]['after']
+        cleanup=lines(root/'terminal-menu.jsonl') if (root/'terminal-menu.jsonl').exists() else []
+        if cleanup:
+            assert len(cleanup)==2 and [e['event'] for e in cleanup]==['intent','result']
+            request,response=cleanup
+            assert request['purpose']=='post_terminal_cleanup_not_gameplay'
+            assert request['terminal_game_journal_sha256']==sha(root/'transitions.jsonl')
+            assert request['before_public_sha256']==evidence_digest(canonical_state(final))
+            assert request['engine_manifest_sha256']==config['manifest_sha256']
+            assert all(e['method']=='menu' and e['controller_origin']=='controller' for e in cleanup)
+            assert response['state']=='MENU' and response['terminal_episode_preserved'] and response['identity_verified'] and response['silent_and_headless_verified']
         if result['status'] in ('win','loss'):
             assert intents.keys()==outcomes.keys() and result['terminal']
             assert (final.get('state')=='GAME_OVER')==(result['status']=='loss')
@@ -71,11 +100,16 @@ def audit(protocol_path,sessions,baseline_path,complete=True):
             assert prediction['actual']==actual
         completed.append({'seed_id':seed_id,'status':result['status'],'terminal':result.get('terminal',False),
             'ante':result.get('ante'),'controller_decisions':len(decisions),'script_decisions':0,
-            'gameplay_actions':sum(e['method'] not in ('menu','start') for i,e in intents.items() if i in outcomes),
+            'gameplay_actions':sum(e['method'] not in ('menu','start') for i,e in intents.items() if i in outcomes and i not in rejections),
+            'rejected_no_mutation_attempts':len(rejections),
+            'post_terminal_cleanup_actions':len(cleanup)//2,
             'starts':len(starts),'pending_mutations':len(intents)-len(outcomes),
             'error_log_entries':len(lines(root/'errors.jsonl')) if (root/'errors.jsonl').exists() else 0,
             'prediction_checks':sum(p.get('within_one') is not None for p in predictions),
             'prediction_mismatches':sum(p.get('within_one') is False for p in predictions),
+            'predicted_plays_recorded':len(predictions),
+            'uncertain_or_unavailable_predictions':sum(p.get('within_one') is None for p in predictions),
+            'numerical_adviser_errors':sum(bool(p.get('numerical_error')) for p in predictions),
             'evidence_sha256':{name:sha(root/name) for name in ('session.json','decisions.jsonl','transitions.jsonl','result.json')}})
     if complete:assert len(completed)==10 and not incomplete
     historical=read(registry.WORK/'original-save-backup.json');save=Path(historical['source'])
@@ -92,13 +126,25 @@ def audit(protocol_path,sessions,baseline_path,complete=True):
             'status_counts':dict(Counter(r['status'] for r in completed)),
             'controller_decisions':sum(r['controller_decisions'] for r in completed),'script_decisions':0,
             'gameplay_actions':sum(r['gameplay_actions'] for r in completed),
+            'rejected_no_mutation_attempts':sum(r['rejected_no_mutation_attempts'] for r in completed),
+            'post_terminal_cleanup_actions':sum(r['post_terminal_cleanup_actions'] for r in completed),
             'prediction_checks':sum(r['prediction_checks'] for r in completed),
             'prediction_mismatches':sum(r['prediction_mismatches'] for r in completed),
-            'all_observed_actions_controller_origin':True,'no_duplicate_seed_sessions':True,
+            'predicted_plays_recorded':sum(r['predicted_plays_recorded'] for r in completed),
+            'uncertain_or_unavailable_predictions':sum(r['uncertain_or_unavailable_predictions'] for r in completed),
+            'numerical_adviser_errors':sum(r['numerical_adviser_errors'] for r in completed),
+            'error_log_entries':sum(r['error_log_entries'] for r in completed),
+            'pending_mutations':sum(r['pending_mutations'] for r in completed),
+            'all_completed_session_actions_controller_origin':True,'no_duplicate_seed_sessions':True,
             'partition_commitment_unchanged':True,'test_campaigns':0,'original_save_files_unchanged':len(current),
             'historical_save_hashes_still_match':all(current.get(k,{}).get('sha256')==v['sha256'] for k,v in historical['files'].items()),
             'old_formal_source_files_verified':len(old_manifest['files']),'old_formal_context_files_verified':len(old_manifest['context']),
             'sessions':sorted(completed,key=lambda r:r['seed_id']),
+            'limitations':[
+                'error_log_entries counts only errors.jsonl; local wrapper refusals before journal creation are not comprehensively captured.',
+                'Explicit reconciliations retain controller-reported RPC error text and equal public-state hashes; the static early-validation guard supports no mutation, not public equality alone.',
+                'Uncertain predictions are excluded from numerical mismatch counts; zero mismatches does not mean complete scoring coverage.'
+            ],
             'scope':'Provenance and consistency audit of controller-directed TRAIN data; not frozen-policy win-rate or global strategic optimality proof.'}
 
 

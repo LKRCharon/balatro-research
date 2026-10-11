@@ -2,9 +2,31 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from build_casebook import make_case,trace_cases,blob
+from build_casebook import make_case,trace_cases,blob,build
 
 class CasebookTests(unittest.TestCase):
+    def test_reconciled_rejection_not_executed_but_evidence_retained(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);d={'sequence':62,'method':'pack','params':{'card':0},'before':{'state':'SMODS_BOOSTER_OPENED','money':4}}
+            events=[{'event':'intent','id':62,'method':'pack','params':{'card':0},'before':d['before']},
+                    {'event':'rejection_reconciliation','id':62,'accepted':False,'applied':False},
+                    {'event':'result','id':62,'accepted':False,'applied':False,'after':d['before']}]
+            (root/'decisions.jsonl').write_text(json.dumps(d),encoding='utf-8')
+            (root/'transitions.jsonl').write_text('\n'.join(map(json.dumps,events)),encoding='utf-8')
+            c=trace_cases(root,'test','train','root_agent')[0]
+            self.assertEqual(c['labels']['execution_status'],'rejected_no_mutation')
+            self.assertFalse(c['labels']['after_linked']);self.assertTrue(c['labels']['action_error'])
+
+    def test_active_manual_trace_is_not_opened(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);lab=root/'lab';work=root/'work'
+            active=work/'experiments/manual-ten-002/train-active';active.mkdir(parents=True)
+            # Parsing would fail if the builder inspected this live trace.
+            (active/'decisions.jsonl').write_text('LIVE_PARTIAL_JSON_DO_NOT_READ',encoding='utf-8')
+            report=build(lab,work)
+            item=next(x for x in report['inventory'] if x['cohort']=='manual-ten-002')
+            self.assertEqual(item['unfinished_or_unselected_folders_excluded'],1)
+            self.assertEqual(item['trace_folders'],0)
     def test_public_projection_keeps_future_label_separate(self):
         state={'state':'SHOP','money':5,'seed':'SECRET77','hand':{'cards':[{'key':'S_A'}]},
                'jokers':{'cards':[{'key':'j_joker','modifier':{'perishable':True},'value':{'effect':'game prose'}}]},
