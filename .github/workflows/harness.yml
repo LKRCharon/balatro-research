@@ -32,6 +32,18 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Frozen candidate integrity
         run: python tools/verify_frozen.py
+      - name: No-SL solver and resource analysis
+        run: |
+          python -m unittest discover -s outputs/balatro-lab/headless -p 'test_no_sl_solver*.py' -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/experiments -p test_analyze_resources.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/experiments -p test_aggregate_resources.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/experiments -p test_strength_probe.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/experiments -p test_no_sl_audit.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Casebook and audited recovery boundaries
         run: |
           python -m unittest discover -s outputs/balatro-lab/experiments -p test_build_casebook.py -v

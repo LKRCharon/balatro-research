@@ -1,0 +1,259 @@
+{
+  "purpose": "completed_hindsight_replay_training_diagnostics",
+  "assigned_replays": 8,
+  "completed_replays": 8,
+  "wins": 0,
+  "losses": 8,
+  "frozen_policy_evaluation": false,
+  "new_train_completed_in_this_artifact": 0,
+  "runs": [
+    {
+      "training_run_id": 32,
+      "cohort": "hindsight_replay",
+      "status": "loss",
+      "ante": 5,
+      "last_combat": {
+        "round": 15,
+        "ante": 5,
+        "blind": "The Needle",
+        "target": 25000,
+        "initial_hands_observed": 1,
+        "scores": [
+          11250
+        ],
+        "terminal_score": 11250,
+        "score_target_ratio": 0.45,
+        "median_hand_score": 11250,
+        "required_average_at_first_play": 25000.0,
+        "remaining_shortfall": 13750,
+        "observed_median_score_growth": 1.3354700854700854,
+        "target_growth": 0.6666666666666666
+      },
+      "last_departure_cash": 23,
+      "controller_decisions": 95,
+      "script_decisions": 38,
+      "transition_count": 133,
+      "source_sha256": "71f84d2ea0a5e554050b6fecdb832d1502ae8bd47c897a67976e796269dd92fe"
+    },
+    {
+      "training_run_id": 33,
+      "cohort": "hindsight_replay",
+      "status": "loss",
+      "ante": 4,
+      "last_combat": {
+        "round": 11,
+        "ante": 4,
+        "blind": "Big Blind",
+        "target": 13500,
+        "initial_hands_observed": 5,
+        "scores": [
+          3078,
+          1462,
+          1188,
+          1111,
+          1111
+        ],
+        "terminal_score": 7950,
+        "score_target_ratio": 0.5888888888888889,
+        "median_hand_score": 1188,
+        "required_average_at_first_play": 2700.0,
+        "remaining_shortfall": 5550,
+        "observed_median_score_growth": 0.47596153846153844,
+        "target_growth": 1.5
+      },
+      "last_departure_cash": 1,
+      "controller_decisions": 60,
+      "script_decisions": 32,
+      "transition_count": 93,
+      "source_sha256": "dc3fcb9b25fcbea8a092cf9fd336f9fff81970bfbf7b95dabeee771fe432ff3f"
+    },
+    {
+      "training_run_id": 34,
+      "cohort": "hindsight_replay",
+      "status": "loss",
+      "ante": 7,
+      "last_combat": {
+        "round": 20,
+        "ante": 7,
+        "blind": "The Needle",
+        "target": 110000,
+        "initial_hands_observed": 1,
+        "scores": [
+          16065
+        ],
+        "terminal_score": 16065,
+        "score_target_ratio": 0.14604545454545453,
+        "median_hand_score": 16065,
+        "required_average_at_first_play": 110000.0,
+        "remaining_shortfall": 93935,
+        "observed_median_score_growth": 0.43514179690674176,
+        "target_growth": 0.6666666666666666
+      },
+      "last_departure_cash": 43,
+      "controller_decisions": 134,
+      "script_decisions": 66,
+      "transition_count": 201,
+      "source_sha256": "a947c4c74e709d688dae09ce13f1cb29cd7ca5f19bdefb42805e6f79ba98366a"
+    },
+    {
+      "training_run_id": 36,
+      "cohort": "hindsight_replay",
+      "status": "loss",
+      "ante": 3,
+      "last_combat": {
+        "round": 8,
+        "ante": 3,
+        "blind": "Big Blind",
+        "target": 4800,
+        "initial_hands_observed": 5,
+        "scores": [
+          936,
+          184,
+          476,
+          236,
+          184
+        ],
+        "terminal_score": 2016,
+        "score_target_ratio": 0.42,
+        "median_hand_score": 236,
+        "required_average_at_first_play": 960.0,
+        "remaining_shortfall": 2784,
+        "observed_median_score_growth": 0.05883819496384941,
+        "target_growth": 1.5
+      },
+      "last_departure_cash": 11,
+      "controller_decisions": 39,
+      "script_decisions": 19,
+      "transition_count": 59,
+      "source_sha256": "1efc0bc51a96f841b9bc380882d159e822a74456084c8f92f24a5b3e11f38597"
+    },
+    {
+      "training_run_id": 37,
+      "cohort": "hindsight_replay",
+      "status": "loss",
+      "ante": 5,
+      "last_combat": {
+        "round": 15,
+        "ante": 5,
+        "blind": "The Hook",
+        "target": 50000,
+        "initial_hands_observed": 5,
+        "scores": [
+          14602,
+          10725,
+          7560,
+          7729,
+          6765
+        ],
+        "terminal_score": 47381,
+        "score_target_ratio": 0.94762,
+        "median_hand_score": 7729,
+        "required_average_at_first_play": 10000.0,
+        "remaining_shortfall": 2619,
+        "observed_median_score_growth": 1.035781291878853,
+        "target_growth": 1.3333333333333333
+      },
+      "last_departure_cash": 2,
+      "controller_decisions": 81,
+      "script_decisions": 46,
+      "transition_count": 128,
+      "source_sha256": "0151d3560772f52566139b9b40a5920a4b2964a4f5192f0769fb78216f69559c"
+    },
+    {
+      "training_run_id": 38,
+      "cohort": "hindsight_replay",
+      "status": "loss",
+      "ante": 3,
+      "last_combat": {
+        "round": 8,
+        "ante": 3,
+        "blind": "Big Blind",
+        "target": 4800,
+        "initial_hands_observed": 5,
+        "scores": [
+          1008,
+          846,
+          96,
+          90,
+          90
+        ],
+        "terminal_score": 2130,
+        "score_target_ratio": 0.44375,
+        "median_hand_score": 96,
+        "required_average_at_first_play": 960.0,
+        "remaining_shortfall": 2670,
+        "observed_median_score_growth": 0.022781205505457997,
+        "target_growth": 1.5
+      },
+      "last_departure_cash": 6,
+      "controller_decisions": 41,
+      "script_decisions": 21,
+      "transition_count": 63,
+      "source_sha256": "6eeef53091bad2981e869d09e26084c258b4ff3b65d3d9310e637c32cfd05d2c"
+    },
+    {
+      "training_run_id": 40,
+      "cohort": "hindsight_replay",
+      "status": "loss",
+      "ante": 2,
+      "last_combat": {
+        "round": 6,
+        "ante": 2,
+        "blind": "The Pillar",
+        "target": 2000,
+        "initial_hands_observed": 5,
+        "scores": [
+          40,
+          52,
+          36,
+          5,
+          1584
+        ],
+        "terminal_score": 1717,
+        "score_target_ratio": 0.8585,
+        "median_hand_score": 40,
+        "required_average_at_first_play": 400.0,
+        "remaining_shortfall": 283,
+        "observed_median_score_growth": 0.09049773755656108,
+        "target_growth": 1.3333333333333333
+      },
+      "last_departure_cash": 0,
+      "controller_decisions": 45,
+      "script_decisions": 20,
+      "transition_count": 66,
+      "source_sha256": "79007b0e5b9bb10c0ffffb7819a90de847d6ca1218fd592f244bb3289cfa1a17"
+    },
+    {
+      "training_run_id": 41,
+      "cohort": "hindsight_replay",
+      "status": "loss",
+      "ante": 4,
+      "last_combat": {
+        "round": 12,
+        "ante": 4,
+        "blind": "The Wheel",
+        "target": 18000,
+        "initial_hands_observed": 5,
+        "scores": [
+          8820,
+          2700,
+          2867,
+          1798,
+          976
+        ],
+        "terminal_score": 17161,
+        "score_target_ratio": 0.9533888888888888,
+        "median_hand_score": 2700,
+        "required_average_at_first_play": 3600.0,
+        "remaining_shortfall": 839,
+        "observed_median_score_growth": 0.6643700787401575,
+        "target_growth": 1.3333333333333333
+      },
+      "last_departure_cash": 0,
+      "controller_decisions": 45,
+      "script_decisions": 40,
+      "transition_count": 86,
+      "source_sha256": "777baa1c76f8e42c51d9482fe78a224899b90ae2c72810cac7299a1101b27c34"
+    }
+  ]
+}

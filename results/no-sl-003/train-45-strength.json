@@ -1,0 +1,330 @@
+{
+  "schema": 1,
+  "purpose": "retrospective_visible_hand_sensitivity",
+  "causal_winrate": false,
+  "runs": [
+    {
+      "run_id": 45,
+      "source_sha256": "759bcdf14f749a5cf9b67e4b10e97ba09f1c08ef9a80f6397e7cd641d96b09a6",
+      "observations": [
+        {
+          "eligible": true,
+          "baseline": 675,
+          "exactness": "deterministic_route_v3_model_not_engine_proof",
+          "joker_marginals": [
+            {
+              "index": 0,
+              "key": "j_sly",
+              "structural_removal": {
+                "score": 292,
+                "delta": -383,
+                "relative_delta": -0.5674074074074074,
+                "deterministic_model_eligible": true
+              },
+              "sale_legal_by_eternal_flag": false,
+              "rental_cash_per_round": 0,
+              "reslots": [
+                {
+                  "destination": 1,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 2,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 3,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 4,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                }
+              ]
+            },
+            {
+              "index": 1,
+              "key": "j_hanging_chad",
+              "structural_removal": {
+                "score": 675,
+                "delta": 0,
+                "relative_delta": 0.0,
+                "deterministic_model_eligible": true
+              },
+              "sale_legal_by_eternal_flag": true,
+              "rental_cash_per_round": 0,
+              "reslots": [
+                {
+                  "destination": 0,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 2,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 3,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 4,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "key": "j_mad",
+              "structural_removal": {
+                "score": 675,
+                "delta": 0,
+                "relative_delta": 0.0,
+                "deterministic_model_eligible": true
+              },
+              "sale_legal_by_eternal_flag": true,
+              "rental_cash_per_round": 0,
+              "reslots": [
+                {
+                  "destination": 0,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 1,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 3,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 4,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "key": "j_blackboard",
+              "structural_removal": {
+                "score": 292,
+                "delta": -383,
+                "relative_delta": -0.5674074074074074,
+                "deterministic_model_eligible": true
+              },
+              "sale_legal_by_eternal_flag": false,
+              "rental_cash_per_round": 3,
+              "reslots": [
+                {
+                  "destination": 0,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 1,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 2,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 4,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "key": "j_trio",
+              "structural_removal": {
+                "score": 675,
+                "delta": 0,
+                "relative_delta": 0.0,
+                "deterministic_model_eligible": true
+              },
+              "sale_legal_by_eternal_flag": true,
+              "rental_cash_per_round": 0,
+              "reslots": [
+                {
+                  "destination": 0,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 1,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 2,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 3,
+                  "score": 675,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                }
+              ]
+            }
+          ],
+          "planet_upgrades": [
+            {
+              "key": "c_pluto",
+              "hand_type": "High Card",
+              "score": 675,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_mercury",
+              "hand_type": "Pair",
+              "score": 1080,
+              "delta": 405,
+              "relative_delta": 0.6000000000000001,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_uranus",
+              "hand_type": "Two Pair",
+              "score": 675,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_venus",
+              "hand_type": "Three of a Kind",
+              "score": 675,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_saturn",
+              "hand_type": "Straight",
+              "score": 721,
+              "delta": 46,
+              "relative_delta": 0.06814814814814807,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_jupiter",
+              "hand_type": "Flush",
+              "score": 675,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_earth",
+              "hand_type": "Full House",
+              "score": 675,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_mars",
+              "hand_type": "Four of a Kind",
+              "score": 675,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_neptune",
+              "hand_type": "Straight Flush",
+              "score": 675,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_planet_x",
+              "hand_type": "Five of a Kind",
+              "score": 675,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_ceres",
+              "hand_type": "Flush House",
+              "score": 675,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_eris",
+              "hand_type": "Flush Five",
+              "score": 675,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            }
+          ],
+          "shop_candidates": [],
+          "sequence": 96
+        }
+      ]
+    }
+  ]
+}

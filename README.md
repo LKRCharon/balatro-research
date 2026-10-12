@@ -4,6 +4,10 @@ Research into Blue Deck / Gold Stake strategy, risk-sensitive decisions, and car
 
 ## Current status
 
+**No-SL training campaign:** all 13 assigned games completed: eight hindsight replays lost and five new TRAIN games lost. The controller handled growth while the frozen script handled combat, with recorded interventions. This is diagnostic training, not a formal win-rate result. [Per-game reviews (中文)](results/no-sl-003/report.zh-CN.md) · [Integrity audit](results/no-sl-003/integrity.json) · [Resource aggregates](results/no-sl-003/resource-aggregates.json). Four original saves remained unchanged; no TEST seeds were used.
+
+**Opt-in solver v2:** public-state bounded search now has a separate correction layer for visible-card model clears under hidden cards and preservation of key enhancements. It has only unit tests and offline failure-case checks, not a new full-game success result. Neither version claims globally optimal no-SL play. [Model and limits (中文)](docs/no-sl-solver.zh-CN.md).
+
 **Hybrid pilot:** assistant-controlled growth plus frozen script combat is implemented and completed one TRAIN game. It lost at Ante 3 Big Blind, 4679/4800; all 18 observed play predictions matched the engine. This validates the handoff/data path, not improved win rate. [Pilot report (中文)](results/hybrid-pilot-001/report.zh-CN.md).
 
 **Combat-only TRAIN comparison:** four reused training seeds, two frozen policies, eight completed losses and no technical errors. Failure Antes were v3 `8/1/6/4` versus v4 `5/2/6/5`; the bounded lookahead searched only 30 of 182 combat decisions. This does not establish improved win rate or optimal combat. [Independent report (中文)](results/combat-compare-001/independent-report.zh-CN.md) · [Results](results/combat-compare-001/summary.json) · [Collected data and limits (中文)](docs/data-coverage.md).

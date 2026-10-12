@@ -1,0 +1,866 @@
+{
+  "schema": 1,
+  "purpose": "offline_train_resource_observations",
+  "causal_strength_estimate": false,
+  "runs": [
+    {
+      "run_id": 40,
+      "resource_events": [
+        {
+          "sequence": 7,
+          "method": "buy",
+          "category": "pack",
+          "target_key": "p_buffoon_normal_2",
+          "cash_before": 7,
+          "cash_after": 3,
+          "net_cash_delta": -4,
+          "quoted_cost": 4,
+          "immediate_interest_capacity_delta": -1
+        },
+        {
+          "sequence": 8,
+          "method": "pack",
+          "category": "joker",
+          "target_key": "j_turtle_bean",
+          "cash_before": 3,
+          "cash_after": 3,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 9,
+          "method": "buy",
+          "category": "consumable",
+          "target_key": "c_venus",
+          "cash_before": 3,
+          "cash_after": 0,
+          "net_cash_delta": -3,
+          "quoted_cost": 3,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 15,
+          "method": "buy",
+          "category": "joker",
+          "target_key": "j_vagabond",
+          "cash_before": 4,
+          "cash_after": 3,
+          "net_cash_delta": -1,
+          "quoted_cost": 1,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 19,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_star",
+          "cash_before": 3,
+          "cash_after": 3,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 22,
+          "method": "buy",
+          "category": "pack",
+          "target_key": "p_standard_normal_2",
+          "cash_before": 5,
+          "cash_after": 1,
+          "net_cash_delta": -4,
+          "quoted_cost": 4,
+          "immediate_interest_capacity_delta": -1
+        },
+        {
+          "sequence": 23,
+          "method": "pack",
+          "category": "other",
+          "target_key": "C_Q",
+          "cash_before": 1,
+          "cash_after": 1,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 26,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_empress",
+          "cash_before": 1,
+          "cash_after": 1,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 28,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_judgement",
+          "cash_before": 1,
+          "cash_after": 1,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 31,
+          "method": "reroll",
+          "category": "reroll",
+          "target_key": null,
+          "cash_before": -2,
+          "cash_after": -2,
+          "net_cash_delta": 0,
+          "quoted_cost": 0,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 32,
+          "method": "sell",
+          "category": "joker",
+          "target_key": "j_turtle_bean",
+          "cash_before": -2,
+          "cash_after": -1,
+          "net_cash_delta": 1,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 33,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_high_priestess",
+          "cash_before": -1,
+          "cash_after": -1,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 34,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_jupiter",
+          "cash_before": -1,
+          "cash_after": -1,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 35,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_saturn",
+          "cash_before": -1,
+          "cash_after": -1,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 41,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_magician",
+          "cash_before": -1,
+          "cash_after": -1,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 43,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_star",
+          "cash_before": -1,
+          "cash_after": -1,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 45,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_chariot",
+          "cash_before": -1,
+          "cash_after": -1,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 47,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_strength",
+          "cash_before": -1,
+          "cash_after": -1,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 50,
+          "method": "reroll",
+          "category": "reroll",
+          "target_key": null,
+          "cash_before": 0,
+          "cash_after": 0,
+          "net_cash_delta": 0,
+          "quoted_cost": 0,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 51,
+          "method": "sell",
+          "category": "consumable",
+          "target_key": "c_lovers",
+          "cash_before": 0,
+          "cash_after": 1,
+          "net_cash_delta": 1,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 52,
+          "method": "buy",
+          "category": "joker",
+          "target_key": "j_droll",
+          "cash_before": 1,
+          "cash_after": 0,
+          "net_cash_delta": -1,
+          "quoted_cost": 1,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 58,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_devil",
+          "cash_before": 0,
+          "cash_after": 0,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 60,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_wheel_of_fortune",
+          "cash_before": 0,
+          "cash_after": 0,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 62,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_lovers",
+          "cash_before": 0,
+          "cash_after": 0,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        },
+        {
+          "sequence": 65,
+          "method": "use",
+          "category": "consumable",
+          "target_key": "c_death",
+          "cash_before": 0,
+          "cash_after": 0,
+          "net_cash_delta": 0,
+          "quoted_cost": null,
+          "immediate_interest_capacity_delta": 0
+        }
+      ],
+      "offer_exposures": [
+        {
+          "area": "shop",
+          "key": "j_ramen",
+          "set": "JOKER",
+          "quoted_price": 1,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 7
+        },
+        {
+          "area": "shop",
+          "key": "c_venus",
+          "set": "PLANET",
+          "quoted_price": 3,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 7
+        },
+        {
+          "area": "vouchers",
+          "key": "v_clearance_sale",
+          "set": "VOUCHER",
+          "quoted_price": 10,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 7
+        },
+        {
+          "area": "packs",
+          "key": "p_buffoon_normal_2",
+          "set": "BOOSTER",
+          "quoted_price": 4,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 7
+        },
+        {
+          "area": "packs",
+          "key": "p_celestial_jumbo_2",
+          "set": "BOOSTER",
+          "quoted_price": 6,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 7
+        },
+        {
+          "area": "pack",
+          "key": "j_clever",
+          "set": "JOKER",
+          "quoted_price": 1,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 8
+        },
+        {
+          "area": "pack",
+          "key": "j_turtle_bean",
+          "set": "JOKER",
+          "quoted_price": 1,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 8
+        },
+        {
+          "area": "shop",
+          "key": "j_wee",
+          "set": "JOKER",
+          "quoted_price": 8,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 15
+        },
+        {
+          "area": "shop",
+          "key": "j_vagabond",
+          "set": "JOKER",
+          "quoted_price": 1,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 15
+        },
+        {
+          "area": "vouchers",
+          "key": "v_clearance_sale",
+          "set": "VOUCHER",
+          "quoted_price": 10,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 15
+        },
+        {
+          "area": "packs",
+          "key": "p_celestial_normal_3",
+          "set": "BOOSTER",
+          "quoted_price": 4,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 15
+        },
+        {
+          "area": "packs",
+          "key": "p_standard_normal_4",
+          "set": "BOOSTER",
+          "quoted_price": 4,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 15
+        },
+        {
+          "area": "shop",
+          "key": "j_seance",
+          "set": "JOKER",
+          "quoted_price": 6,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 22
+        },
+        {
+          "area": "shop",
+          "key": "j_lusty_joker",
+          "set": "JOKER",
+          "quoted_price": 1,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 22
+        },
+        {
+          "area": "vouchers",
+          "key": "v_tarot_merchant",
+          "set": "VOUCHER",
+          "quoted_price": 10,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 22
+        },
+        {
+          "area": "packs",
+          "key": "p_standard_jumbo_2",
+          "set": "BOOSTER",
+          "quoted_price": 6,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 22
+        },
+        {
+          "area": "packs",
+          "key": "p_standard_normal_2",
+          "set": "BOOSTER",
+          "quoted_price": 4,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 22
+        },
+        {
+          "area": "pack",
+          "key": "C_Q",
+          "set": "ENHANCED",
+          "quoted_price": 1,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 23
+        },
+        {
+          "area": "pack",
+          "key": "D_J",
+          "set": "DEFAULT",
+          "quoted_price": 1,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 23
+        },
+        {
+          "area": "pack",
+          "key": "S_T",
+          "set": "DEFAULT",
+          "quoted_price": 1,
+          "cash_covers_price_when_first_seen": true,
+          "first_sequence": 23
+        },
+        {
+          "area": "shop",
+          "key": "j_banner",
+          "set": "JOKER",
+          "quoted_price": 7,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 31
+        },
+        {
+          "area": "shop",
+          "key": "c_jupiter",
+          "set": "PLANET",
+          "quoted_price": 3,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 31
+        },
+        {
+          "area": "vouchers",
+          "key": "v_tarot_merchant",
+          "set": "VOUCHER",
+          "quoted_price": 10,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 31
+        },
+        {
+          "area": "packs",
+          "key": "p_celestial_normal_1",
+          "set": "BOOSTER",
+          "quoted_price": 4,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 31
+        },
+        {
+          "area": "packs",
+          "key": "p_celestial_normal_4",
+          "set": "BOOSTER",
+          "quoted_price": 4,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 31
+        },
+        {
+          "area": "shop",
+          "key": "c_sun",
+          "set": "TAROT",
+          "quoted_price": 3,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 32
+        },
+        {
+          "area": "shop",
+          "key": "j_green_joker",
+          "set": "JOKER",
+          "quoted_price": 4,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 32
+        },
+        {
+          "area": "shop",
+          "key": "j_juggler",
+          "set": "JOKER",
+          "quoted_price": 4,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 50
+        },
+        {
+          "area": "shop",
+          "key": "j_scholar",
+          "set": "JOKER",
+          "quoted_price": 1,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 50
+        },
+        {
+          "area": "vouchers",
+          "key": "v_tarot_merchant",
+          "set": "VOUCHER",
+          "quoted_price": 10,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 50
+        },
+        {
+          "area": "packs",
+          "key": "p_standard_normal_1",
+          "set": "BOOSTER",
+          "quoted_price": 4,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 50
+        },
+        {
+          "area": "packs",
+          "key": "p_celestial_normal_1",
+          "set": "BOOSTER",
+          "quoted_price": 4,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 50
+        },
+        {
+          "area": "shop",
+          "key": "j_droll",
+          "set": "JOKER",
+          "quoted_price": 1,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 51
+        },
+        {
+          "area": "shop",
+          "key": "c_fool",
+          "set": "TAROT",
+          "quoted_price": 3,
+          "cash_covers_price_when_first_seen": false,
+          "first_sequence": 51
+        }
+      ],
+      "quoted_acquisition_costs": {
+        "pack": 8,
+        "consumable": 3,
+        "joker": 2,
+        "reroll": 0
+      },
+      "net_cash_delta_by_method": {
+        "menu": -6,
+        "start": 4,
+        "select": 0,
+        "play": -18,
+        "cash_out": 25,
+        "buy": -13,
+        "pack": 0,
+        "next_round": 0,
+        "use": 0,
+        "reroll": 0,
+        "sell": 2,
+        "discard": 0,
+        "rearrange": 0
+      },
+      "rejected_no_mutation": 0,
+      "shop_departures": [
+        {
+          "sequence": 10,
+          "ante": 1,
+          "round": 1,
+          "cash": 0,
+          "lineup": [
+            {
+              "key": "j_turtle_bean",
+              "perishable": null,
+              "rental": true,
+              "eternal": false
+            }
+          ],
+          "consumable_count": 0,
+          "forward_power_estimate": null,
+          "power_estimate_missing": true
+        },
+        {
+          "sequence": 16,
+          "ante": 1,
+          "round": 2,
+          "cash": 3,
+          "lineup": [
+            {
+              "key": "j_turtle_bean",
+              "perishable": null,
+              "rental": true,
+              "eternal": false
+            },
+            {
+              "key": "j_vagabond",
+              "perishable": 5,
+              "rental": true,
+              "eternal": false
+            }
+          ],
+          "consumable_count": 0,
+          "forward_power_estimate": null,
+          "power_estimate_missing": true
+        },
+        {
+          "sequence": 24,
+          "ante": 2,
+          "round": 3,
+          "cash": 1,
+          "lineup": [
+            {
+              "key": "j_turtle_bean",
+              "perishable": null,
+              "rental": true,
+              "eternal": false
+            },
+            {
+              "key": "j_vagabond",
+              "perishable": 4,
+              "rental": true,
+              "eternal": false
+            }
+          ],
+          "consumable_count": 1,
+          "forward_power_estimate": null,
+          "power_estimate_missing": true
+        },
+        {
+          "sequence": 36,
+          "ante": 2,
+          "round": 4,
+          "cash": -1,
+          "lineup": [
+            {
+              "key": "j_vagabond",
+              "perishable": 3,
+              "rental": true,
+              "eternal": false
+            },
+            {
+              "key": "j_chaos",
+              "perishable": null,
+              "rental": false,
+              "eternal": false
+            }
+          ],
+          "consumable_count": 0,
+          "forward_power_estimate": null,
+          "power_estimate_missing": true
+        },
+        {
+          "sequence": 53,
+          "ante": 2,
+          "round": 5,
+          "cash": 0,
+          "lineup": [
+            {
+              "key": "j_vagabond",
+              "perishable": 2,
+              "rental": true,
+              "eternal": false
+            },
+            {
+              "key": "j_chaos",
+              "perishable": null,
+              "rental": false,
+              "eternal": false
+            },
+            {
+              "key": "j_droll",
+              "perishable": null,
+              "rental": true,
+              "eternal": false
+            }
+          ],
+          "consumable_count": 0,
+          "forward_power_estimate": null,
+          "power_estimate_missing": true
+        }
+      ],
+      "combat_observations": [
+        {
+          "round": 1,
+          "ante": 1,
+          "blind": "Small Blind",
+          "target": 300,
+          "initial_hands_observed": 5,
+          "scores": [
+            88,
+            240
+          ],
+          "terminal_score": 328,
+          "score_target_ratio": 1.0933333333333333,
+          "median_hand_score": 164.0,
+          "required_average_at_first_play": 60.0,
+          "remaining_shortfall": 0
+        },
+        {
+          "round": 2,
+          "ante": 1,
+          "blind": "Big Blind",
+          "target": 450,
+          "initial_hands_observed": 5,
+          "scores": [
+            280,
+            310
+          ],
+          "terminal_score": 590,
+          "score_target_ratio": 1.3111111111111111,
+          "median_hand_score": 295.0,
+          "required_average_at_first_play": 90.0,
+          "remaining_shortfall": 0,
+          "observed_median_score_growth": 1.798780487804878,
+          "target_growth": 1.5
+        },
+        {
+          "round": 3,
+          "ante": 1,
+          "blind": "The Goad",
+          "target": 600,
+          "initial_hands_observed": 5,
+          "scores": [
+            240,
+            1040
+          ],
+          "terminal_score": 1280,
+          "score_target_ratio": 2.1333333333333333,
+          "median_hand_score": 640.0,
+          "required_average_at_first_play": 120.0,
+          "remaining_shortfall": 0,
+          "observed_median_score_growth": 2.169491525423729,
+          "target_growth": 1.3333333333333333
+        },
+        {
+          "round": 4,
+          "ante": 2,
+          "blind": "Small Blind",
+          "target": 1000,
+          "initial_hands_observed": 5,
+          "scores": [
+            852,
+            292
+          ],
+          "terminal_score": 1144,
+          "score_target_ratio": 1.144,
+          "median_hand_score": 572.0,
+          "required_average_at_first_play": 200.0,
+          "remaining_shortfall": 0,
+          "observed_median_score_growth": 0.89375,
+          "target_growth": 1.6666666666666667
+        },
+        {
+          "round": 5,
+          "ante": 2,
+          "blind": "Big Blind",
+          "target": 1500,
+          "initial_hands_observed": 5,
+          "scores": [
+            16,
+            40,
+            546,
+            442,
+            1080
+          ],
+          "terminal_score": 2124,
+          "score_target_ratio": 1.416,
+          "median_hand_score": 442,
+          "required_average_at_first_play": 300.0,
+          "remaining_shortfall": 0,
+          "observed_median_score_growth": 0.7727272727272727,
+          "target_growth": 1.5
+        },
+        {
+          "round": 6,
+          "ante": 2,
+          "blind": "The Pillar",
+          "target": 2000,
+          "initial_hands_observed": 5,
+          "scores": [
+            40,
+            52,
+            36,
+            5,
+            1584
+          ],
+          "terminal_score": 1717,
+          "score_target_ratio": 0.8585,
+          "median_hand_score": 40,
+          "required_average_at_first_play": 400.0,
+          "remaining_shortfall": 283,
+          "observed_median_score_growth": 0.09049773755656108,
+          "target_growth": 1.3333333333333333
+        }
+      ],
+      "last_combat": {
+        "round": 6,
+        "ante": 2,
+        "blind": "The Pillar",
+        "target": 2000,
+        "initial_hands_observed": 5,
+        "scores": [
+          40,
+          52,
+          36,
+          5,
+          1584
+        ],
+        "terminal_score": 1717,
+        "score_target_ratio": 0.8585,
+        "median_hand_score": 40,
+        "required_average_at_first_play": 400.0,
+        "remaining_shortfall": 283,
+        "observed_median_score_growth": 0.09049773755656108,
+        "target_growth": 1.3333333333333333
+      },
+      "last_departure": {
+        "sequence": 53,
+        "ante": 2,
+        "round": 5,
+        "cash": 0,
+        "lineup": [
+          {
+            "key": "j_vagabond",
+            "perishable": 2,
+            "rental": true,
+            "eternal": false
+          },
+          {
+            "key": "j_chaos",
+            "perishable": null,
+            "rental": false,
+            "eternal": false
+          },
+          {
+            "key": "j_droll",
+            "perishable": null,
+            "rental": true,
+            "eternal": false
+          }
+        ],
+        "consumable_count": 0,
+        "forward_power_estimate": null,
+        "power_estimate_missing": true
+      },
+      "status": "loss",
+      "source_sha256": "79007b0e5b9bb10c0ffffb7819a90de847d6ca1218fd592f244bb3289cfa1a17"
+    }
+  ]
+}

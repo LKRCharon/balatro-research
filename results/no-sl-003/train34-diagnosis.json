@@ -1,0 +1,77 @@
+{
+  "purpose": "completed_training_loss_diagnosis",
+  "seed_id": 34,
+  "live_engine_access": false,
+  "frozen_sources_modified": false,
+  "evaluated_state": "before transition199, after Justice use198",
+  "current_lineup_best_score": 92700,
+  "effective_chad_count": 2,
+  "glass_triggers": 5,
+  "glass_factor": 32,
+  "chip_terms": {
+    "hand_base": 45,
+    "played_nine_five_times": 45,
+    "banner_two_discards": 60,
+    "foil": 50
+  },
+  "mult_terms": {
+    "hand_base_times_glass": 160,
+    "ride_bus_after_card_scoring": 46,
+    "campfire_final_factor": 2.25
+  },
+  "score_formula": "(45+9*5+60+50)*(5*2**5+46)*2.25 = 92700",
+  "incorrect_formula_warning": "Ride the Bus flat Mult is applied after Glass, so (5+46)*32 is invalid.",
+  "joker_order_counterfactual": {
+    "orders_enumerated": 120,
+    "best_score": 92700,
+    "order": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "cards": [
+      1
+    ],
+    "scope": "existing scorer and advisor-supported current-hand variants, not future draw simulation or replay"
+  },
+  "blind_target": 110000,
+  "solver_failure": {
+    "search_used": false,
+    "fallback_reason": "mutable_or_unmodeled_jokers:j_campfire,j_ride_the_bus",
+    "discarded_indices": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "discarded_keys": [
+      "C_8",
+      "S_9",
+      "D_9",
+      "D_J"
+    ],
+    "lost_glass": true,
+    "heuristic_retained_ranks": [
+      7,
+      6,
+      4,
+      3
+    ],
+    "mechanism": "rank/suit discard heuristic overwrote scoring-card keep-set with a four-rank straight draw, ignoring Glass+Chad+Blueprint and Banner loss"
+  },
+  "final_play": {
+    "predicted": 16065,
+    "actual": 16065,
+    "mismatch": false
+  },
+  "future_version_proposal": [
+    "Preserve high-marginal-value scoring/held cards in discard candidate generation.",
+    "Simulate immediate loss of Banner chips and other discard-dependent effects before ranking replacements.",
+    "Add static-during-this-blind support for Campfire and explicit bus reset/increment transitions.",
+    "Separate scoring certainty from transition-model support; Glass score deterministic now, breakage matters only for later hands.",
+    "Add synthetic regression preserving Glass9 in this lineup; separately test original92700 formula and BlueprintChad5triggers.",
+    "Freeze a new solver version only after current campaign; never change this loss or assert a counterfactual win without independent evidence."
+  ]
+}

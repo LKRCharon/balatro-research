@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "purpose": "retrospective_visible_hand_sensitivity",
+  "causal_winrate": false,
+  "runs": [
+    {
+      "run_id": 41,
+      "source_sha256": "ef5086a4db14e23b6f01e7b475d176edbeddc7965cc35a0a3a3ffa8920fd7266",
+      "observations": [
+        {
+          "eligible": false,
+          "reason": "uncertain_or_unsupported",
+          "baseline": null,
+          "sequence": 86
+        }
+      ]
+    }
+  ]
+}

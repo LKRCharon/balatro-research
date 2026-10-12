@@ -1,0 +1,333 @@
+{
+  "schema": 1,
+  "purpose": "retrospective_visible_hand_sensitivity",
+  "causal_winrate": false,
+  "runs": [
+    {
+      "run_id": 34,
+      "source_sha256": "051ebe3432532eed71369d62b68f6f45db07e9e0b5350741691a5be07b9b2552",
+      "observations": [
+        {
+          "eligible": true,
+          "baseline": 16065,
+          "exactness": "deterministic_route_v3_model_not_engine_proof",
+          "joker_marginals": [
+            {
+              "index": 0,
+              "key": "j_banner",
+              "structural_removal": {
+                "score": 10327,
+                "delta": -5738,
+                "relative_delta": -0.35717398070339246,
+                "deterministic_model_eligible": true
+              },
+              "sale_legal_by_eternal_flag": true,
+              "rental_cash_per_round": 0,
+              "reslots": [
+                {
+                  "destination": 1,
+                  "score": 16065,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 2,
+                  "score": 16065,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 3,
+                  "score": 13999,
+                  "delta": -2066,
+                  "relative_delta": -0.12860255213196392,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 4,
+                  "score": 16065,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                }
+              ]
+            },
+            {
+              "index": 1,
+              "key": "j_ride_the_bus",
+              "structural_removal": {
+                "score": 1631,
+                "delta": -14434,
+                "relative_delta": -0.898474945533769,
+                "deterministic_model_eligible": true
+              },
+              "sale_legal_by_eternal_flag": false,
+              "rental_cash_per_round": 0,
+              "reslots": [
+                {
+                  "destination": 0,
+                  "score": 16065,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 2,
+                  "score": 8015,
+                  "delta": -8050,
+                  "relative_delta": -0.5010893246187365,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 3,
+                  "score": 12596,
+                  "delta": -3469,
+                  "relative_delta": -0.2159352629940865,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 4,
+                  "score": 8015,
+                  "delta": -8050,
+                  "relative_delta": -0.5010893246187365,
+                  "deterministic_model_eligible": true
+                }
+              ]
+            },
+            {
+              "index": 2,
+              "key": "j_campfire",
+              "structural_removal": {
+                "score": 7140,
+                "delta": -8925,
+                "relative_delta": -0.5555555555555556,
+                "deterministic_model_eligible": true
+              },
+              "sale_legal_by_eternal_flag": false,
+              "rental_cash_per_round": 0,
+              "reslots": [
+                {
+                  "destination": 0,
+                  "score": 8015,
+                  "delta": -8050,
+                  "relative_delta": -0.5010893246187365,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 1,
+                  "score": 8015,
+                  "delta": -8050,
+                  "relative_delta": -0.5010893246187365,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 3,
+                  "score": 31498,
+                  "delta": 15433,
+                  "relative_delta": 0.9606598194833489,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 4,
+                  "score": 16065,
+                  "delta": 0,
+                  "relative_delta": 0.0,
+                  "deterministic_model_eligible": true
+                }
+              ]
+            },
+            {
+              "index": 3,
+              "key": "j_blueprint",
+              "structural_removal": {
+                "score": 13999,
+                "delta": -2066,
+                "relative_delta": -0.12860255213196392,
+                "deterministic_model_eligible": true
+              },
+              "sale_legal_by_eternal_flag": true,
+              "rental_cash_per_round": 0,
+              "reslots": [
+                {
+                  "destination": 0,
+                  "score": 13999,
+                  "delta": -2066,
+                  "relative_delta": -0.12860255213196392,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 1,
+                  "score": 26626,
+                  "delta": 10561,
+                  "relative_delta": 0.6573918456271397,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 2,
+                  "score": 31498,
+                  "delta": 15433,
+                  "relative_delta": 0.9606598194833489,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 4,
+                  "score": 13999,
+                  "delta": -2066,
+                  "relative_delta": -0.12860255213196392,
+                  "deterministic_model_eligible": true
+                }
+              ]
+            },
+            {
+              "index": 4,
+              "key": "j_hanging_chad",
+              "structural_removal": {
+                "score": 11934,
+                "delta": -4131,
+                "relative_delta": -0.2571428571428571,
+                "deterministic_model_eligible": true
+              },
+              "sale_legal_by_eternal_flag": true,
+              "rental_cash_per_round": 0,
+              "reslots": [
+                {
+                  "destination": 0,
+                  "score": 13999,
+                  "delta": -2066,
+                  "relative_delta": -0.12860255213196392,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 1,
+                  "score": 13999,
+                  "delta": -2066,
+                  "relative_delta": -0.12860255213196392,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 2,
+                  "score": 13999,
+                  "delta": -2066,
+                  "relative_delta": -0.12860255213196392,
+                  "deterministic_model_eligible": true
+                },
+                {
+                  "destination": 3,
+                  "score": 13999,
+                  "delta": -2066,
+                  "relative_delta": -0.12860255213196392,
+                  "deterministic_model_eligible": true
+                }
+              ]
+            }
+          ],
+          "planet_upgrades": [
+            {
+              "key": "c_pluto",
+              "hand_type": "High Card",
+              "score": 17550,
+              "delta": 1485,
+              "relative_delta": 0.09243697478991586,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_mercury",
+              "hand_type": "Pair",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_uranus",
+              "hand_type": "Two Pair",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_venus",
+              "hand_type": "Three of a Kind",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_saturn",
+              "hand_type": "Straight",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_jupiter",
+              "hand_type": "Flush",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_earth",
+              "hand_type": "Full House",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_mars",
+              "hand_type": "Four of a Kind",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_neptune",
+              "hand_type": "Straight Flush",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_planet_x",
+              "hand_type": "Five of a Kind",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_ceres",
+              "hand_type": "Flush House",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            },
+            {
+              "key": "c_eris",
+              "hand_type": "Flush Five",
+              "score": 16065,
+              "delta": 0,
+              "relative_delta": 0.0,
+              "deterministic_model_eligible": true
+            }
+          ],
+          "shop_candidates": [],
+          "sequence": 201
+        }
+      ]
+    }
+  ],
+  "known_model_limitations": [
+    "Subsequent readiness audit confirmed earlier Glass score92700 already includes Blueprint+Chad x32; controller wrongly multiplied Bus additive mult, applied after Glass. No runtime source change. Last-hand probe does not establish future survival."
+  ]
+}
