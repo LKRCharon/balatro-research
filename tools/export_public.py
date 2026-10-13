@@ -15,7 +15,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--source', type=Path, required=True)
     parser.add_argument('--candidates', type=Path, help='Explicit work candidate directory; only explicitly allowlisted completed combat/growth modules')
-    parser.add_argument('--extra-candidate', action='append', default=[], choices=['combat_candidate_v9.py', 'combat_candidate_v10.py', 'growth_candidate_v10.py', 'growth_candidate_v11.py', 'round_capacity.py', 'round_capacity_v2.py'], help='Opt-in only after the corresponding iteration is complete and audited; never exports active candidates by default')
+    parser.add_argument('--extra-candidate', action='append', default=[], choices=['combat_candidate_v9.py', 'combat_candidate_v10.py', 'growth_candidate_v10.py', 'growth_candidate_v11.py', 'round_capacity.py', 'round_capacity_v2.py', 'combat_candidate_v11.py', 'combat_candidate_v12.py', 'growth_candidate_v13.py', 'plain_combat.py'], help='Opt-in only after the corresponding iteration is complete and audited; never exports active candidates by default')
     args = parser.parse_args()
     if args.extra_candidate and not args.candidates:
         parser.error('--extra-candidate requires --candidates')

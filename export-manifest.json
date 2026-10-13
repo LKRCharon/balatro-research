@@ -1058,6 +1058,48 @@
       "source_sha256": "d8cd3d778add016c417aae39688db427c9eef21ef8328a99708cdd5bf8317628",
       "export_sha256": "d8cd3d778add016c417aae39688db427c9eef21ef8328a99708cdd5bf8317628",
       "transformation": null
+    },
+    {
+      "path": "headless/combat_candidate_v11.py",
+      "source_sha256": "5d870291655c7d34b200247ae1359ee09e1e2d3453350259d8d87a99ababde60",
+      "export_sha256": "5d870291655c7d34b200247ae1359ee09e1e2d3453350259d8d87a99ababde60",
+      "transformation": null,
+      "source_kind": "tested_development_candidate_not_completed_evaluation"
+    },
+    {
+      "path": "headless/combat_candidate_v12.py",
+      "source_sha256": "78ba3cc524517e1a00f7590ba2814ccfbcf9c775aa70caecc823967236c77bca",
+      "export_sha256": "78ba3cc524517e1a00f7590ba2814ccfbcf9c775aa70caecc823967236c77bca",
+      "transformation": null,
+      "source_kind": "tested_development_candidate_not_completed_evaluation"
+    },
+    {
+      "path": "headless/plain_combat.py",
+      "source_sha256": "a5c3f15efe00ba21557d83823270f36ec65cd48d273b2b67cc8cb6b2a4b1dbdf",
+      "export_sha256": "a5c3f15efe00ba21557d83823270f36ec65cd48d273b2b67cc8cb6b2a4b1dbdf",
+      "transformation": null,
+      "source_kind": "tested_development_candidate_not_completed_evaluation"
+    },
+    {
+      "path": "headless/round_capacity.py",
+      "source_sha256": "a8eeae6c10dca79f2796cbecde1d7ee3090fbe95e4cd33bb5496dfdeb67937a5",
+      "export_sha256": "a8eeae6c10dca79f2796cbecde1d7ee3090fbe95e4cd33bb5496dfdeb67937a5",
+      "transformation": null,
+      "source_kind": "tested_development_candidate_not_completed_evaluation"
+    },
+    {
+      "path": "headless/round_capacity_v2.py",
+      "source_sha256": "7d0530103fe5f2f38aa9d137fb3eaa0dc6ba734c126a3e7805815dca012101ed",
+      "export_sha256": "7d0530103fe5f2f38aa9d137fb3eaa0dc6ba734c126a3e7805815dca012101ed",
+      "transformation": null,
+      "source_kind": "tested_development_candidate_not_completed_evaluation"
+    },
+    {
+      "path": "experiments/growth_candidate_v13.py",
+      "source_sha256": "5f2922ec31b109a4bd377030d07ea6f97bfd4cad396e1f48064ae0843c641e10",
+      "export_sha256": "5f2922ec31b109a4bd377030d07ea6f97bfd4cad396e1f48064ae0843c641e10",
+      "transformation": null,
+      "source_kind": "tested_development_candidate_not_completed_evaluation"
     }
   ],
   "excluded": [
