@@ -4,6 +4,8 @@ Research into Blue Deck / Gold Stake strategy, risk-sensitive decisions, and car
 
 ## Current status
 
+**Three completed fixed TRAIN iterations: r1 / r2b / r3 each finished 0/13.** r3 used 915 actions; 258 observed deterministic checks matched and 58 uncertain cases were excluded. Matching chosen-action scores is not correct strategy or proven full mechanic coverage. [Comparison](results/iterative-004/report.md) · [Data](results/iterative-004/report.json). These are repeated training experiments; unfinished later runs are excluded.
+
 **Fixed TRAIN iteration r2b:** 13/13 complete, 0 wins, 797 actions; 311 observed deterministic checks matched, 14 uncertain excluded. [Results](results/iterative-004/r2b.json) · [Separate startup attempts](results/iterative-004/startup-attempts.md). Lower debt did not establish an effective strategy.
 
 **Fixed TRAIN iteration r1:** 13/13 complete, 0 wins, 1010 actions. Observed deterministic scoring checks matched (264 checks, 48 uncertain excluded), but this did not produce a successful strategy. [Results](results/iterative-004/r1.json). Repeated training seeds are not independent win-rate evidence.
