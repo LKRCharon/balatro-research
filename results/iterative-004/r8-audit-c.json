@@ -1,0 +1,99 @@
+{
+  "audit": "passed",
+  "complete": true,
+  "assigned": 4,
+  "completed": 4,
+  "active_uninspected": [],
+  "not_started": [],
+  "status_counts": {
+    "loss": 4
+  },
+  "totals": {
+    "decisions": 408,
+    "prestart_menus": 4,
+    "gameplay_actions": 404,
+    "pending_intents": 0,
+    "predictions": 134,
+    "checkable": 119,
+    "mismatches": 0,
+    "uncertain": 15
+  },
+  "original_saves_unchanged": 4,
+  "test_campaigns": 0,
+  "frozen_hashes_verified": true,
+  "sessions": [
+    {
+      "seed_id": 37,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 90,
+      "prestart_menus": 1,
+      "gameplay_actions": 89,
+      "pending_intents": 0,
+      "predictions": 22,
+      "checkable": 11,
+      "mismatches": 0,
+      "uncertain": 11,
+      "ante": 4,
+      "old_no_sl_003_status": "loss"
+    },
+    {
+      "seed_id": 40,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 123,
+      "prestart_menus": 1,
+      "gameplay_actions": 122,
+      "pending_intents": 0,
+      "predictions": 45,
+      "checkable": 45,
+      "mismatches": 0,
+      "uncertain": 0,
+      "ante": 5,
+      "old_no_sl_003_status": "loss"
+    },
+    {
+      "seed_id": 41,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 93,
+      "prestart_menus": 1,
+      "gameplay_actions": 92,
+      "pending_intents": 0,
+      "predictions": 31,
+      "checkable": 27,
+      "mismatches": 0,
+      "uncertain": 4,
+      "ante": 4,
+      "old_no_sl_003_status": "loss"
+    },
+    {
+      "seed_id": 42,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 102,
+      "prestart_menus": 1,
+      "gameplay_actions": 101,
+      "pending_intents": 0,
+      "predictions": 36,
+      "checkable": 36,
+      "mismatches": 0,
+      "uncertain": 0,
+      "ante": 4,
+      "old_no_sl_003_status": "loss"
+    }
+  ],
+  "historical_archived_sources_verified": 0,
+  "current_sources_all_match": true,
+  "limitations": [
+    "Only completed/error/truncated episodes are inspected; active gameplay is not read.",
+    "Engine imports or manifest failures before the try block can leave a session directory without result.json.",
+    "Full 13-seed completion requires all results; batch summary may omit an error episode because main aborts.",
+    "Source bytes are verified but Python runtime and imported module paths are not recorded in this runner.",
+    "Repeated TRAIN regression is not an independent win-rate estimate."
+  ]
+}

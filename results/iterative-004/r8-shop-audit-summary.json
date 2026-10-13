@@ -1,0 +1,9 @@
+{
+  "episodes": 13,
+  "audit": "passed",
+  "records": 340,
+  "joined_calls": 340,
+  "selected_action_matches": 340,
+  "policy_fallthrough_calls": 0,
+  "scope": "Diagnostic provenance joins only, not exhaustive candidate coverage or strategy quality."
+}

@@ -40,6 +40,8 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           python -m unittest discover -s tools -p "test_round_capacity*.py" -v
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s tools -p test_v15_independent_review.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Growth trajectory and shop decision audit
         run: |
           python -m unittest discover -s outputs/balatro-lab/experiments -p test_analyze_growth_trajectory.py -v
@@ -73,6 +75,10 @@ jobs:
       - name: Combat comparison regressions
         run: |
           python -m unittest discover -s outputs/balatro-lab/experiments -p test_combat_v4.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/experiments -p test_joker_ablation.py -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m unittest discover -s outputs/balatro-lab/experiments -p test_audit_combat_regret.py -v
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           python -m unittest discover -s outputs/balatro-lab/experiments -p test_combat_audit.py -v
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

@@ -14,8 +14,8 @@ def digest(data):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--source', type=Path, required=True)
-    parser.add_argument('--candidates', type=Path, help='Explicit work candidate directory; only explicitly allowlisted completed combat/growth modules')
-    parser.add_argument('--extra-candidate', action='append', default=[], choices=['combat_candidate_v9.py', 'combat_candidate_v10.py', 'growth_candidate_v10.py', 'growth_candidate_v11.py', 'round_capacity.py', 'round_capacity_v2.py', 'combat_candidate_v11.py', 'combat_candidate_v12.py', 'growth_candidate_v13.py', 'plain_combat.py'], help='Opt-in only after the corresponding iteration is complete and audited; never exports active candidates by default')
+    parser.add_argument('--candidates', type=Path, help='Explicit work candidate directory; only explicitly allowlisted modules with documented evaluation status')
+    parser.add_argument('--extra-candidate', action='append', default=[], choices=['combat_candidate_v9.py', 'combat_candidate_v10.py', 'growth_candidate_v10.py', 'growth_candidate_v11.py', 'round_capacity.py', 'round_capacity_v2.py', 'combat_candidate_v11.py', 'combat_candidate_v12.py', 'growth_candidate_v13.py', 'plain_combat.py', 'growth_candidate_v14.py', 'growth_candidate_v15.py', 'round_capacity_v3.py'], help='Explicit opt-in; document development versus evaluated status separately; never exports active candidates by default')
     args = parser.parse_args()
     if args.extra_candidate and not args.candidates:
         parser.error('--extra-candidate requires --candidates')
@@ -55,7 +55,7 @@ def main():
             content = (args.candidates / name).read_bytes()
             rel = Path(folder) / name
             (target / rel).write_bytes(content)
-            manifest.append({'path': rel.as_posix(), 'source_sha256': digest(content), 'export_sha256': digest(content), 'transformation': None, 'source_kind': 'explicit_completed_work_candidate'})
+            manifest.append({'path': rel.as_posix(), 'source_sha256': digest(content), 'export_sha256': digest(content), 'transformation': None, 'source_kind': 'explicit_work_candidate_see_iteration_report'})
     (root / 'export-manifest.json').write_text(json.dumps({'files': manifest, 'excluded': ['game source/assets/binaries', 'backend patches', 'saves', 'raw seeds', 'registry databases', 'raw results', 'third-party code']}, indent=2) + '\n', encoding='utf-8')
     print(f'Exported {len(manifest)} allowlisted files')
 

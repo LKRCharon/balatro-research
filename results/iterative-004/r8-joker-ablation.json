@@ -1,0 +1,713 @@
+{
+  "purpose": "conditional_fixed_action_joker_ability_ablation",
+  "counts": {
+    "completed_episodes": 13,
+    "audited_plays": 296,
+    "unaudited_or_uncertain_plays_omitted": 57
+  },
+  "cards": [
+    {
+      "key": "j_8_ball",
+      "audited_play_appearances": 4,
+      "edition_play_appearances": {
+        "FOIL": 4
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 4,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.2481181036891642,
+      "mean_absolute_scoring_difference": 512.5
+    },
+    {
+      "key": "j_abstract",
+      "audited_play_appearances": 51,
+      "edition_play_appearances": {
+        "NONE": 1,
+        "HOLO": 50
+      },
+      "episodes": 3,
+      "positive_scoring_ablations": 51,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.7744122118297434,
+      "mean_absolute_scoring_difference": 3840.6666666666665
+    },
+    {
+      "key": "j_acrobat",
+      "audited_play_appearances": 15,
+      "edition_play_appearances": {
+        "NONE": 15
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 3,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 12,
+      "mean_relative_scoring_difference": 0.13333333333333333,
+      "mean_absolute_scoring_difference": 2451.733333333333
+    },
+    {
+      "key": "j_ancient",
+      "audited_play_appearances": 31,
+      "edition_play_appearances": {
+        "NONE": 31
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 18,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 13,
+      "mean_relative_scoring_difference": 0.13048720037244926,
+      "mean_absolute_scoring_difference": 349.5483870967742
+    },
+    {
+      "key": "j_banner",
+      "audited_play_appearances": 66,
+      "edition_play_appearances": {
+        "FOIL": 55,
+        "NONE": 11
+      },
+      "episodes": 3,
+      "positive_scoring_ablations": 58,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 8,
+      "mean_relative_scoring_difference": 0.4825746215235619,
+      "mean_absolute_scoring_difference": 1811.060606060606
+    },
+    {
+      "key": "j_blackboard",
+      "audited_play_appearances": 15,
+      "edition_play_appearances": {
+        "NONE": 15
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 11,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 4,
+      "mean_relative_scoring_difference": 0.48888888888888893,
+      "mean_absolute_scoring_difference": 1746.4
+    },
+    {
+      "key": "j_blue_joker",
+      "audited_play_appearances": 3,
+      "edition_play_appearances": {
+        "NONE": 3
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 3,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.3784440536559919,
+      "mean_absolute_scoring_difference": 304.0
+    },
+    {
+      "key": "j_castle",
+      "audited_play_appearances": 28,
+      "edition_play_appearances": {
+        "NONE": 28
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 26,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 2,
+      "mean_relative_scoring_difference": 0.17264852009300144,
+      "mean_absolute_scoring_difference": 432.5357142857143
+    },
+    {
+      "key": "j_certificate",
+      "audited_play_appearances": 9,
+      "edition_play_appearances": {
+        "NONE": 9
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 0,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 9,
+      "mean_relative_scoring_difference": 0.0,
+      "mean_absolute_scoring_difference": 0.0
+    },
+    {
+      "key": "j_clever",
+      "audited_play_appearances": 14,
+      "edition_play_appearances": {
+        "NONE": 14
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 9,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 5,
+      "mean_relative_scoring_difference": 0.3539493228254818,
+      "mean_absolute_scoring_difference": 1342.857142857143
+    },
+    {
+      "key": "j_crafty",
+      "audited_play_appearances": 10,
+      "edition_play_appearances": {
+        "NONE": 10
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 6,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 4,
+      "mean_relative_scoring_difference": 0.21999378352188775,
+      "mean_absolute_scoring_difference": 408.0
+    },
+    {
+      "key": "j_crazy",
+      "audited_play_appearances": 6,
+      "edition_play_appearances": {
+        "NONE": 6
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 1,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 5,
+      "mean_relative_scoring_difference": 0.05263157894736842,
+      "mean_absolute_scoring_difference": 180.0
+    },
+    {
+      "key": "j_credit_card",
+      "audited_play_appearances": 35,
+      "edition_play_appearances": {
+        "HOLO": 26,
+        "NEGATIVE": 9
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 26,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 9,
+      "mean_relative_scoring_difference": 0.22287634056616296,
+      "mean_absolute_scoring_difference": 762.8571428571429
+    },
+    {
+      "key": "j_devious",
+      "audited_play_appearances": 21,
+      "edition_play_appearances": {
+        "NONE": 21
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 1,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 20,
+      "mean_relative_scoring_difference": 0.017969451931716084,
+      "mean_absolute_scoring_difference": 200.0
+    },
+    {
+      "key": "j_faceless",
+      "audited_play_appearances": 24,
+      "edition_play_appearances": {
+        "NONE": 24
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 0,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 24,
+      "mean_relative_scoring_difference": 0.0,
+      "mean_absolute_scoring_difference": 0.0
+    },
+    {
+      "key": "j_fibonacci",
+      "audited_play_appearances": 7,
+      "edition_play_appearances": {
+        "NONE": 7
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 2,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 5,
+      "mean_relative_scoring_difference": 0.24728487886382622,
+      "mean_absolute_scoring_difference": 306.2857142857143
+    },
+    {
+      "key": "j_flower_pot",
+      "audited_play_appearances": 33,
+      "edition_play_appearances": {
+        "NONE": 33
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 8,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 25,
+      "mean_relative_scoring_difference": 0.10088183421516754,
+      "mean_absolute_scoring_difference": 99.57575757575758
+    },
+    {
+      "key": "j_four_fingers",
+      "audited_play_appearances": 5,
+      "edition_play_appearances": {
+        "NONE": 5
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 5,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.8792258877279953,
+      "mean_absolute_scoring_difference": 2537.8
+    },
+    {
+      "key": "j_golden",
+      "audited_play_appearances": 16,
+      "edition_play_appearances": {
+        "FOIL": 3,
+        "NONE": 13
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 3,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 13,
+      "mean_relative_scoring_difference": 0.0454920533775674,
+      "mean_absolute_scoring_difference": 278.125
+    },
+    {
+      "key": "j_greedy_joker",
+      "audited_play_appearances": 6,
+      "edition_play_appearances": {
+        "NONE": 6
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 5,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 1,
+      "mean_relative_scoring_difference": 0.5093501326259947,
+      "mean_absolute_scoring_difference": 326.5
+    },
+    {
+      "key": "j_gros_michel",
+      "audited_play_appearances": 17,
+      "edition_play_appearances": {
+        "NONE": 17
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 17,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.6150557612575005,
+      "mean_absolute_scoring_difference": 1464.7058823529412
+    },
+    {
+      "key": "j_hack",
+      "audited_play_appearances": 8,
+      "edition_play_appearances": {
+        "NONE": 8
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 4,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 4,
+      "mean_relative_scoring_difference": 0.04705822854444962,
+      "mean_absolute_scoring_difference": 23.875
+    },
+    {
+      "key": "j_half",
+      "audited_play_appearances": 26,
+      "edition_play_appearances": {
+        "NONE": 26
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 24,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 2,
+      "mean_relative_scoring_difference": 0.7667040673133764,
+      "mean_absolute_scoring_difference": 1954.6153846153845
+    },
+    {
+      "key": "j_hanging_chad",
+      "audited_play_appearances": 47,
+      "edition_play_appearances": {
+        "NONE": 47
+      },
+      "episodes": 3,
+      "positive_scoring_ablations": 47,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.17999118490351793,
+      "mean_absolute_scoring_difference": 436.17021276595744
+    },
+    {
+      "key": "j_hiker",
+      "audited_play_appearances": 12,
+      "edition_play_appearances": {
+        "NONE": 12
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 0,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 12,
+      "mean_relative_scoring_difference": 0.0,
+      "mean_absolute_scoring_difference": 0.0
+    },
+    {
+      "key": "j_ice_cream",
+      "audited_play_appearances": 10,
+      "edition_play_appearances": {
+        "NONE": 10
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 10,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.3787629610975578,
+      "mean_absolute_scoring_difference": 3054.0
+    },
+    {
+      "key": "j_joker",
+      "audited_play_appearances": 7,
+      "edition_play_appearances": {
+        "NONE": 7
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 7,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.3807826160767337,
+      "mean_absolute_scoring_difference": 890.2857142857143
+    },
+    {
+      "key": "j_juggler",
+      "audited_play_appearances": 16,
+      "edition_play_appearances": {
+        "NONE": 16
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 0,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 16,
+      "mean_relative_scoring_difference": 0.0,
+      "mean_absolute_scoring_difference": 0.0
+    },
+    {
+      "key": "j_lusty_joker",
+      "audited_play_appearances": 8,
+      "edition_play_appearances": {
+        "NONE": 8
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 6,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 2,
+      "mean_relative_scoring_difference": 0.43794642857142857,
+      "mean_absolute_scoring_difference": 364.5
+    },
+    {
+      "key": "j_mad",
+      "audited_play_appearances": 17,
+      "edition_play_appearances": {
+        "NONE": 17
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 10,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 7,
+      "mean_relative_scoring_difference": 0.39078592495547515,
+      "mean_absolute_scoring_difference": 1460.5882352941176
+    },
+    {
+      "key": "j_mail",
+      "audited_play_appearances": 7,
+      "edition_play_appearances": {
+        "NONE": 7
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 0,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 7,
+      "mean_relative_scoring_difference": 0.0,
+      "mean_absolute_scoring_difference": 0.0
+    },
+    {
+      "key": "j_mystic_summit",
+      "audited_play_appearances": 20,
+      "edition_play_appearances": {
+        "NONE": 20
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 18,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 2,
+      "mean_relative_scoring_difference": 0.6073392092084042,
+      "mean_absolute_scoring_difference": 951.75
+    },
+    {
+      "key": "j_photograph",
+      "audited_play_appearances": 1,
+      "edition_play_appearances": {
+        "NONE": 1
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 0,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 1,
+      "mean_relative_scoring_difference": 0.0,
+      "mean_absolute_scoring_difference": 0.0
+    },
+    {
+      "key": "j_popcorn",
+      "audited_play_appearances": 31,
+      "edition_play_appearances": {
+        "NONE": 31
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 31,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.3396445668395117,
+      "mean_absolute_scoring_difference": 1889.1612903225807
+    },
+    {
+      "key": "j_raised_fist",
+      "audited_play_appearances": 1,
+      "edition_play_appearances": {
+        "NONE": 1
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 1,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.32884615384615384,
+      "mean_absolute_scoring_difference": 684.0
+    },
+    {
+      "key": "j_riff_raff",
+      "audited_play_appearances": 3,
+      "edition_play_appearances": {
+        "NONE": 3
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 0,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 3,
+      "mean_relative_scoring_difference": 0.0,
+      "mean_absolute_scoring_difference": 0.0
+    },
+    {
+      "key": "j_rocket",
+      "audited_play_appearances": 12,
+      "edition_play_appearances": {
+        "NONE": 12
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 0,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 12,
+      "mean_relative_scoring_difference": 0.0,
+      "mean_absolute_scoring_difference": 0.0
+    },
+    {
+      "key": "j_runner",
+      "audited_play_appearances": 22,
+      "edition_play_appearances": {
+        "FOIL": 22
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 22,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.47022492445679787,
+      "mean_absolute_scoring_difference": 1015.2272727272727
+    },
+    {
+      "key": "j_satellite",
+      "audited_play_appearances": 3,
+      "edition_play_appearances": {
+        "NONE": 3
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 0,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 3,
+      "mean_relative_scoring_difference": 0.0,
+      "mean_absolute_scoring_difference": 0.0
+    },
+    {
+      "key": "j_scary_face",
+      "audited_play_appearances": 9,
+      "edition_play_appearances": {
+        "NONE": 9
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 4,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 5,
+      "mean_relative_scoring_difference": 0.18171591871682322,
+      "mean_absolute_scoring_difference": 800.0
+    },
+    {
+      "key": "j_scholar",
+      "audited_play_appearances": 2,
+      "edition_play_appearances": {
+        "NONE": 2
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 2,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.680672268907563,
+      "mean_absolute_scoring_difference": 3594.0
+    },
+    {
+      "key": "j_shoot_the_moon",
+      "audited_play_appearances": 28,
+      "edition_play_appearances": {
+        "NONE": 28
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 15,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 13,
+      "mean_relative_scoring_difference": 0.370440302405141,
+      "mean_absolute_scoring_difference": 1224.3214285714287
+    },
+    {
+      "key": "j_sly",
+      "audited_play_appearances": 66,
+      "edition_play_appearances": {
+        "NONE": 66
+      },
+      "episodes": 5,
+      "positive_scoring_ablations": 53,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 13,
+      "mean_relative_scoring_difference": 0.3342495831321448,
+      "mean_absolute_scoring_difference": 690.3333333333334
+    },
+    {
+      "key": "j_sock_and_buskin",
+      "audited_play_appearances": 11,
+      "edition_play_appearances": {
+        "NONE": 11
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 4,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 7,
+      "mean_relative_scoring_difference": 0.057570564809440346,
+      "mean_absolute_scoring_difference": 276.3636363636364
+    },
+    {
+      "key": "j_splash",
+      "audited_play_appearances": 5,
+      "edition_play_appearances": {
+        "NONE": 5
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 2,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 3,
+      "mean_relative_scoring_difference": 0.17098765432098767,
+      "mean_absolute_scoring_difference": 50.4
+    },
+    {
+      "key": "j_square",
+      "audited_play_appearances": 42,
+      "edition_play_appearances": {
+        "NONE": 42
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 41,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 1,
+      "mean_relative_scoring_difference": 0.36225421709249694,
+      "mean_absolute_scoring_difference": 877.1428571428571
+    },
+    {
+      "key": "j_stencil",
+      "audited_play_appearances": 2,
+      "edition_play_appearances": {
+        "NONE": 2
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 2,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.75,
+      "mean_absolute_scoring_difference": 4377.0
+    },
+    {
+      "key": "j_supernova",
+      "audited_play_appearances": 18,
+      "edition_play_appearances": {
+        "NONE": 18
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 18,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.3717465426125557,
+      "mean_absolute_scoring_difference": 605.5
+    },
+    {
+      "key": "j_swashbuckler",
+      "audited_play_appearances": 24,
+      "edition_play_appearances": {
+        "NONE": 24
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 24,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.14464696553789205,
+      "mean_absolute_scoring_difference": 504.5
+    },
+    {
+      "key": "j_trio",
+      "audited_play_appearances": 17,
+      "edition_play_appearances": {
+        "NONE": 17
+      },
+      "episodes": 2,
+      "positive_scoring_ablations": 3,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 14,
+      "mean_relative_scoring_difference": 0.11764705882352941,
+      "mean_absolute_scoring_difference": 562.2352941176471
+    },
+    {
+      "key": "j_vagabond",
+      "audited_play_appearances": 4,
+      "edition_play_appearances": {
+        "FOIL": 4
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 4,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.4333165596994306,
+      "mean_absolute_scoring_difference": 1279.75
+    },
+    {
+      "key": "j_wily",
+      "audited_play_appearances": 2,
+      "edition_play_appearances": {
+        "NONE": 2
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 2,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 0,
+      "mean_relative_scoring_difference": 0.5680359435173299,
+      "mean_absolute_scoring_difference": 400.0
+    },
+    {
+      "key": "j_zany",
+      "audited_play_appearances": 4,
+      "edition_play_appearances": {
+        "NONE": 4
+      },
+      "episodes": 1,
+      "positive_scoring_ablations": 0,
+      "negative_scoring_ablations": 0,
+      "zero_scoring_ablations": 4,
+      "mean_relative_scoring_difference": 0.0,
+      "mean_absolute_scoring_difference": 0.0
+    }
+  ],
+  "strategy_winrate_eligible": false,
+  "limitations": [
+    "Only deterministic plays matched to real engine scores are included; mismatches and uncertain plays are omitted.",
+    "Abilities are disabled in place: slots, money, hand resources and selected action are fixed; this is not a sale simulation.",
+    "Copy chains and combinations can attribute the same interaction to several cards; contributions do not add up.",
+    "Debuffing also suppresses edition scoring; edition appearances are listed to prevent attributing Foil/Holographic/Polychrome effects to the base ability.",
+    "Zero score contribution does not mean weak: economy, insurance, future growth, draw resources and pack effects are excluded.",
+    "Means weight audited play appearances, not independent episodes. Selection and survivor bias prevent causal strength claims.",
+    "Repeated TRAIN episodes are development data; final TEST remains separate."
+  ]
+}
