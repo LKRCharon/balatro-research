@@ -1,0 +1,67 @@
+{
+  "audit": "passed",
+  "complete": true,
+  "assigned": 2,
+  "completed": 2,
+  "active_uninspected": [],
+  "not_started": [],
+  "status_counts": {
+    "loss": 2
+  },
+  "totals": {
+    "decisions": 148,
+    "prestart_menus": 2,
+    "gameplay_actions": 146,
+    "pending_intents": 0,
+    "predictions": 46,
+    "checkable": 41,
+    "mismatches": 0,
+    "uncertain": 5
+  },
+  "original_saves_unchanged": 4,
+  "test_campaigns": 0,
+  "frozen_hashes_verified": true,
+  "sessions": [
+    {
+      "seed_id": 32,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 124,
+      "prestart_menus": 1,
+      "gameplay_actions": 123,
+      "pending_intents": 0,
+      "predictions": 35,
+      "checkable": 35,
+      "mismatches": 0,
+      "uncertain": 0,
+      "ante": 5,
+      "old_no_sl_003_status": "loss"
+    },
+    {
+      "seed_id": 38,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 24,
+      "prestart_menus": 1,
+      "gameplay_actions": 23,
+      "pending_intents": 0,
+      "predictions": 11,
+      "checkable": 6,
+      "mismatches": 0,
+      "uncertain": 5,
+      "ante": 1,
+      "old_no_sl_003_status": "loss"
+    }
+  ],
+  "historical_archived_sources_verified": 0,
+  "current_sources_all_match": true,
+  "limitations": [
+    "Only completed/error/truncated episodes are inspected; active gameplay is not read.",
+    "Engine imports or manifest failures before the try block can leave a session directory without result.json.",
+    "Full 13-seed completion requires all results; batch summary may omit an error episode because main aborts.",
+    "Source bytes are verified but Python runtime and imported module paths are not recorded in this runner.",
+    "Repeated TRAIN regression is not an independent win-rate estimate."
+  ]
+}
