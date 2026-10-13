@@ -4,6 +4,8 @@ Research into Blue Deck / Gold Stake strategy, risk-sensitive decisions, and car
 
 ## Current status
 
+**Fixed TRAIN iteration r9:** combat v12 + growth v15 / capacity v3 completed **0/13 wins**, 1,184 gameplay actions. All 305 checkable predictions matched; 57 were uncertain. All 356 shop diagnostics joined. [Results](results/iterative-004/r9-summary.md) · [Independent audit](results/iterative-004/r9-audit-overview.md) · [Model revision (中文)](docs/model-revision-iterative-004.zh-CN.md). These repeated TRAIN results do not establish independent win rate or erase earlier engineering failures.
+
 **Fixed TRAIN iteration r8:** 13/13 natural losses, 1,124 gameplay actions. Of 353 predictions, 297 were checkable with **1 mismatch** caused by asynchronous card creation/sorting and action identity drift; 56 were uncertain. [Results](results/iterative-004/r8-summary.md) · [Audit and limitations](results/iterative-004/r8-audit-overview.md) · [Conditional Joker ablation](results/iterative-004/r8-joker-ablation.json). This repeated TRAIN cohort does not establish win rate. [v14/v15 development scope](docs/development-v15.md) is separate from the evaluated r8 policy.
 
 **Fixed TRAIN iteration r7:** all 13 games lost, 1138 actions. The audit found 307 checkable scoring predictions with zero mismatches and 44 uncertain cases; strategy remains unsuccessful. [Results](results/iterative-004/r7-summary.md) · [Audit](results/iterative-004/r7-audit-overview.md) · [Growth/resource gap analysis](results/iterative-004/growth-gap-analysis.md). Repeated TRAIN results do not establish independent win rate.

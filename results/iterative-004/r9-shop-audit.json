@@ -1,0 +1,223 @@
+[
+  {
+    "seed_id": 33,
+    "audit": "passed",
+    "records": 32,
+    "joined_calls": 32,
+    "selected_action_matches": 32,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 32,
+    "offer_reason_categories": {
+      "selected": 15,
+      "other_rejection_or_not_selected": 91,
+      "unaffordable": 35
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 34,
+    "audit": "passed",
+    "records": 17,
+    "joined_calls": 17,
+    "selected_action_matches": 17,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 17,
+    "offer_reason_categories": {
+      "other_rejection_or_not_selected": 50,
+      "selected": 8,
+      "unaffordable": 19
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 36,
+    "audit": "passed",
+    "records": 25,
+    "joined_calls": 25,
+    "selected_action_matches": 25,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 25,
+    "offer_reason_categories": {
+      "selected": 10,
+      "other_rejection_or_not_selected": 63,
+      "unaffordable": 31
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 32,
+    "audit": "passed",
+    "records": 40,
+    "joined_calls": 40,
+    "selected_action_matches": 40,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 40,
+    "offer_reason_categories": {
+      "other_rejection_or_not_selected": 138,
+      "selected": 22,
+      "unaffordable": 24
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 38,
+    "audit": "passed",
+    "records": 3,
+    "joined_calls": 3,
+    "selected_action_matches": 3,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 3,
+    "offer_reason_categories": {
+      "selected": 1,
+      "other_rejection_or_not_selected": 10,
+      "unaffordable": 3
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 37,
+    "audit": "passed",
+    "records": 41,
+    "joined_calls": 41,
+    "selected_action_matches": 41,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 41,
+    "offer_reason_categories": {
+      "other_rejection_or_not_selected": 117,
+      "selected": 20,
+      "unaffordable": 41
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 40,
+    "audit": "passed",
+    "records": 24,
+    "joined_calls": 24,
+    "selected_action_matches": 24,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 24,
+    "offer_reason_categories": {
+      "other_rejection_or_not_selected": 62,
+      "selected": 8,
+      "unaffordable": 40
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 41,
+    "audit": "passed",
+    "records": 23,
+    "joined_calls": 23,
+    "selected_action_matches": 23,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 23,
+    "offer_reason_categories": {
+      "other_rejection_or_not_selected": 43,
+      "selected": 8,
+      "unaffordable": 56
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 42,
+    "audit": "passed",
+    "records": 28,
+    "joined_calls": 28,
+    "selected_action_matches": 28,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 28,
+    "offer_reason_categories": {
+      "other_rejection_or_not_selected": 76,
+      "selected": 13,
+      "unaffordable": 40
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 43,
+    "audit": "passed",
+    "records": 23,
+    "joined_calls": 23,
+    "selected_action_matches": 23,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 23,
+    "offer_reason_categories": {
+      "other_rejection_or_not_selected": 55,
+      "selected": 9,
+      "unaffordable": 41
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 44,
+    "audit": "passed",
+    "records": 21,
+    "joined_calls": 21,
+    "selected_action_matches": 21,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 21,
+    "offer_reason_categories": {
+      "other_rejection_or_not_selected": 46,
+      "selected": 7,
+      "unaffordable": 43
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 45,
+    "audit": "passed",
+    "records": 41,
+    "joined_calls": 41,
+    "selected_action_matches": 41,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 41,
+    "offer_reason_categories": {
+      "other_rejection_or_not_selected": 124,
+      "selected": 24,
+      "unaffordable": 20
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  },
+  {
+    "seed_id": 46,
+    "audit": "passed",
+    "records": 38,
+    "joined_calls": 38,
+    "selected_action_matches": 38,
+    "policy_fallthrough_calls": 0,
+    "unresolved_calls": [],
+    "distinct_decisions_joined": 38,
+    "offer_reason_categories": {
+      "selected": 22,
+      "other_rejection_or_not_selected": 123,
+      "unaffordable": 25
+    },
+    "scope": "Diagnostic calculation provenance, not proof of strategic optimality or exhaustive legal candidates.",
+    "partial_line_observed": false
+  }
+]

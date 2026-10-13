@@ -1,0 +1,641 @@
+{
+  "purpose": "fixed_train_iteration_comparison",
+  "independent_winrate_eligible": false,
+  "iterations": [
+    {
+      "iteration": "r9",
+      "assigned": 13,
+      "completed": 13,
+      "wins": 0,
+      "status_counts": {
+        "loss": 13
+      },
+      "active_uninspected": [],
+      "not_started": [],
+      "actions": 1184,
+      "action_counts": {
+        "select": 143,
+        "discard": 174,
+        "play": 362,
+        "cash_out": 130,
+        "buy": 132,
+        "pack": 37,
+        "next_round": 130,
+        "rearrange": 12,
+        "sell": 36,
+        "reroll": 16,
+        "use": 12
+      },
+      "mean_terminal_ante": 3.846,
+      "mean_final_cash": 2.077,
+      "mean_action_snapshot_cash_by_ante": {
+        "1": 4.11,
+        "2": 6.842,
+        "3": 5.202,
+        "4": 3.129,
+        "5": 5.564
+      },
+      "solver_decisions": 536,
+      "solver_modes": {
+        "v11_plain_common_world_whole_round": 37,
+        "v11_plain_current_clear": 16,
+        "v10_discard_mean_and_lower_tail": 110,
+        "v10_preserve_model_clear_and_cycle": 332,
+        "deterministic_local_score": 37,
+        "v2_visible_only_model_clear": 2,
+        "v5_balanced_discard_pacing": 1,
+        "v4_whole_blind_greedy_public_rollout": 1
+      },
+      "prediction_checks": 305,
+      "prediction_mismatches": 0,
+      "uncertain_predictions": 57,
+      "sessions": [
+        {
+          "seed_id": 32,
+          "status": "loss",
+          "terminal": true,
+          "ante": 4,
+          "actions": 110,
+          "action_counts": {
+            "select": 12,
+            "discard": 16,
+            "play": 27,
+            "cash_out": 11,
+            "buy": 13,
+            "pack": 9,
+            "next_round": 11,
+            "reroll": 2,
+            "sell": 5,
+            "use": 3,
+            "rearrange": 1
+          },
+          "final_cash": -14,
+          "min_observed_cash": -14,
+          "max_observed_cash": 16,
+          "mean_action_snapshot_cash": 6.809,
+          "solver_decisions": 44,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 2,
+            "v11_plain_current_clear": 1,
+            "v10_discard_mean_and_lower_tail": 12,
+            "v10_preserve_model_clear_and_cycle": 27,
+            "deterministic_local_score": 2
+          },
+          "prediction_checks": 20,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 7
+        },
+        {
+          "seed_id": 33,
+          "status": "loss",
+          "terminal": true,
+          "ante": 4,
+          "actions": 94,
+          "action_counts": {
+            "select": 12,
+            "discard": 10,
+            "play": 28,
+            "cash_out": 11,
+            "buy": 12,
+            "pack": 3,
+            "next_round": 11,
+            "rearrange": 1,
+            "sell": 5,
+            "reroll": 1
+          },
+          "final_cash": 3,
+          "min_observed_cash": -2,
+          "max_observed_cash": 16,
+          "mean_action_snapshot_cash": 4.904,
+          "solver_decisions": 39,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 3,
+            "v11_plain_current_clear": 1,
+            "v10_discard_mean_and_lower_tail": 7,
+            "v10_preserve_model_clear_and_cycle": 26,
+            "deterministic_local_score": 1,
+            "v2_visible_only_model_clear": 1
+          },
+          "prediction_checks": 27,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 1
+        },
+        {
+          "seed_id": 34,
+          "status": "loss",
+          "terminal": true,
+          "ante": 3,
+          "actions": 70,
+          "action_counts": {
+            "select": 8,
+            "discard": 10,
+            "play": 28,
+            "cash_out": 7,
+            "buy": 7,
+            "pack": 2,
+            "next_round": 7,
+            "reroll": 1
+          },
+          "final_cash": -2,
+          "min_observed_cash": -2,
+          "max_observed_cash": 16,
+          "mean_action_snapshot_cash": 4.357,
+          "solver_decisions": 38,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 8,
+            "v11_plain_current_clear": 2,
+            "deterministic_local_score": 2,
+            "v10_preserve_model_clear_and_cycle": 22,
+            "v10_discard_mean_and_lower_tail": 3,
+            "v5_balanced_discard_pacing": 1
+          },
+          "prediction_checks": 25,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 3
+        },
+        {
+          "seed_id": 36,
+          "status": "loss",
+          "terminal": true,
+          "ante": 3,
+          "actions": 65,
+          "action_counts": {
+            "select": 8,
+            "discard": 8,
+            "play": 16,
+            "cash_out": 7,
+            "buy": 9,
+            "next_round": 7,
+            "use": 1,
+            "sell": 3,
+            "rearrange": 3,
+            "pack": 1,
+            "reroll": 2
+          },
+          "final_cash": 6,
+          "min_observed_cash": 0,
+          "max_observed_cash": 20,
+          "mean_action_snapshot_cash": 5.492,
+          "solver_decisions": 24,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 2,
+            "v11_plain_current_clear": 1,
+            "v10_preserve_model_clear_and_cycle": 15,
+            "deterministic_local_score": 2,
+            "v10_discard_mean_and_lower_tail": 4
+          },
+          "prediction_checks": 16,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 0
+        },
+        {
+          "seed_id": 37,
+          "status": "loss",
+          "terminal": true,
+          "ante": 5,
+          "actions": 102,
+          "action_counts": {
+            "select": 13,
+            "discard": 14,
+            "play": 22,
+            "cash_out": 12,
+            "buy": 17,
+            "pack": 3,
+            "next_round": 12,
+            "sell": 7,
+            "reroll": 2
+          },
+          "final_cash": 8,
+          "min_observed_cash": -1,
+          "max_observed_cash": 18,
+          "mean_action_snapshot_cash": 6.422,
+          "solver_decisions": 36,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 1,
+            "v11_plain_current_clear": 1,
+            "v10_discard_mean_and_lower_tail": 11,
+            "v10_preserve_model_clear_and_cycle": 20,
+            "deterministic_local_score": 2,
+            "v2_visible_only_model_clear": 1
+          },
+          "prediction_checks": 10,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 12
+        },
+        {
+          "seed_id": 38,
+          "status": "loss",
+          "terminal": true,
+          "ante": 1,
+          "actions": 23,
+          "action_counts": {
+            "select": 3,
+            "discard": 5,
+            "play": 10,
+            "cash_out": 2,
+            "buy": 1,
+            "next_round": 2
+          },
+          "final_cash": 9,
+          "min_observed_cash": 4,
+          "max_observed_cash": 9,
+          "mean_action_snapshot_cash": 7.391,
+          "solver_decisions": 15,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 1,
+            "v11_plain_current_clear": 1,
+            "v10_discard_mean_and_lower_tail": 2,
+            "v10_preserve_model_clear_and_cycle": 9,
+            "deterministic_local_score": 2
+          },
+          "prediction_checks": 5,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 5
+        },
+        {
+          "seed_id": 40,
+          "status": "loss",
+          "terminal": true,
+          "ante": 5,
+          "actions": 110,
+          "action_counts": {
+            "select": 14,
+            "discard": 17,
+            "play": 42,
+            "cash_out": 13,
+            "buy": 8,
+            "pack": 1,
+            "next_round": 13,
+            "reroll": 1,
+            "sell": 1
+          },
+          "final_cash": 1,
+          "min_observed_cash": -2,
+          "max_observed_cash": 14,
+          "mean_action_snapshot_cash": 3.855,
+          "solver_decisions": 52,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 11,
+            "v11_plain_current_clear": 3,
+            "v10_preserve_model_clear_and_cycle": 34,
+            "v10_discard_mean_and_lower_tail": 2,
+            "deterministic_local_score": 2
+          },
+          "prediction_checks": 42,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 0
+        },
+        {
+          "seed_id": 41,
+          "status": "loss",
+          "terminal": true,
+          "ante": 4,
+          "actions": 93,
+          "action_counts": {
+            "select": 12,
+            "discard": 16,
+            "play": 31,
+            "cash_out": 11,
+            "buy": 8,
+            "next_round": 11,
+            "reroll": 1,
+            "sell": 3
+          },
+          "final_cash": 2,
+          "min_observed_cash": -3,
+          "max_observed_cash": 11,
+          "mean_action_snapshot_cash": 2.118,
+          "solver_decisions": 47,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 2,
+            "v11_plain_current_clear": 1,
+            "v10_discard_mean_and_lower_tail": 12,
+            "v10_preserve_model_clear_and_cycle": 26,
+            "deterministic_local_score": 6
+          },
+          "prediction_checks": 27,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 4
+        },
+        {
+          "seed_id": 42,
+          "status": "loss",
+          "terminal": true,
+          "ante": 4,
+          "actions": 101,
+          "action_counts": {
+            "select": 12,
+            "play": 36,
+            "cash_out": 11,
+            "buy": 9,
+            "next_round": 11,
+            "discard": 9,
+            "pack": 4,
+            "reroll": 1,
+            "sell": 3,
+            "use": 5
+          },
+          "final_cash": 8,
+          "min_observed_cash": -6,
+          "max_observed_cash": 14,
+          "mean_action_snapshot_cash": 3.871,
+          "solver_decisions": 45,
+          "solver_modes": {
+            "v11_plain_current_clear": 1,
+            "v10_discard_mean_and_lower_tail": 2,
+            "v10_preserve_model_clear_and_cycle": 35,
+            "deterministic_local_score": 7
+          },
+          "prediction_checks": 36,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 0
+        },
+        {
+          "seed_id": 43,
+          "status": "loss",
+          "terminal": true,
+          "ante": 4,
+          "actions": 98,
+          "action_counts": {
+            "select": 11,
+            "discard": 20,
+            "play": 34,
+            "cash_out": 10,
+            "buy": 8,
+            "next_round": 10,
+            "reroll": 1,
+            "sell": 3,
+            "pack": 1
+          },
+          "final_cash": 3,
+          "min_observed_cash": -3,
+          "max_observed_cash": 14,
+          "mean_action_snapshot_cash": 3.898,
+          "solver_decisions": 54,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 1,
+            "v11_plain_current_clear": 1,
+            "v10_discard_mean_and_lower_tail": 17,
+            "v10_preserve_model_clear_and_cycle": 33,
+            "deterministic_local_score": 2
+          },
+          "prediction_checks": 34,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 0
+        },
+        {
+          "seed_id": 44,
+          "status": "loss",
+          "terminal": true,
+          "ante": 4,
+          "actions": 95,
+          "action_counts": {
+            "select": 12,
+            "discard": 16,
+            "play": 35,
+            "cash_out": 11,
+            "buy": 7,
+            "next_round": 11,
+            "sell": 3
+          },
+          "final_cash": -9,
+          "min_observed_cash": -17,
+          "max_observed_cash": 10,
+          "mean_action_snapshot_cash": -0.347,
+          "solver_decisions": 51,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 3,
+            "v11_plain_current_clear": 1,
+            "v10_preserve_model_clear_and_cycle": 29,
+            "v10_discard_mean_and_lower_tail": 12,
+            "deterministic_local_score": 6
+          },
+          "prediction_checks": 12,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 23
+        },
+        {
+          "seed_id": 45,
+          "status": "loss",
+          "terminal": true,
+          "ante": 4,
+          "actions": 101,
+          "action_counts": {
+            "select": 12,
+            "discard": 14,
+            "play": 18,
+            "cash_out": 11,
+            "buy": 17,
+            "pack": 7,
+            "next_round": 11,
+            "use": 3,
+            "sell": 2,
+            "rearrange": 4,
+            "reroll": 2
+          },
+          "final_cash": 6,
+          "min_observed_cash": 1,
+          "max_observed_cash": 18,
+          "mean_action_snapshot_cash": 8.109,
+          "solver_decisions": 34,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 2,
+            "v11_plain_current_clear": 1,
+            "v10_discard_mean_and_lower_tail": 11,
+            "v10_preserve_model_clear_and_cycle": 19,
+            "deterministic_local_score": 1
+          },
+          "prediction_checks": 16,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 2
+        },
+        {
+          "seed_id": 46,
+          "status": "loss",
+          "terminal": true,
+          "ante": 5,
+          "actions": 122,
+          "action_counts": {
+            "select": 14,
+            "discard": 19,
+            "play": 35,
+            "cash_out": 13,
+            "buy": 16,
+            "next_round": 13,
+            "pack": 6,
+            "reroll": 2,
+            "rearrange": 3,
+            "sell": 1
+          },
+          "final_cash": 6,
+          "min_observed_cash": 1,
+          "max_observed_cash": 18,
+          "mean_action_snapshot_cash": 7.508,
+          "solver_decisions": 57,
+          "solver_modes": {
+            "v11_plain_common_world_whole_round": 1,
+            "v11_plain_current_clear": 1,
+            "v10_discard_mean_and_lower_tail": 15,
+            "v10_preserve_model_clear_and_cycle": 37,
+            "deterministic_local_score": 2,
+            "v4_whole_blind_greedy_public_rollout": 1
+          },
+          "prediction_checks": 35,
+          "prediction_mismatches": 0,
+          "uncertain_predictions": 0
+        }
+      ]
+    }
+  ],
+  "seed_comparison": [
+    {
+      "seed_id": 32,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 4,
+          "actions": 110,
+          "final_cash": -14
+        }
+      }
+    },
+    {
+      "seed_id": 33,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 4,
+          "actions": 94,
+          "final_cash": 3
+        }
+      }
+    },
+    {
+      "seed_id": 34,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 3,
+          "actions": 70,
+          "final_cash": -2
+        }
+      }
+    },
+    {
+      "seed_id": 36,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 3,
+          "actions": 65,
+          "final_cash": 6
+        }
+      }
+    },
+    {
+      "seed_id": 37,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 5,
+          "actions": 102,
+          "final_cash": 8
+        }
+      }
+    },
+    {
+      "seed_id": 38,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 1,
+          "actions": 23,
+          "final_cash": 9
+        }
+      }
+    },
+    {
+      "seed_id": 40,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 5,
+          "actions": 110,
+          "final_cash": 1
+        }
+      }
+    },
+    {
+      "seed_id": 41,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 4,
+          "actions": 93,
+          "final_cash": 2
+        }
+      }
+    },
+    {
+      "seed_id": 42,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 4,
+          "actions": 101,
+          "final_cash": 8
+        }
+      }
+    },
+    {
+      "seed_id": 43,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 4,
+          "actions": 98,
+          "final_cash": 3
+        }
+      }
+    },
+    {
+      "seed_id": 44,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 4,
+          "actions": 95,
+          "final_cash": -9
+        }
+      }
+    },
+    {
+      "seed_id": 45,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 4,
+          "actions": 101,
+          "final_cash": 6
+        }
+      }
+    },
+    {
+      "seed_id": 46,
+      "iterations": {
+        "r9": {
+          "status": "loss",
+          "ante": 5,
+          "actions": 122,
+          "final_cash": 6
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Repeated TRAIN data, not independent win-rate evidence.",
+    "Cash averages are action-snapshot weighted, not equal-round causal measures.",
+    "Scorer matches cover only observed chosen actions; uncertain cases excluded.",
+    "Aggregates complement an integrity audit; they do not themselves prove no-save/load."
+  ]
+}
