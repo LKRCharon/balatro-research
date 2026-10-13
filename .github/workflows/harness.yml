@@ -30,6 +30,8 @@ jobs:
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           python -m unittest discover -s outputs/balatro-lab/headless -p test_summarize_trace.py -v
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Completed iterative candidate regressions
+        run: python -m unittest discover -s tools -p "test_*candidate*.py" -v
       - name: Frozen candidate integrity
         run: python tools/verify_frozen.py
       - name: No-SL solver and resource analysis

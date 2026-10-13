@@ -4,6 +4,8 @@ Research into Blue Deck / Gold Stake strategy, risk-sensitive decisions, and car
 
 ## Current status
 
+**Fixed TRAIN iteration r1:** 13/13 complete, 0 wins, 1010 actions. Observed deterministic scoring checks matched (264 checks, 48 uncertain excluded), but this did not produce a successful strategy. [Results](results/iterative-004/r1.json). Repeated training seeds are not independent win-rate evidence.
+
 **No-SL training campaign:** all 13 assigned games completed: eight hindsight replays lost and five new TRAIN games lost. The controller handled growth while the frozen script handled combat, with recorded interventions. This is diagnostic training, not a formal win-rate result. [Per-game reviews (中文)](results/no-sl-003/report.zh-CN.md) · [Integrity audit](results/no-sl-003/integrity.json) · [Resource aggregates](results/no-sl-003/resource-aggregates.json). Four original saves remained unchanged; no TEST seeds were used.
 
 **Opt-in solver v2:** public-state bounded search now has a separate correction layer for visible-card model clears under hidden cards and preservation of key enhancements. It has only unit tests and offline failure-case checks, not a new full-game success result. Neither version claims globally optimal no-SL play. [Model and limits (中文)](docs/no-sl-solver.zh-CN.md).

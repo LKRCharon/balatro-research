@@ -115,6 +115,12 @@
       "transformation": null
     },
     {
+      "path": "experiments/audit_iterative_train.py",
+      "source_sha256": "831512d5d48e5e9d061c3c5ff418014eeeb1d637cf356f37f755c2e10c185038",
+      "export_sha256": "831512d5d48e5e9d061c3c5ff418014eeeb1d637cf356f37f755c2e10c185038",
+      "transformation": null
+    },
+    {
       "path": "experiments/audit_manual_ten.py",
       "source_sha256": "5e2342911bf4cdeb8ae5f695487b0470e1128f523d6b131ed476bf43d6f591b6",
       "export_sha256": "5e2342911bf4cdeb8ae5f695487b0470e1128f523d6b131ed476bf43d6f591b6",
@@ -193,9 +199,21 @@
       "transformation": null
     },
     {
+      "path": "experiments/growth_policy_v5.py",
+      "source_sha256": "bf2a4c0e2cb23d39c722a0dcc8f45cfbcb145e698df368257635dd64d0563948",
+      "export_sha256": "bf2a4c0e2cb23d39c722a0dcc8f45cfbcb145e698df368257635dd64d0563948",
+      "transformation": null
+    },
+    {
       "path": "experiments/manual_dataset.py",
       "source_sha256": "8bf036659d77d6cf6faea15fed05446f6cb587aed7e64d758e9b080ead0acdd0",
       "export_sha256": "8bf036659d77d6cf6faea15fed05446f6cb587aed7e64d758e9b080ead0acdd0",
+      "transformation": null
+    },
+    {
+      "path": "experiments/offline_scoring_regression.py",
+      "source_sha256": "ebe64a5dac36daadd4d4e2af51ec0a6dde406af2ffb0974d110586fd8cc42dca",
+      "export_sha256": "ebe64a5dac36daadd4d4e2af51ec0a6dde406af2ffb0974d110586fd8cc42dca",
       "transformation": null
     },
     {
@@ -613,6 +631,12 @@
       "transformation": null
     },
     {
+      "path": "experiments/summarize_train_iterations.py",
+      "source_sha256": "08dcc2920499715414d5d454eb7436a3efb0ecc7bc5398df52e576acc1f501d9",
+      "export_sha256": "08dcc2920499715414d5d454eb7436a3efb0ecc7bc5398df52e576acc1f501d9",
+      "transformation": null
+    },
+    {
       "path": "experiments/supervise_train.py",
       "source_sha256": "411cac282ef7ceb363d9b9f4a54d657530ccdfdf6c18c860b953fe3357e23c07",
       "export_sha256": "411cac282ef7ceb363d9b9f4a54d657530ccdfdf6c18c860b953fe3357e23c07",
@@ -673,9 +697,21 @@
       "transformation": null
     },
     {
+      "path": "experiments/test_growth_policy_v5.py",
+      "source_sha256": "d41beedf19fa6cd593f5e5d045095570e38786600159e87d7708fd5ec3ce4a6a",
+      "export_sha256": "d41beedf19fa6cd593f5e5d045095570e38786600159e87d7708fd5ec3ce4a6a",
+      "transformation": null
+    },
+    {
       "path": "experiments/test_no_sl_audit.py",
       "source_sha256": "6d919902db3b062d42e5cf7939d66831eb5a3a89c6c30f5bcf7dd8955f16edd6",
       "export_sha256": "6d919902db3b062d42e5cf7939d66831eb5a3a89c6c30f5bcf7dd8955f16edd6",
+      "transformation": null
+    },
+    {
+      "path": "experiments/test_offline_scoring_regression.py",
+      "source_sha256": "3eaaeed55e7bf4a66676c8700f00de39fea50ebc23294e36b69dc2622ec1302d",
+      "export_sha256": "3eaaeed55e7bf4a66676c8700f00de39fea50ebc23294e36b69dc2622ec1302d",
       "transformation": null
     },
     {
@@ -739,6 +775,12 @@
       "transformation": null
     },
     {
+      "path": "headless/iterative_train.py",
+      "source_sha256": "15a59dc5c179d993dc9ab999091bfdef4462751283f4f7de97b5e2e2527f5772",
+      "export_sha256": "15a59dc5c179d993dc9ab999091bfdef4462751283f4f7de97b5e2e2527f5772",
+      "transformation": null
+    },
+    {
       "path": "headless/kernel/benchmark.py",
       "source_sha256": "a03d48f8252d7eca70dd6e9ac29083e9aeca72b0a50414a0e8053bea4a8c744f",
       "export_sha256": "a03d48f8252d7eca70dd6e9ac29083e9aeca72b0a50414a0e8053bea4a8c744f",
@@ -772,6 +814,12 @@
       "path": "headless/no_sl_solver_v2.py",
       "source_sha256": "34daecd9514190898affa75c0c71f1df19552c006070e49437271953e4c934ca",
       "export_sha256": "34daecd9514190898affa75c0c71f1df19552c006070e49437271953e4c934ca",
+      "transformation": null
+    },
+    {
+      "path": "headless/no_sl_solver_v3.py",
+      "source_sha256": "d80a2cda51200b0ac44f128bd505ee3c7feed7124a94750af99fefbca03fd757",
+      "export_sha256": "d80a2cda51200b0ac44f128bd505ee3c7feed7124a94750af99fefbca03fd757",
       "transformation": null
     },
     {
@@ -847,6 +895,12 @@
       "transformation": null
     },
     {
+      "path": "headless/test_no_sl_solver_v3.py",
+      "source_sha256": "f5d555d6e8468c0ca494e2e2f6da440852934236dc3b584400aab74c365a212a",
+      "export_sha256": "f5d555d6e8468c0ca494e2e2f6da440852934236dc3b584400aab74c365a212a",
+      "transformation": null
+    },
+    {
       "path": "headless/test_reconcile_rejected_pack.py",
       "source_sha256": "c32c9f96c56f4e11696ca2b99b7f0ff58a59258ccd68e7b5284c68d9a6ea3a99",
       "export_sha256": "c32c9f96c56f4e11696ca2b99b7f0ff58a59258ccd68e7b5284c68d9a6ea3a99",
@@ -911,6 +965,34 @@
       "source_sha256": "8189acf19df16d674fda6202823cd2d742694f9a69d4f5d4c1fd483a9ee80d38",
       "export_sha256": "8189acf19df16d674fda6202823cd2d742694f9a69d4f5d4c1fd483a9ee80d38",
       "transformation": null
+    },
+    {
+      "path": "headless/combat_candidate_v4.py",
+      "source_sha256": "ab25dd73fe36cdf27c5af258f96f573a2007baa964de55d8c24fe0cf03c5bc3e",
+      "export_sha256": "ab25dd73fe36cdf27c5af258f96f573a2007baa964de55d8c24fe0cf03c5bc3e",
+      "transformation": null,
+      "source_kind": "explicit_completed_work_candidate"
+    },
+    {
+      "path": "headless/combat_candidate_v5.py",
+      "source_sha256": "fb942da2573226aa8be1f6888bd47488d2a10e1845c52afc459dfce3d86b1090",
+      "export_sha256": "fb942da2573226aa8be1f6888bd47488d2a10e1845c52afc459dfce3d86b1090",
+      "transformation": null,
+      "source_kind": "explicit_completed_work_candidate"
+    },
+    {
+      "path": "experiments/growth_candidate_v6.py",
+      "source_sha256": "53c834681eaad0ff147b3d3229eefdbf1f1833975e018334adb3f5d4ed024137",
+      "export_sha256": "53c834681eaad0ff147b3d3229eefdbf1f1833975e018334adb3f5d4ed024137",
+      "transformation": null,
+      "source_kind": "explicit_completed_work_candidate"
+    },
+    {
+      "path": "experiments/growth_candidate_v7.py",
+      "source_sha256": "cc10d3211ca37789ebe29130006c23f393fb106f997295a9248800fc95cd8158",
+      "export_sha256": "cc10d3211ca37789ebe29130006c23f393fb106f997295a9248800fc95cd8158",
+      "transformation": null,
+      "source_kind": "explicit_completed_work_candidate"
     }
   ],
   "excluded": [
