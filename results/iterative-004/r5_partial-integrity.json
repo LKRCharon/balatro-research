@@ -1,0 +1,88 @@
+{
+  "audit": "passed",
+  "assigned": 4,
+  "completed": 4,
+  "status_counts": {
+    "loss": 4
+  },
+  "totals": {
+    "decisions": 206,
+    "prestart_menus": 4,
+    "gameplay_actions": 202,
+    "pending_intents": 0,
+    "predictions": 57,
+    "checkable": 52,
+    "mismatches": 0,
+    "uncertain": 5
+  },
+  "original_saves_unchanged": 4,
+  "test_campaigns": 0,
+  "strategy_tests_passed": false,
+  "sessions": [
+    {
+      "seed_id": 32,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 107,
+      "prestart_menus": 1,
+      "gameplay_actions": 106,
+      "pending_intents": 0,
+      "predictions": 27,
+      "checkable": 27,
+      "mismatches": 0,
+      "uncertain": 0,
+      "ante": 4,
+      "old_no_sl_003_status": "loss"
+    },
+    {
+      "seed_id": 38,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 23,
+      "prestart_menus": 1,
+      "gameplay_actions": 22,
+      "pending_intents": 0,
+      "predictions": 10,
+      "checkable": 5,
+      "mismatches": 0,
+      "uncertain": 5,
+      "ante": 1,
+      "old_no_sl_003_status": "loss"
+    },
+    {
+      "seed_id": 43,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 15,
+      "prestart_menus": 1,
+      "gameplay_actions": 14,
+      "pending_intents": 0,
+      "predictions": 6,
+      "checkable": 6,
+      "mismatches": 0,
+      "uncertain": 0,
+      "ante": 1,
+      "old_no_sl_003_status": "loss"
+    },
+    {
+      "seed_id": 46,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 61,
+      "prestart_menus": 1,
+      "gameplay_actions": 60,
+      "pending_intents": 0,
+      "predictions": 14,
+      "checkable": 14,
+      "mismatches": 0,
+      "uncertain": 0,
+      "ante": 3,
+      "old_no_sl_003_status": "loss"
+    }
+  ],
+  "scope": "Repeated TRAIN regression; r5 retains known failed unit test, integrity pass is not strategy test pass."
+}

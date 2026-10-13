@@ -993,6 +993,20 @@
       "export_sha256": "cc10d3211ca37789ebe29130006c23f393fb106f997295a9248800fc95cd8158",
       "transformation": null,
       "source_kind": "explicit_completed_work_candidate"
+    },
+    {
+      "path": "headless/combat_candidate_v6.py",
+      "source_sha256": "f174d16a10e48898042fd68696e23f7276c553f085653a776504bce835add4c5",
+      "export_sha256": "f174d16a10e48898042fd68696e23f7276c553f085653a776504bce835add4c5",
+      "transformation": null,
+      "source_kind": "explicit_completed_work_candidate"
+    },
+    {
+      "path": "experiments/growth_candidate_v8.py",
+      "source_sha256": "c97e8527b56ec716c54f12517d84699e79e1306886097f0cc3b158bb5087c5db",
+      "export_sha256": "c97e8527b56ec716c54f12517d84699e79e1306886097f0cc3b158bb5087c5db",
+      "transformation": null,
+      "source_kind": "explicit_completed_work_candidate"
     }
   ],
   "excluded": [

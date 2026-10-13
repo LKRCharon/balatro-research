@@ -14,7 +14,7 @@ def digest(data):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--source', type=Path, required=True)
-    parser.add_argument('--candidates', type=Path, help='Explicit work candidate directory; only completed v4/v5 combat and v6/v7 growth modules')
+    parser.add_argument('--candidates', type=Path, help='Explicit work candidate directory; only explicitly allowlisted completed combat/growth modules')
     args = parser.parse_args()
     source = args.source.resolve()
     root = Path(__file__).resolve().parents[1]
@@ -45,7 +45,7 @@ def main():
         dest.write_bytes(exported)
         manifest.append({'path': rel.as_posix(), 'source_sha256': digest(content), 'export_sha256': digest(exported), 'transformation': transform})
     if args.candidates:
-        allowed = {'combat_candidate_v4.py': 'headless', 'combat_candidate_v5.py': 'headless', 'growth_candidate_v6.py': 'experiments', 'growth_candidate_v7.py': 'experiments'}
+        allowed = {'combat_candidate_v4.py': 'headless', 'combat_candidate_v5.py': 'headless', 'growth_candidate_v6.py': 'experiments', 'growth_candidate_v7.py': 'experiments', 'combat_candidate_v6.py': 'headless', 'growth_candidate_v8.py': 'experiments'}
         for name, folder in allowed.items():
             content = (args.candidates / name).read_bytes()
             rel = Path(folder) / name
