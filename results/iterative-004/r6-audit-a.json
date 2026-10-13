@@ -1,0 +1,83 @@
+{
+  "audit": "passed",
+  "complete": true,
+  "assigned": 3,
+  "completed": 3,
+  "active_uninspected": [],
+  "not_started": [],
+  "status_counts": {
+    "loss": 3
+  },
+  "totals": {
+    "decisions": 341,
+    "prestart_menus": 3,
+    "gameplay_actions": 338,
+    "pending_intents": 0,
+    "predictions": 108,
+    "checkable": 102,
+    "mismatches": 0,
+    "uncertain": 6
+  },
+  "original_saves_unchanged": 4,
+  "test_campaigns": 0,
+  "frozen_hashes_verified": true,
+  "sessions": [
+    {
+      "seed_id": 33,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 113,
+      "prestart_menus": 1,
+      "gameplay_actions": 112,
+      "pending_intents": 0,
+      "predictions": 35,
+      "checkable": 35,
+      "mismatches": 0,
+      "uncertain": 0,
+      "ante": 5,
+      "old_no_sl_003_status": "loss"
+    },
+    {
+      "seed_id": 34,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 109,
+      "prestart_menus": 1,
+      "gameplay_actions": 108,
+      "pending_intents": 0,
+      "predictions": 41,
+      "checkable": 35,
+      "mismatches": 0,
+      "uncertain": 6,
+      "ante": 5,
+      "old_no_sl_003_status": "loss"
+    },
+    {
+      "seed_id": 36,
+      "status": "loss",
+      "terminal": true,
+      "starts": 1,
+      "decisions": 119,
+      "prestart_menus": 1,
+      "gameplay_actions": 118,
+      "pending_intents": 0,
+      "predictions": 32,
+      "checkable": 32,
+      "mismatches": 0,
+      "uncertain": 0,
+      "ante": 5,
+      "old_no_sl_003_status": "loss"
+    }
+  ],
+  "historical_archived_sources_verified": 0,
+  "current_sources_all_match": true,
+  "limitations": [
+    "Only completed/error/truncated episodes are inspected; active gameplay is not read.",
+    "Engine imports or manifest failures before the try block can leave a session directory without result.json.",
+    "Full 13-seed completion requires all results; batch summary may omit an error episode because main aborts.",
+    "Source bytes are verified but Python runtime and imported module paths are not recorded in this runner.",
+    "Repeated TRAIN regression is not an independent win-rate estimate."
+  ]
+}

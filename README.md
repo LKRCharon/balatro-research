@@ -4,6 +4,8 @@ Research into Blue Deck / Gold Stake strategy, risk-sensitive decisions, and car
 
 ## Current status
 
+**Fixed TRAIN iteration r6:** all 13 games completed, **0 wins**, 1006 actions. The target of 7/13 has not been reached. [Preserved results](results/iterative-004/r6-summary.md) · [Machine-readable summary](results/iterative-004/r6-summary.json). Combat v9 and growth v10 are published with their tested dependencies; later active iterations are excluded.
+
 **Fixed TRAIN iteration r4:** 13/13 completed, 0 wins, 784 actions. Conservative growth and acquisition changes still did not produce a win on this reused training set. [Results](results/iterative-004/r4.json). A separate r5 attempt was mistakenly started despite a failing bridge test: its four completed losses are retained as an explicitly untested partial subset, not a complete evaluation. [Process failure and partial results](results/iterative-004/r5-partial-warning.md).
 
 **Three completed fixed TRAIN iterations: r1 / r2b / r3 each finished 0/13.** r3 used 915 actions; 258 observed deterministic checks matched and 58 uncertain cases were excluded. Matching chosen-action scores is not correct strategy or proven full mechanic coverage. [Comparison](results/iterative-004/report.md) · [Data](results/iterative-004/report.json). These are repeated training experiments; unfinished later runs are excluded.
